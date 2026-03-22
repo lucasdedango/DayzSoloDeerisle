@@ -1,5 +1,3 @@
-#include "$profile:ExpansionMod/AI/Patrols/init_eAI.c"
-
 void main()
 {
 	//INIT WEATHER BEFORE ECONOMY INIT------------------------
@@ -13,9 +11,6 @@ void main()
 	Hive ce = CreateHive();
 	if ( ce )
 		ce.InitOffline();
-
-	//INITIALIZE EXPANSION AI PATROLS-----------------------
-	InitDynamicPatrols();
 
 	//DATE RESET AFTER ECONOMY INIT-------------------------
 	int year, month, day, hour, minute;

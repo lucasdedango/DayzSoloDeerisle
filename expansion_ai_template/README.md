@@ -1,27 +1,17 @@
-# Expansion AI template for Deer Isle
+# Expansion AI (current-compatible note)
 
-This folder contains a drop-in server profile template for DayZ Expansion AI, sourced from the community setup package by Degrath.
+The older `init_eAI.c` / `PatrolSettings.json` community template was removed because it uses an outdated API (`eAIDynamicPatrol.Create`) and causes compile errors with current Expansion AI builds.
 
-## What is included
-- `ServerProfile/ExpansionMod/Settings/AISettings.json`
-- `ServerProfile/ExpansionMod/AI/Patrols/init_eAI.c`
-- `ServerProfile/ExpansionMod/AI/Patrols/PatrolSettings.json`
-- vanilla loadout JSON files
+## Current Expansion AI paths
+- Profile AI settings: `ServerProfile/ExpansionMod/Settings/AISettings.json`
+- Mission patrol settings: `dayzOffline.deerisle/expansion/settings/AIPatrolSettings.json`
 
-## Recommended use
-1. Copy `ServerProfile/ExpansionMod/...` into your real server profile folder.
-2. In `dayzOffline.deerisle/init.c`, add:
+## Important
+- Do **not** add `#include "$profile:ExpansionMod/AI/Patrols/init_eAI.c"` in `init.c` with current Expansion AI.
+- Do **not** call `InitDynamicPatrols();` from `init.c`.
+- Current Expansion AI initializes patrol logic from the mod itself and reads patrol config from the mission `expansion/settings` folder.
 
-```c
-#include "$profile:ExpansionMod/AI/Patrols/init_eAI.c"
-```
-
-3. Then call this in `main()` before it exits:
-
-```c
-InitDynamicPatrols();
-```
-
-## Notes
-- This template is kept separate on purpose so the mission does not break on servers that do not yet run Expansion AI.
-- The included package README states it supports Deer Isle patrol generation.
+## Recommended usage
+1. Copy `ServerProfile/ExpansionMod/Settings/AISettings.json` into your real server profile folder.
+2. Start the server once with Expansion AI loaded so it can generate default mission AI settings if needed.
+3. Edit `dayzOffline.deerisle/expansion/settings/AIPatrolSettings.json` after it has been generated, or replace it with your own valid file.
