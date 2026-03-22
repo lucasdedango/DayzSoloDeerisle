@@ -5466,10 +5466,10 @@
     <usage name="Industrial" />
   </type>
   <type name="CarTent">
-    <nominal>20</nominal>
+    <nominal>100</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>50</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -12845,10 +12845,10 @@
     <usage name="Industrial" />
   </type>
   <type name="LargeTent">
-    <nominal>20</nominal>
+    <nominal>100</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
-    <min>15</min>
+    <min>75</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -15184,10 +15184,10 @@
     <usage name="Hunting" />
   </type>
   <type name="MediumTent">
-    <nominal>30</nominal>
+    <nominal>150</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
-    <min>20</min>
+    <min>100</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -15199,10 +15199,10 @@
     <usage name="Hunting" />
   </type>
   <type name="MediumTent_Green">
-    <nominal>20</nominal>
+    <nominal>100</nominal>
     <lifetime>3888000</lifetime>
     <restock>43200</restock>
-    <min>20</min>
+    <min>100</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -15212,10 +15212,10 @@
     <usage name="Hunting" />
   </type>
   <type name="MediumTent_Orange">
-    <nominal>20</nominal>
+    <nominal>100</nominal>
     <lifetime>3888000</lifetime>
     <restock>43200</restock>
-    <min>20</min>
+    <min>100</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -16202,10 +16202,10 @@
     <category name="tools" />
   </type>
   <type name="NailBox">
-    <nominal>120</nominal>
+    <nominal>600</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>80</min>
+    <min>400</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -16789,10 +16789,10 @@
     <value name="Tier5" />
   </type>
   <type name="PartyTent">
-    <nominal>5</nominal>
+    <nominal>25</nominal>
     <lifetime>3888000</lifetime>
     <restock>43200</restock>
-    <min>3</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -16801,10 +16801,10 @@
     <usage name="Town" />
   </type>
   <type name="PartyTent_Blue">
-    <nominal>5</nominal>
+    <nominal>25</nominal>
     <lifetime>3888000</lifetime>
     <restock>43200</restock>
-    <min>3</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -16813,10 +16813,10 @@
     <usage name="Town" />
   </type>
   <type name="PartyTent_Brown">
-    <nominal>5</nominal>
+    <nominal>25</nominal>
     <lifetime>3888000</lifetime>
     <restock>43200</restock>
-    <min>3</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -16825,10 +16825,10 @@
     <usage name="Town" />
   </type>
   <type name="PartyTent_Lunapark">
-    <nominal>5</nominal>
+    <nominal>25</nominal>
     <lifetime>3888000</lifetime>
     <restock>43200</restock>
-    <min>3</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
