@@ -1042,9 +1042,9 @@
         </children>
     </event>
     <event name="VehicleBoat">
-        <nominal>75</nominal>
-        <min>60</min>
-        <max>75</max>
+        <nominal>38</nominal>
+        <min>30</min>
+        <max>38</max>
         <lifetime>6000</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1060,9 +1060,9 @@
         </children>
     </event>
     <event name="VehicleBoatSTAG">
-        <nominal>15</nominal>
-        <min>5</min>
-        <max>15</max>
+        <nominal>8</nominal>
+        <min>2</min>
+        <max>8</max>
         <lifetime>6000</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1136,9 +1136,9 @@
         </children>
     </event>
     <event name="VehicleOffroad02">
-        <nominal>20</nominal>
-        <min>15</min>
-        <max>20</max>
+        <nominal>10</nominal>
+        <min>8</min>
+        <max>10</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1399,9 +1399,9 @@
         </children>
     </event>
     <event name="VehicleATVCivil">
-        <nominal>50</nominal>
-        <min>35</min>
-        <max>50</max>
+        <nominal>25</nominal>
+        <min>18</min>
+        <max>25</max>
         <lifetime>1800</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1421,9 +1421,9 @@
         </children>
     </event>
     <event name="VehicleATVSTAG">
-        <nominal>15</nominal>
-        <min>10</min>
-        <max>15</max>
+        <nominal>8</nominal>
+        <min>5</min>
+        <max>8</max>
         <lifetime>1800</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1440,9 +1440,9 @@
         </children>
     </event>
     <event name="VehicleRFMosquito">
-        <nominal>10</nominal>
-        <min>5</min>
-        <max>10</max>
+        <nominal>5</nominal>
+        <min>2</min>
+        <max>5</max>
         <lifetime>1800</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
