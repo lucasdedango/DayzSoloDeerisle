@@ -1,0 +1,190 @@
+17:20:40.443 [AI Object Patrol] Generating default object patrols for "deerisle"
+17:20:40.443 [AI Patrol] Generating default patrols for "deerisle"
+17:20:40.456 [AI Patrol] WARNING: No spawn points found for "deerisle"
+17:25:59.821 [MissionAirdrop] An airdrop is heading towards "Kushville" (pos=<7630.000000, 0.000000, 3717.000000> type=Random_Kushville) with a ExpansionAirdropContainer_Military
+17:27:09.671 [Expansion Quests] Initialize quest system on the connected client with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+17:27:09.679 [Expansion Quests] Loaded existing player quest data for player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+17:27:09.679 [Expansion Quests] Check quest initialization for quest with ID=8 | State=STARTED | Player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+17:27:09.679 [Expansion Quests] Create new quest instance for quest with ID=8 | Player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+17:27:09.679 [Expansion Quests] Check quest initialization for quest with ID=9 | State=STARTED | Player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+17:27:09.679 [Expansion Quests] Create new quest instance for quest with ID=9 | Player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+17:27:09.679 [Expansion Quests] Check quest initialization for quest with ID=11 | State=STARTED | Player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+17:27:09.679 [Expansion Quests] Create new quest instance for quest with ID=11 | Player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+17:27:09.680 [Expansion Quests] Check quest initialization for quest with ID=14 | State=COMPLETED | Player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+17:27:09.683 [Expansion Quests] Sending rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ= quest configs to client for player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+17:27:09.683 [Expansion Quests] Sending player quest data for 4 quests to player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+17:27:18.920 [SpawnSelection] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) spawned at <10397.962891, 17.839876, 5373.638672>
+17:47:07.334 [AI Object Patrol 00049] Spawning 2 East bots at <10023.833008, 71.761940, 4782.895020>
+17:47:07.446 [AI Object Patrol 00049] Global patrol count: 1
+17:47:07.447 [AI Object Patrol 00049] Global Expansion AI count: 1 alive, 0 deceased
+17:47:07.447 [AI Object Patrol 00049] HelicopterWreck category patrol count: 1
+17:57:53.710 [VehicleEnter] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) entered vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10229.6, 41.77, 4911.46>) as driver
+17:57:56.870 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) started vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10229.6, 41.77, 4911.46>)
+17:58:23.911 [VehicleEngine] Player "NULL" (id=NULL) stopped vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10141.9, 53.98, 4836.57>)
+17:58:24.346 [VehicleLeave] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) left vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10141.9, 53.98, 4836.57>)
+17:59:36.242 [Killfeed] AI Keiko (Est) a été tué par Survivor avec un(e) M70 Tundra à une distance de 42m.
+17:59:44.250 [Killfeed] AI Naomi (Est) a été tué par Survivor avec un(e) M70 Tundra à une distance de 54m.
+17:59:47.325 [AI Object Patrol 00049] East bots were wiped out (spawn position <10023.833008, 71.761940, 4782.895020>, 2/2 deceased)
+17:59:47.325 [AI Object Patrol 00049] Global patrol count: 0
+17:59:47.325 [AI Object Patrol 00049] Global Expansion AI count: 0 alive, 2 deceased
+17:59:47.325 [AI Object Patrol 00049] HelicopterWreck category patrol count: 0
+18:04:44.741 [VehicleEnter] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) entered vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10141.9, 53.98, 4836.57>) as driver
+18:04:48.748 [VehicleLeave] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) left vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10141.9, 53.98, 4836.57>)
+18:05:06.988 [Expansion Quests] Deleted quest with ID=8 is a of player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=.
+18:05:06.989 [Expansion Quests] Deleted quest with ID=9 is a of player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=.
+18:05:06.989 [Expansion Quests] Deleted quest with ID=11 is a of player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=.
+18:09:42.650 [AI Object Patrol 00049] Despawning 0 East bots (spawn position <9990.472656, 70.551224, 4776.937988>, 2/2 deceased)
+18:28:18.285 [Expansion Quests] Initialize quest system on the connected client with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+18:28:18.290 [Expansion Quests] Loaded existing player quest data for player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+18:28:18.290 [Expansion Quests] Check quest initialization for quest with ID=8 | State=STARTED | Player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+18:28:18.291 [Expansion Quests] Create new quest instance for quest with ID=8 | Player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+18:28:18.291 [Expansion Quests] Check quest initialization for quest with ID=9 | State=STARTED | Player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+18:28:18.291 [Expansion Quests] Create new quest instance for quest with ID=9 | Player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+18:28:18.291 [Expansion Quests] Check quest initialization for quest with ID=11 | State=STARTED | Player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+18:28:18.291 [Expansion Quests] Create new quest instance for quest with ID=11 | Player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+18:28:18.291 [Expansion Quests] Check quest initialization for quest with ID=14 | State=COMPLETED | Player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+18:28:18.292 [Expansion Quests] Sending rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ= quest configs to client for player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+18:28:18.292 [Expansion Quests] Sending player quest data for 4 quests to player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+18:28:44.371 [VehicleEnter] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) entered vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10141.9, 53.98, 4836.57>) as driver
+18:28:51.598 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) started vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10141.9, 53.98, 4836.57>)
+18:29:19.306 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) stopped vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10211.3, 41.16, 4887.03>)
+18:29:21.841 [VehicleLeave] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) left vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10211.3, 41.16, 4887.03>)
+18:34:36.476 [VehicleEnter] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) entered vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10211.3, 41.16, 4887.03>) as driver
+18:34:38.523 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) started vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10211.3, 41.16, 4887.03>)
+18:35:18.717 [AI Object Patrol 00049] Spawning 1 East bots at <9990.472656, 70.551224, 4776.937988>
+18:35:18.737 [AI Object Patrol 00049] Global patrol count: 1
+18:35:18.737 [AI Object Patrol 00049] Global Expansion AI count: 1 alive, 0 deceased
+18:35:18.737 [AI Object Patrol 00049] HelicopterWreck category patrol count: 1
+18:35:25.944 [AI Object Patrol 00049] Despawning 1 East bots (spawn position <9990.472656, 70.551224, 4776.937988>, 0/1 deceased)
+18:35:25.945 [AI Object Patrol 00049] Global patrol count: 0
+18:35:25.945 [AI Object Patrol 00049] Global Expansion AI count: 0 alive, 0 deceased
+18:35:25.945 [AI Object Patrol 00049] HelicopterWreck category patrol count: 0
+18:35:39.677 [VehicleEngine] Player "NULL" (id=NULL) stopped vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10228.5, 42.44, 5165.93>)
+18:35:40.113 [VehicleLeave] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) left vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10228.5, 42.44, 5165.93>)
+18:37:44.511 [VehicleEnter] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) entered vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10228.5, 42.44, 5165.93>) as driver
+18:37:46.973 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) started vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10228.5, 42.44, 5165.93>)
+18:38:34.998 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) stopped vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10366.7, 2.64, 5527.76>)
+18:38:38.736 [VehicleLeave] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) left vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10366.7, 2.64, 5527.76>)
+18:43:02.778 [VehicleEnter] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) entered vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10366.7, 2.64, 5527.76>) as driver
+18:43:05.768 [VehicleLeave] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) left vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10366.7, 2.64, 5527.76>)
+18:43:11.203 [VehicleEnter] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) entered vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10366.7, 2.64, 5527.76>) as driver
+18:43:13.448 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) started vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10366.7, 2.64, 5527.76>)
+18:46:00.304 [VehicleEngine] Player "NULL" (id=NULL) stopped vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10192.3, 9.03, 4494.28>)
+18:46:00.738 [VehicleLeave] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) left vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10192.3, 9.03, 4494.28>)
+18:47:19.010 [VehicleEnter] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) entered vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10192.3, 9.03, 4494.28>) as driver
+18:47:20.348 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) started vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<10192.3, 9.03, 4494.28>)
+18:48:12.209 [AI Object Patrol 00051] Spawning 2 West bots at <8796.140625, 46.780972, 3696.087891>
+18:48:12.235 [AI Object Patrol 00051] Global patrol count: 1
+18:48:12.236 [AI Object Patrol 00051] Global Expansion AI count: 1 alive, 0 deceased
+18:48:12.236 [AI Object Patrol 00051] ContaminatedArea category patrol count: 1
+18:49:29.801 [VehicleEngine] Player "NULL" (id=NULL) stopped vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7969.36, 7.25, 4269.88>)
+18:49:30.237 [VehicleLeave] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) left vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7969.36, 7.25, 4269.88>)
+18:52:06.633 [VehicleEnter] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) entered vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7969.36, 7.25, 4269.88>) as driver
+18:52:08.473 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) started vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7969.36, 7.25, 4269.88>)
+18:52:45.673 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) stopped vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7554.58, 23.64, 3925.61>)
+18:52:55.708 [VehicleLeave] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) left vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7554.58, 23.64, 3925.61>)
+18:56:15.840 [MissionAirdrop] An airdrop is heading towards "Oldfield" (pos=<6117.000000, 0.000000, 7004.000000> type=Random_Oldfield) with a ExpansionAirdropContainer_Medical
+18:57:55.776 [AI Object Patrol 00051] Despawning 2 West bots (spawn position <8796.140625, 46.780972, 3696.087891>, 0/2 deceased)
+18:57:55.776 [AI Object Patrol 00051] Global patrol count: 0
+18:57:55.776 [AI Object Patrol 00051] Global Expansion AI count: 0 alive, 0 deceased
+18:57:55.776 [AI Object Patrol 00051] ContaminatedArea category patrol count: 0
+19:00:53.455 [VehicleEnter] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) entered vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7554.58, 23.64, 3925.61>) as driver
+19:00:54.773 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) started vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7554.58, 23.64, 3925.61>)
+19:01:12.252 [VehicleEngine] Player "NULL" (id=NULL) stopped vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7497.92, 24.05, 3881.64>)
+19:01:12.684 [VehicleLeave] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) left vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7497.92, 24.05, 3881.64>)
+19:04:48.884 [VehicleEnter] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) entered vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7497.92, 24.05, 3881.64>) as driver
+19:04:51.173 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) started vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7497.92, 24.05, 3881.64>)
+19:05:27.818 [AI Object Patrol 00007] Spawning 1 Guards bots at <7115.669434, 8.919931, 5470.538574>
+19:05:27.835 [AI Object Patrol 00007] Global patrol count: 1
+19:05:27.835 [AI Object Patrol 00007] Global Expansion AI count: 1 alive, 0 deceased
+19:05:27.835 [AI Object Patrol 00007] ObjectPatrol category patrol count: 1
+19:07:56.056 [VehicleEngine] Player "NULL" (id=NULL) stopped vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<6116.35, 32.77, 6913.83>)
+19:07:56.518 [VehicleLeave] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) left vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<6116.35, 32.77, 6913.83>)
+19:12:52.417 [VehicleEnter] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) entered vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<6116.35, 32.77, 6913.83>) as driver
+19:12:54.598 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) started vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<6116.35, 32.77, 6913.83>)
+19:16:00.980 [VehicleEngine] Player "NULL" (id=NULL) stopped vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7501.88, 24.11, 3881.05>)
+19:16:01.987 [VehicleLeave] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) left vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7499, 24.1, 3878.93>)
+19:16:45.801 [Expansion Quests] Deleted quest with ID=8 is a of player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=.
+19:16:45.801 [Expansion Quests] Deleted quest with ID=9 is a of player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=.
+19:16:45.801 [Expansion Quests] Deleted quest with ID=11 is a of player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=.
+19:19:12.255 [AI Object Patrol 00007] Despawning 1 Guards bots (spawn position <7115.669434, 8.919931, 5470.538574>, 0/1 deceased)
+19:19:12.255 [AI Object Patrol 00007] Global patrol count: 0
+19:19:12.255 [AI Object Patrol 00007] Global Expansion AI count: 0 alive, 0 deceased
+19:19:12.255 [AI Object Patrol 00007] ObjectPatrol category patrol count: 0
+20:00:39.313 [Expansion Quests] Initialize quest system on the connected client with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+20:00:39.345 [Expansion Quests] Loaded existing player quest data for player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+20:00:39.345 [Expansion Quests] Check quest initialization for quest with ID=8 | State=STARTED | Player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+20:00:39.345 [Expansion Quests] Create new quest instance for quest with ID=8 | Player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+20:00:39.346 [Expansion Quests] Check quest initialization for quest with ID=9 | State=STARTED | Player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+20:00:39.346 [Expansion Quests] Create new quest instance for quest with ID=9 | Player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+20:00:39.346 [Expansion Quests] Check quest initialization for quest with ID=11 | State=STARTED | Player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+20:00:39.346 [Expansion Quests] Create new quest instance for quest with ID=11 | Player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+20:00:39.346 [Expansion Quests] Check quest initialization for quest with ID=14 | State=COMPLETED | Player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+20:00:39.347 [Expansion Quests] Sending rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ= quest configs to client for player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+20:00:39.347 [Expansion Quests] Sending player quest data for 4 quests to player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+20:12:26.694 [VehicleEnter] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) entered vehicle ATV (id=ADC23EF03E495167E5B8A6A46E1DE5E4 pos=<7559.94, 23.64, 3926.72>) as driver
+20:12:28.049 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) started vehicle ATV (id=ADC23EF03E495167E5B8A6A46E1DE5E4 pos=<7559.94, 23.64, 3926.72>)
+20:12:43.774 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) stopped vehicle ATV (id=ADC23EF03E495167E5B8A6A46E1DE5E4 pos=<7516.18, 24.48, 3883.35>)
+20:12:46.574 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) started vehicle ATV (id=ADC23EF03E495167E5B8A6A46E1DE5E4 pos=<7516.18, 24.48, 3883.35>)
+20:12:50.860 [VehicleEngine] Player "NULL" (id=NULL) stopped vehicle ATV (id=ADC23EF03E495167E5B8A6A46E1DE5E4 pos=<7516.18, 24.48, 3883.35>)
+20:12:51.294 [VehicleLeave] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) left vehicle ATV (id=ADC23EF03E495167E5B8A6A46E1DE5E4 pos=<7516.18, 24.48, 3883.35>)
+20:13:50.761 [VehicleEnter] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) entered vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7497.56, 24.1, 3877.87>) as driver
+20:13:52.399 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) started vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7497.56, 24.1, 3877.87>)
+20:14:33.826 [VehicleEngine] Player "NULL" (id=NULL) stopped vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7532.71, 23.85, 3967.57>)
+20:14:34.261 [VehicleLeave] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) left vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7532.71, 23.85, 3967.57>)
+20:15:29.091 [VehicleEnter] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) entered vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7532.71, 23.85, 3967.57>) as driver
+20:15:30.775 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) started vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7532.71, 23.85, 3967.57>)
+20:16:14.473 [AI Object Patrol 00007] Spawning 2 Guards bots at <7115.669434, 8.919931, 5470.538574>
+20:16:14.492 [AI Object Patrol 00007] Global patrol count: 1
+20:16:14.493 [AI Object Patrol 00007] Global Expansion AI count: 1 alive, 0 deceased
+20:16:14.493 [AI Object Patrol 00007] ObjectPatrol category patrol count: 1
+20:16:22.063 [VehicleEngine] Player "NULL" (id=NULL) stopped vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7235.28, 26.62, 4500.43>)
+20:16:22.063 [VehicleLeave] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) left vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7235.28, 26.62, 4500.43>)
+20:19:35.892 [VehicleEnter] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) entered vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7235.17, 26.61, 4500.34>) as driver
+20:19:38.749 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) started vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<7235.17, 26.61, 4500.34>)
+20:20:35.956 [AI Object Patrol 00017] Spawning 1 West bots at <5523.292480, 74.536377, 3626.937256>
+20:20:35.975 [AI Object Patrol 00017] Global patrol count: 2
+20:20:35.975 [AI Object Patrol 00017] Global Expansion AI count: 3 alive, 0 deceased
+20:20:35.976 [AI Object Patrol 00017] MilitaryRoaming category patrol count: 1
+20:20:51.285 [AI Object Patrol 00020] Spawning 1 West bots at <5308.035645, 74.384369, 3232.503662>
+20:20:51.306 [AI Object Patrol 00020] Global patrol count: 3
+20:20:51.306 [AI Object Patrol 00020] Global Expansion AI count: 4 alive, 0 deceased
+20:20:51.307 [AI Object Patrol 00020] MilitaryRoaming category patrol count: 2
+20:21:22.230 [VehicleEngine] Player "NULL" (id=NULL) stopped vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<5882.49, 74.04, 3678.97>)
+20:21:22.654 [VehicleLeave] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) left vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<5882.49, 74.04, 3678.97>)
+20:23:14.189 [VehicleEnter] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) entered vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<5882.49, 74.04, 3678.97>) as driver
+20:23:16.574 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) started vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<5882.49, 74.04, 3678.97>)
+20:23:24.650 [AI Object Patrol 00059] Spawning 1 West bots at <5700.981445, 74.809494, 3336.448486>
+20:23:24.669 [AI Object Patrol 00059] Global patrol count: 4
+20:23:24.669 [AI Object Patrol 00059] Global Expansion AI count: 5 alive, 0 deceased
+20:23:24.670 [AI Object Patrol 00059] MilitaryRoaming category patrol count: 3
+20:23:33.158 [VehicleEngine] Player "NULL" (id=NULL) stopped vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<5801.08, 74.04, 3787.02>)
+20:23:33.594 [VehicleLeave] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) left vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<5801.08, 74.04, 3787.02>)
+20:23:59.446 [MissionAirdrop] An airdrop is heading towards "Westbrook" (pos=<3614.000000, 0.000000, 6360.000000> type=Random_Westbrook) with a ExpansionAirdropContainer
+20:24:53.359 [Killfeed] AI Judy (Ouest) a été tué par Survivor avec un(e) KA-74 à une distance de 183m.
+20:24:58.003 [AI Object Patrol 00017] West bots were wiped out (spawn position <5523.292480, 74.536377, 3626.937256>, 1/1 deceased)
+20:24:58.003 [AI Object Patrol 00017] Global patrol count: 3
+20:24:58.003 [AI Object Patrol 00017] Global Expansion AI count: 4 alive, 1 deceased
+20:24:58.004 [AI Object Patrol 00017] MilitaryRoaming category patrol count: 2
+20:27:16.810 [Killfeed] AI Hassan (Ouest) a été tué par Survivor avec un(e) KA-74 à une distance de 32m.
+20:27:21.583 [AI Object Patrol 00020] West bots were wiped out (spawn position <5308.035645, 74.384369, 3232.503662>, 1/1 deceased)
+20:27:21.583 [AI Object Patrol 00020] Global patrol count: 2
+20:27:21.583 [AI Object Patrol 00020] Global Expansion AI count: 3 alive, 2 deceased
+20:27:21.583 [AI Object Patrol 00020] MilitaryRoaming category patrol count: 1
+20:28:53.205 [Killfeed] AI Denis (Ouest) a été tué par Survivor avec un(e) KA-74 à une distance de 124m.
+20:28:53.596 [AI Object Patrol 00059] West bots were wiped out (spawn position <5700.981445, 74.809494, 3336.448486>, 1/1 deceased)
+20:28:53.596 [AI Object Patrol 00059] Global patrol count: 1
+20:28:53.596 [AI Object Patrol 00059] Global Expansion AI count: 2 alive, 3 deceased
+20:28:53.596 [AI Object Patrol 00059] MilitaryRoaming category patrol count: 0
+20:30:17.404 [AI Object Patrol 00007] Despawning 2 Guards bots (spawn position <7115.669434, 8.919931, 5470.538574>, 0/2 deceased)
+20:30:17.404 [AI Object Patrol 00007] Global patrol count: 0
+20:30:17.404 [AI Object Patrol 00007] Global Expansion AI count: 0 alive, 3 deceased
+20:30:17.404 [AI Object Patrol 00007] ObjectPatrol category patrol count: 0
+20:32:58.659 [VehicleEnter] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) entered vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<5801.08, 74.04, 3787.02>) as driver
+20:33:00.599 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) started vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<5801.08, 74.04, 3787.02>)
+20:33:28.358 [VehicleEngine] Player "NULL" (id=NULL) stopped vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<5653.9, 74.04, 3668.79>)
+20:33:28.791 [VehicleLeave] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) left vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<5653.9, 74.04, 3668.79>)
+20:34:13.127 [VehicleEnter] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) entered vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<5653.9, 74.04, 3668.79>) as driver
+20:34:14.449 [VehicleEngine] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) started vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<5653.9, 74.04, 3668.79>)
+20:36:41.461 [VehicleEngine] Player "NULL" (id=NULL) stopped vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<5452.59, 74.04, 3716.97>)
+20:36:42.462 [VehicleLeave] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) left vehicle ATV (id=E5026FEDA14DBBFECD685BBC4860E1F3 pos=<5453.4, 74.04, 3718.51>)

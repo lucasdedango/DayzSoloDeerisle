@@ -1,0 +1,33 @@
+---------------------------------------------
+Log C:\steam\steamapps\common\DayZServer\profiles\crash_2026-03-22_14-43-12.log started at 22.03. 14:43:12
+
+
+
+------------------------------------
+DESKTOP-J3UTEK4, 22.03 2026 14:43:12
+Can't compile "Engine" script module!
+
+DayZExpansion/Core/Scripts/1_Core/dayzexpansion_core\cf_log.c(1): Unknown type 'CF_Log'
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 profiles profiles mod "@CF;@DabsFramework;@DayZ-Expansion-Bundle;@DayZ-Expansion-Licensed;@DayZ-Expansion-Animations;@InfiniteStamina;@Community-Online-Tools;@DeerIsle  Dev 
+
+
+------------------------------------
+DESKTOP-J3UTEK4, 22.03 2026 14:43:41
+Can't compile "Engine" script module!
+
+DayZExpansion/Core/Scripts/1_Core/dayzexpansion_core\cf_log.c(1): Unknown type 'CF_Log'
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 profiles profiles mod "@CF;@DabsFramework;@DayZ-Expansion-Bundle;@DayZ-Expansion-Licensed;@DayZ-Expansion-Animations;@InfiniteStamina;@Community-Online-Tools;@DeerIsle  Dev 
+
+
+------------------------------------
+DESKTOP-J3UTEK4, 22.03 2026 14:43:41
+Can't compile "Engine" script module!
+
+DayZExpansion/Core/Scripts/1_Core/dayzexpansion_core\cf_log.c(1): Unknown type 'CF_Log'
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 profiles profiles mod "@CF;@DabsFramework;@DayZ-Expansion-Bundle;@DayZ-Expansion-Licensed;@DayZ-Expansion-Animations;@InfiniteStamina;@Community-Online-Tools;@DeerIsle  Dev 

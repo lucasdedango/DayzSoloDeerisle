@@ -1,0 +1,79 @@
+---------------------------------------------
+Log C:\steam\steamapps\common\DayZServer\profiles\script_2026-03-19_22-02-01.log started at 19.03. 22:02:01
+
+SCRIPT       : Registered 305 temporary action enum(s), UAN==305
+SCRIPT    (W): @"JMC_AreaTriggerEvents/scripts/3_Game/ateconfig.c,73": FIX-ME: Unexpected statement 'ref'
+SCRIPT    (W): @"AdmiralsDivingMod\scripts\3_game/dayzgame\adm_dayzgame.c,28": FIX-ME: Unexpected statement 'ref'
+SCRIPT    (W): @"AdmiralsDivingMod\scripts\3_game/dayzgame\adm_dayzgame.c,29": FIX-ME: Unexpected statement 'ref'
+SCRIPT       : ... Backlit Effects Enabled
+SCRIPT    (W): @"deerisle/Deerisle_Security_System/scripts/4_World/deerisle-security-system\config\securityconfig.c,52": Missing ';' at the end of line
+SCRIPT    (W): @"deerisle/Deerisle_Security_System/scripts/4_World/deerisle-security-system\config\securityconfig.c,73": Missing ';' at the end of line
+SCRIPT    (W): @"Weapons/Scripts/4_World/itembase\jmc_prototype_optic.c,3": Missing ';' at the end of line
+SCRIPT    (W): @"deerisle/scripts/4_World/deerislebase\deerisle.c,9": FIX-ME: Unexpected statement 'ref'
+SCRIPT    (W): @"deerisle/scripts/4_World/deerisleworld.c,51": Missing ';' at the end of line
+SCRIPT    (W): @"DeerIsle/DeerIsle_FinderOuter/scripts/4_world/divinglootconfig.c,39": Missing ';' at the end of line
+SCRIPT    (W): @"AdmiralsDivingMod\scripts\4_world/itembase\adm_item.c,37": FIX-ME: Overloaded method 'CanPutIntoHands', argument name 'player' differs from prototype 'parent'
+SCRIPT    (W): @"crab/scripts/4_World/animal_crab.c,71": FIX-ME: Overriding function 'ResistContaminatedEffect' but not marked as 'override'
+SCRIPT    (W): @"AdmiralsDivingMod\scripts\4_world/playerbase\adm_playerbase.c,632": FIX-ME: Overloaded method 'EOnSimulate', argument name 'owner' differs from prototype 'other'
+SCRIPT    (W): @"smk/scripts/4_World/smokey.c,150": FIX-ME: Overloaded method 'EOnSimulate', argument name 'owner' differs from prototype 'other'
+SCRIPT    (W): @"Survivalists_TestMod/scripts/4_world/jmc_actionopencryptodoor.c,66": FIX-ME: Overriding function 'OnStartClient' but not marked as 'override'
+SCRIPT    (W): @"crab/scripts/4_World/animal_crab.c,50": FIX-ME: Overriding function 'ResistContaminatedEffect' but not marked as 'override'
+SCRIPT    (W): @"Weapons/Scripts/4_World/itembase\jmc_prototype_optic.c,76": FIX-ME: Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+SCRIPT    (W): @"deerisle/scripts/4_World/deerislebase\deerisle.c,427": FIX-ME: Unsafe down-casting, use 'JMC_SmokeSpawn.Cast' for safe down-casting
+SCRIPT    (W): @"Grid_Mod/scripts/5_Mission/tempeldeckelinvisible.c,4": FIX-ME: Overriding function 'SpawnObject' but not marked as 'override'
+SCRIPT    (W): @"deerisle/scripts/5_Mission/missionserver.c,168": FIX-ME: Overriding function 'SpawnObject' but not marked as 'override'
+SCRIPT    (E): NULL pointer to instance
+Class:      'PowderedMilk'
+Entity id:2974895
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@225#1
+$CurrentDir:mpmissions\dayzOffline.chernarusplus\init.c:97 Function CreateCustomMission
+SCRIPT    (E): NULL pointer to instance
+Class:      'PowderedMilk'
+Entity id:2974927
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@225#1
+$CurrentDir:mpmissions\dayzOffline.chernarusplus\init.c:97 Function CreateCustomMission
+SCRIPT    (E): NULL pointer to instance
+Class:      'BakedBeansCan'
+Entity id:2974935
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@225#1
+$CurrentDir:mpmissions\dayzOffline.chernarusplus\init.c:97 Function CreateCustomMission
+SCRIPT    (E): NULL pointer to instance
+Class:      'SardinesCan'
+Entity id:2974948
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@225#1
+$CurrentDir:mpmissions\dayzOffline.chernarusplus\init.c:97 Function CreateCustomMission
+SCRIPT       : [Deerisle Temple Cage] world switch -> objects not spawned - wrong world
+SCRIPT       : Diving Settings Received From Server
+SCRIPT       : ~DayZGame()

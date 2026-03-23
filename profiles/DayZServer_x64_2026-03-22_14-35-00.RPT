@@ -1,0 +1,1252 @@
+=====================================================================
+== C:\steam\steamapps\common\DayZServer\DayZServer_x64.exe
+== DayZServer_x64.exe -config=serverDZ.cfg -port=2302 -profiles=profiles -mod=@CF;@DabsFramework;@DayZ-Expansion-Bundle;@DayZ-Expansion-Licensed;@DayZ-Expansion-Animations;@InfiniteStamina;@Community-Online-Tools;@DeerIsleDev
+=====================================================================
+Exe timestamp: 2026/03/17 21:15:13
+Current time:  2026/03/22 14:35:04
+Version 1.28.161464
+=====================================================================
+
+14:35:04.418 [Inputs] Loading inputs default "bin/constants.xml"
+14:35:04.419 [Inputs] Loading inputs default "bin/specific.xml"
+14:35:04.420 [Inputs] Loading inputs default "DeerisleCredits/inputs.xml"
+14:35:04.420 [Inputs] Loading inputs default "JM/COT/Scripts/Data/Inputs.xml"
+14:35:04.420 [Inputs] Loading inputs default "deerisle/scripts/Inputs.xml"
+14:35:04.420 [Inputs] Loading inputs default "RFMosquito/modded_Inputs.xml"
+14:35:04.421 [Inputs] Loading inputs default "DayZExpansion/Groups/Scripts/Data/Inputs.xml"
+14:35:04.421 [Inputs] Loading inputs default "DayZExpansion/Market/Scripts/Data/Inputs.xml"
+14:35:04.421 [Inputs] Loading inputs default "DayZExpansion/Navigation/Scripts/Data/Inputs.xml"
+14:35:04.421 !!! [Inputs] Attempt to register duplicate exclusion group "chatexpansion"
+14:35:04.421 [Inputs] Loading inputs default "DayZExpansion/PlayerList/Scripts/Data/Inputs.xml"
+14:35:04.421 !!! [Inputs] Attempt to register duplicate exclusion group "chatexpansion"
+14:35:04.421 [Inputs] Loading inputs default "DayZExpansion/Scripts/Data/Inputs.xml"
+14:35:04.421 !!! [Inputs] Attempt to register duplicate exclusion group "chatexpansion"
+14:35:04.421 [Inputs] Loading inputs default "DayZExpansion/Vehicles/Scripts/Data/Inputs.xml"
+14:35:04.422 [Inputs] Loading inputs default "AdmiralsDivingMod/Scripts/Data/modded_Inputs.xml"
+14:35:04.422 [Inputs] Loading inputs default "DayZExpansion/AI/Scripts/inputs.xml"
+14:35:04.422 [Inputs] Loading inputs default "DayZExpansion/BaseBuilding/Scripts/Data/Inputs.xml"
+14:35:04.422 !!! [Inputs] Attempt to register duplicate exclusion group "chatexpansion"
+14:35:04.422 [Inputs] Loading inputs default "DayZExpansion/Book/Scripts/Data/Inputs.xml"
+14:35:04.422 !!! [Inputs] Attempt to register duplicate exclusion group "chatexpansion"
+14:35:04.422 [Inputs] Loading inputs default "DayZExpansion/Chat/Scripts/Data/Inputs.xml"
+14:35:04.422 !!! [Inputs] Attempt to register duplicate exclusion group "chatexpansion"
+14:35:04.422 [Inputs] Loading inputs default "DayZExpansion/Quests/Scripts/Data/Inputs.xml"
+14:35:04.423 [Inputs] Loading inputs cfg "profiles\Users\Survivor\Server.core.xml"
+14:35:04.423 !!! [Inputs] Cannot read inputs cfg "profiles\Users\Survivor\Server.core.xml", parser error
+14:35:04.423 [Inputs] Loading inputs cfg "bin/core.xml"
+14:35:04.423 !!! [Inputs] Cannot load input preset "#STR_USER", file does not exist
+14:35:04.424 [Inputs] Exporting inputs cfg "profiles\Users\Survivor\Server.core.xml"
+14:35:14.734 Hostname of server: "Maison"
+14:35:22.825 !!! File "DZ\worlds\chernarusplus\ce\env/reindeer_territories.xml" does not exist...
+14:35:22.825 !!! [ERROR][XML] :: load [DZ\worlds\chernarusplus\ce\env/reindeer_territories.xml] failed
+14:35:22.825 !!! [ERROR][XML] :: Failed to open file
+14:35:24.684 [CE][Hive] :: Initializing OFFLINE
+14:35:24.684 [StorageDirs] :: Selected storage directory: C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\
+14:35:24.684 [CE][Hive] :: Loading core data ... 
+14:35:24.685 [CE][CoreData] :: 8 root classes, 20 defaults, 0 updaters...
+14:35:27.674 [CE][TypeSetup] :: 581 classes setuped...
+14:35:27.675 [CE][TypeSetup] :: 96 classes setuped...
+14:35:28.933 [CE][RegisterBind] :: 0 classes binded...
+14:35:28.933 [CE][RegisterConfig] :: 14567 config classes registered, 0 sub-counters...
+14:35:28.933 [CE][Hive] :: Loading map data ... 
+14:35:28.936 [CE][IgnoreList] "cfgignorelist.xml" :: loaded 17 types
+14:35:28.966 [CE][LoadPrototype] :: loaded 648 prototypes
+14:35:28.968   1375 containers, 14870 points
+14:35:28.968   83 dispatches, 324 proxies
+14:35:28.968 !!! [CE][LoadPrototype] 3 groups have no points...
+14:35:28.968 !!! [CE][LoadPrototype] 5 groups have wrong points...
+14:35:28.968 !!! [CE][LoadPrototype] 1 groups were defined more than once and skipped...
+14:35:28.968 [CE][LoadPrototype] :: last group name: Land_STAG_Submarine_Dark...
+14:35:28.972 [CE][LoadPrototype] :: loaded 0 prototypes
+14:35:28.972   55 containers, 232 points
+14:35:28.972   0 dispatches, 0 proxies
+14:35:28.973 [CE][LoadPrototype] :: last group name: Rail9...
+14:35:29.255 [CE][LoadMap] "Group" :: loaded 14757 groups, groups failed: 0, largest group range: 34.1
+14:35:29.257 [CE][LoadMap] "Dirt" :: loaded 0 groups, groups failed: 0, largest group range: 34.1
+14:35:29.517 [CE][Links] found 3588 total links between groups, of 14757
+14:35:29.517 [CE][LoadClusters] "Cluster" :: Loading files...
+14:35:29.600 [CE][LoadClusters] :: file: "mapgroupcluster.xml", 9 types, 50000 instances
+14:35:29.689 [CE][LoadClusters] :: file: "mapgroupcluster01", 9 types, 50000 instances
+14:35:29.778 [CE][LoadClusters] :: file: "mapgroupcluster02", 9 types, 50000 instances
+14:35:29.778   6217 failed - check prototype defaults 'clusterMatrix' setups !!!
+14:35:29.868 [CE][LoadClusters] :: file: "mapgroupcluster03", 9 types, 50000 instances
+14:35:29.868   8750 failed - check prototype defaults 'clusterMatrix' setups !!!
+14:35:29.930 [CE][LoadClusters] :: file: "mapgroupcluster04", 9 types, 32061 instances
+14:35:29.930   2608 failed - check prototype defaults 'clusterMatrix' setups !!!
+14:35:29.934 [CE][Storage] ver:21 stamp:84, valid:yes, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\types.bin"
+14:35:29.934 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\types.001"
+14:35:29.934 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\types.002"
+14:35:29.934 [CE][Storage] Restoring file "C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\types.bin".
+14:35:30.46 !!! [CE][offlineDB] :: No Shutdown message present.
+14:35:30.48 [CE][offlineDB] :: Loaded 68 dynamic events 284 total types.
+14:35:30.48 !!! [CE][DE] (VehicleTruck01) :: Unable to create child (Truck_01_Covered_Grey) as the type does not exist.
+14:35:30.48 [CE][offlineDB] :: Loaded 78 dynamic events 341 total types.
+14:35:30.60 !!! [CE][offlineDB] :: Type 'ChristmasTree_Green' will be ignored. (Not spawnable. (Scope is not public?))
+14:35:30.60 !!! [CE][offlineDB] :: Type 'ChristmasTree' will be ignored. (Not spawnable. (Scope is not public?))
+14:35:30.60 !!! [CE][offlineDB] :: Type 'SantasSleigh' will be ignored. (Type does not exist. (Typo?))
+14:35:30.60 !!! [CE][offlineDB] :: Type 'ShippingContainerKeys_Blue' will be ignored. (Type does not exist. (Typo?))
+14:35:30.60 !!! [CE][offlineDB] :: Type 'ShippingContainerKeys_Orange' will be ignored. (Type does not exist. (Typo?))
+14:35:30.60 !!! [CE][offlineDB] :: Type 'ShippingContainerKeys_Yellow' will be ignored. (Type does not exist. (Typo?))
+14:35:30.61 !!! [CE][offlineDB] :: Type 'Static_FrozenScientist_DE' will be ignored. (Type does not exist. (Typo?))
+14:35:30.61 !!! [CE][offlineDB] :: Type 'Jmc_Keycard3' will be ignored. (Type does not exist. (Typo?))
+14:35:30.61 !!! [CE][offlineDB] :: Type 'JMC_Key_Blue' will be ignored. (Type does not exist. (Typo?))
+14:35:30.61 !!! [CE][offlineDB] :: Type 'JMC_Key_Orange' will be ignored. (Type does not exist. (Typo?))
+14:35:30.61 !!! [CE][offlineDB] :: Type 'JMC_Key_Yellow' will be ignored. (Type does not exist. (Typo?))
+14:35:30.61 !!! [CE][offlineDB] :: Type 'JMC_Key_Red' will be ignored. (Type does not exist. (Typo?))
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE][offlineDB] :: Type 'Expansion_M79' will be ignored. (Not spawnable. (Scope is not public?))
+14:35:30.65 !!! [CE][offlineDB] :: Type 'ExpansionFlaregun' will be ignored. (Not spawnable. (Scope is not public?))
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE][offlineDB] :: Type 'Expansion_Longhorn' will be ignored. (Type does not exist. (Typo?))
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.65 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.66 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.66 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.66 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.66 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.66 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.66 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.66 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.66 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.66 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.66 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.66 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.66 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.66 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.66 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.66 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.66 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.66 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.66 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.66 !!! [CE] :: Unknown value: 'Tier13'.
+14:35:30.138 !!! [CE][DE][SPAWNS] :: [WARNING] :: Skipping entry for non-existing event 'AnimalDeer'.
+14:35:30.138 !!! [CE][DE][SPAWNS] :: [WARNING] :: Skipping entry for non-existing event 'AnimalCow'.
+14:35:30.138 !!! [CE][DE][SPAWNS] :: [WARNING] :: Skipping entry for non-existing event 'AnimalSheep'.
+14:35:30.138 !!! [CE][DE][SPAWNS] :: [WARNING] :: Skipping entry for non-existing event 'AnimalRoeDeer'.
+14:35:30.138 !!! [CE][DE][SPAWNS] :: [WARNING] :: Skipping entry for non-existing event 'AnimalWildBoar'.
+14:35:30.138 [CE][DE][SPAWNS] :: Total positions: 825
+14:35:30.138 [CE][DE][GROUPS] :: Total eventgroups defined: 33, Eventgroups in use: 33
+14:35:30.139 [CE][Storage] ver:25 stamp:84, valid:yes, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\events.bin"
+14:35:30.139 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\events.001"
+14:35:30.139 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\events.002"
+14:35:30.139 [CE][Storage] Restoring file "C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\events.bin".
+14:35:30.139 [CE][DynamicEvent] Load  Events:[78] Primary spawners: 78 Secondary spawners: 6
+14:35:30.140 [CE][Storage] ver:25 stamp:84, valid:yes, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_000.bin"
+14:35:30.140 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_000.001"
+14:35:30.140 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_000.002"
+14:35:30.140 [CE][Storage] Restoring file "C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_000.bin" 3191 items.
+14:35:31.236   3191 items loaded. (0 failed)
+14:35:31.236 [CE][Storage] ver:25 stamp:84, valid:yes, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_001.bin"
+14:35:31.236 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_001.001"
+14:35:31.236 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_001.002"
+14:35:31.236 [CE][Storage] Restoring file "C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_001.bin" 2404 items.
+14:35:31.997   2404 items loaded. (0 failed)
+14:35:31.997 [CE][Storage] ver:25 stamp:84, valid:yes, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_002.bin"
+14:35:31.997 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_002.001"
+14:35:31.998 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_002.002"
+14:35:31.998 [CE][Storage] Restoring file "C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_002.bin" 3612 items.
+14:35:33.81   3612 items loaded. (0 failed)
+14:35:33.82 [CE][Storage] ver:25 stamp:84, valid:yes, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_003.bin"
+14:35:33.82 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_003.001"
+14:35:33.82 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_003.002"
+14:35:33.82 [CE][Storage] Restoring file "C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_003.bin" 4794 items.
+14:35:34.620   4794 items loaded. (0 failed)
+14:35:34.620 [CE][Storage] ver:25 stamp:84, valid:yes, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_004.bin"
+14:35:34.620 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_004.001"
+14:35:34.620 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_004.002"
+14:35:34.620 [CE][Storage] Restoring file "C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_004.bin" 7359 items.
+14:35:36.950   7359 items loaded. (0 failed)
+14:35:36.951 [CE][Storage] ver:25 stamp:84, valid:yes, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_005.bin"
+14:35:36.951 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_005.001"
+14:35:36.951 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_005.002"
+14:35:36.951 [CE][Storage] Restoring file "C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_005.bin" 4829 items.
+14:35:38.554   4829 items loaded. (0 failed)
+14:35:38.555 [CE][Storage] ver:25 stamp:84, valid:yes, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_006.bin"
+14:35:38.555 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_006.001"
+14:35:38.555 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_006.002"
+14:35:38.555 [CE][Storage] Restoring file "C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_006.bin" 4621 items.
+14:35:40.189   4621 items loaded. (0 failed)
+14:35:40.190 [CE][Storage] ver:25 stamp:84, valid:yes, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_007.bin"
+14:35:40.190 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_007.001"
+14:35:40.190 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_007.002"
+14:35:40.190 [CE][Storage] Restoring file "C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_007.bin" 3901 items.
+14:35:41.562   3901 items loaded. (0 failed)
+14:35:41.563 [CE][Storage] ver:25 stamp:84, valid:yes, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_008.bin"
+14:35:41.563 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_008.001"
+14:35:41.563 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_008.002"
+14:35:41.563 [CE][Storage] Restoring file "C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_008.bin" 1772 items.
+14:35:42.211   1772 items loaded. (0 failed)
+14:35:42.212 [CE][Storage] ver:25 stamp:84, valid:yes, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_009.bin"
+14:35:42.212 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_009.001"
+14:35:42.212 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_009.002"
+14:35:42.212 [CE][Storage] Restoring file "C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_009.bin" 1785 items.
+14:35:42.895   1785 items loaded. (0 failed)
+14:35:42.896 [CE][Storage] ver:25 stamp:84, valid:yes, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_010.bin"
+14:35:42.896 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_010.001"
+14:35:42.896 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_010.002"
+14:35:42.896 [CE][Storage] Restoring file "C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_010.bin" 1359 items.
+14:35:43.425   1359 items loaded. (0 failed)
+14:35:43.425 [CE][Storage] ver:25 stamp:84, valid:yes, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_011.bin"
+14:35:43.425 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_011.001"
+14:35:43.425 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_011.002"
+14:35:43.425 [CE][Storage] Restoring file "C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\dynamic_011.bin" 706 items.
+14:35:43.684   706 items loaded. (0 failed)
+14:35:43.684 [CE][Storage] ver:26 stamp:84, valid:yes, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\building.bin"
+14:35:43.684 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\building.001"
+14:35:43.684 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\building.002"
+14:35:43.684 [CE][Storage] Restoring file "C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\building.bin" 0 items.
+14:35:43.684   0 items loaded. (0 failed)
+14:35:43.685 [CE][Storage] ver:25 stamp:84, valid:yes, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\vehicles.bin"
+14:35:43.685 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\vehicles.001"
+14:35:43.685 [CE][Storage] ver:0 stamp:0, valid:NO, name:"C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\vehicles.002"
+14:35:43.685 [CE][Storage] Restoring file "C:\steam\steamapps\common\DayZServer\mpmissions\dayzOffline.deerisle\storage_1\data\vehicles.bin" 454 items.
+14:35:44.464   454 items loaded. (0 failed)
+14:35:44.544 [CE][Hive] :: Storage load took:14.41 seconds, recovery stamp:84
+14:35:44.544   entity: 44043, building: 0
+14:35:44.544   no lifetime: 139
+14:35:44.544   ignored: 40
+14:35:44.544   pathgraph's: 1214
+14:35:44.545 [CE][Hive] :: Initializing ... 
+14:35:44.610 [CE][InitializeMap] :: initialized: 0
+14:35:44.610 [CE][Hive] :: Initializing spawners ... 
+14:35:44.610 [CE][AnimalRespawner] (PRIReindeer) :: !!! Missing AI Template "HerdReindeer" for DE: "AnimalReindeer"
+14:35:45.35 [CE][LootRespawner] (PRIDummy) :: Initially (re)spawned:0, Nominal:40134, Total in Map: 41225 at 0 (sec)
+14:35:45.35   tests:0, repeats:0 fails:0, overtime:0
+14:35:45.48 !!! [CE][DE] DynamicEvent "VehicleCivilianSedan" has <limit> 'parent' or 'mixed', but event <max> is set to 0.
+14:35:45.48 !!!!!! [CE][DE] DynamicEvent "VehicleCivilianSedan" setup is invalid, event will be disabled.
+14:35:45.48 !!! [CE][DE] DynamicEvent "VehicleOffroadHatchback" has <limit> 'parent' or 'mixed', but event <max> is set to 0.
+14:35:45.48 !!!!!! [CE][DE] DynamicEvent "VehicleOffroadHatchback" setup is invalid, event will be disabled.
+14:35:45.48 !!! [CE][DE] DynamicEvent "VehicleSedan02" has <limit> 'parent' or 'mixed', but event <max> is set to 0.
+14:35:45.48 !!!!!! [CE][DE] DynamicEvent "VehicleSedan02" setup is invalid, event will be disabled.
+14:35:45.58 [CE][DynEvent] :: 78 types
+14:35:45.58 [00] AmbientFox
+14:35:45.58   Primary Spawner: "Ambient", active: yes, repeat: 1
+14:35:45.58 [01] AmbientHare
+14:35:45.58   Primary Spawner: "Ambient", active: yes, repeat: 1
+14:35:45.58 [02] AmbientHen
+14:35:45.58   Primary Spawner: "Ambient", active: yes, repeat: 1
+14:35:45.58 [03] AmbientBear
+14:35:45.58   Primary Spawner: "Ambient", active: yes, repeat: 1
+14:35:45.58 [04] AmbientPolarbear
+14:35:45.58   Primary Spawner: "Ambient", active: yes, repeat: 1
+14:35:45.58 [05] AmbientCow
+14:35:45.58   Primary Spawner: "Ambient", active: yes, repeat: 1
+14:35:45.58 [06] AmbientDeer
+14:35:45.58   Primary Spawner: "Ambient", active: yes, repeat: 1
+14:35:45.58 [07] AmbientGoat
+14:35:45.58   Primary Spawner: "Ambient", active: yes, repeat: 1
+14:35:45.58 [08] AmbientPig
+14:35:45.58   Primary Spawner: "Ambient", active: yes, repeat: 1
+14:35:45.58 [09] AnimalReindeer
+14:35:45.58   Primary Spawner: "Animal", active: yes, repeat: 1
+14:35:45.58 [10] AmbientRoeDeer
+14:35:45.58   Primary Spawner: "Ambient", active: yes, repeat: 1
+14:35:45.58 [11] AmbientSheep
+14:35:45.58   Primary Spawner: "Ambient", active: yes, repeat: 1
+14:35:45.58 [12] AmbientWildBoar
+14:35:45.58   Primary Spawner: "Ambient", active: yes, repeat: 1
+14:35:45.58 [13] AnimalWolf
+14:35:45.58   Primary Spawner: "Animal", active: yes, repeat: 1
+14:35:45.58 [14] AnimalArcticWolf
+14:35:45.58   Primary Spawner: "Animal", active: yes, repeat: 1
+14:35:45.58 [15] InfectedArmy
+14:35:45.58   Primary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [16] InfectedArmyHard
+14:35:45.58   Primary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [17] InfectedArmyHardJMC
+14:35:45.58   Primary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [18] InfectedArmyHardJMCWinter
+14:35:45.58   Primary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [19] InfectedCity
+14:35:45.58   Primary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [20] InfectedFirefighter
+14:35:45.58   Primary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [21] InfectedIndustrial
+14:35:45.58   Primary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [22] InfectedMedic
+14:35:45.58   Primary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [23] InfectedNBC
+14:35:45.58   Primary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [24] InfectedNBCYellow
+14:35:45.58   Primary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [25] InfectedPolice
+14:35:45.58   Primary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [26] InfectedPoliceHard
+14:35:45.58   Primary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [27] InfectedPrisoner
+14:35:45.58   Primary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [28] InfectedReligious
+14:35:45.58   Primary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [29] InfectedScientist
+14:35:45.58   Primary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [30] InfectedSolitude
+14:35:45.58   Primary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [31] InfectedVillage
+14:35:45.58   Primary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [32] ItemPlanks
+14:35:45.58   Primary Spawner: "Item", active: yes, repeat: 1
+14:35:45.58 [33] Loot
+14:35:45.58   Primary Spawner: "Loot", active: yes, repeat: 2
+14:35:45.58 [34] StaticBoatSubmarine
+14:35:45.58   Primary Spawner: "Static", active: yes, repeat: 1
+14:35:45.58 [35] StaticContaminatedArea
+14:35:45.58   Primary Spawner: "Static", active: yes, repeat: 1
+14:35:45.58 [36] StaticHeliCrash
+14:35:45.58   Primary Spawner: "Static", active: yes, repeat: 1
+14:35:45.58   Secondary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [37] StaticScientist
+14:35:45.58   Primary Spawner: "Static", active: yes, repeat: 1
+14:35:45.58 [38] StaticPoliceCar
+14:35:45.58   Primary Spawner: "Static", active: yes, repeat: 1
+14:35:45.58   Secondary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [39] TrajectoryApple
+14:35:45.58   Primary Spawner: "Trajectory", active: yes, repeat: 1
+14:35:45.58 [40] TrajectoryConiferous
+14:35:45.58   Primary Spawner: "Trajectory", active: yes, repeat: 1
+14:35:45.58 [41] TrajectoryDeciduous
+14:35:45.58   Primary Spawner: "Trajectory", active: yes, repeat: 1
+14:35:45.58 [42] TrajectoryHumus
+14:35:45.58   Primary Spawner: "Trajectory", active: yes, repeat: 1
+14:35:45.58 [43] TrajectoryPear
+14:35:45.58   Primary Spawner: "Trajectory", active: yes, repeat: 1
+14:35:45.58 [44] TrajectoryPlum
+14:35:45.58   Primary Spawner: "Trajectory", active: yes, repeat: 1
+14:35:45.58 [45] TrajectoryStones
+14:35:45.58   Primary Spawner: "Trajectory", active: yes, repeat: 1
+14:35:45.58 [46] VehicleBoat
+14:35:45.58   Primary Spawner: "Vehicle", active: yes, repeat: 1
+14:35:45.58 [47] VehicleBoatSTAG
+14:35:45.58   Primary Spawner: "Vehicle", active: yes, repeat: 1
+14:35:45.58 [48] VehicleCivilianSedan
+14:35:45.58   Primary Spawner: "Vehicle", active: no, repeat: 1
+14:35:45.58 [49] VehicleHatchback02
+14:35:45.58   Primary Spawner: "Vehicle", active: yes, repeat: 1
+14:35:45.58 [50] VehicleOffroadHatchback
+14:35:45.58   Primary Spawner: "Vehicle", active: no, repeat: 1
+14:35:45.58 [51] VehicleOffroad02
+14:35:45.58   Primary Spawner: "Vehicle", active: yes, repeat: 1
+14:35:45.58 [52] VehicleSedan02
+14:35:45.58   Primary Spawner: "Vehicle", active: no, repeat: 1
+14:35:45.58 [53] VehicleTruck01
+14:35:45.58   Primary Spawner: "Vehicle", active: yes, repeat: 1
+14:35:45.58 [54] StaticVanPinkies
+14:35:45.58   Primary Spawner: "Static", active: yes, repeat: 1
+14:35:45.58 [55] StaticVanAmbulance
+14:35:45.58   Primary Spawner: "Static", active: yes, repeat: 1
+14:35:45.58 [56] StaticSkeletonEventspawn
+14:35:45.58   Primary Spawner: "Static", active: yes, repeat: 1
+14:35:45.58 [57] StaticPlantFernA
+14:35:45.58   Primary Spawner: "Static", active: yes, repeat: 1
+14:35:45.58 [58] StaticPlantFernB
+14:35:45.58   Primary Spawner: "Static", active: yes, repeat: 1
+14:35:45.58 [59] StaticPlantFernC
+14:35:45.58   Primary Spawner: "Static", active: yes, repeat: 1
+14:35:45.58 [60] StaticSurvivorCamps
+14:35:45.58   Primary Spawner: "Static", active: yes, repeat: 1
+14:35:45.58   Secondary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [61] StaticConvoys
+14:35:45.58   Primary Spawner: "Static", active: yes, repeat: 1
+14:35:45.58   Secondary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [62] StaticPoliceCheckpoints
+14:35:45.58   Primary Spawner: "Static", active: yes, repeat: 1
+14:35:45.58   Secondary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [63] StaticWreckedTrains
+14:35:45.58   Primary Spawner: "Static", active: yes, repeat: 1
+14:35:45.58   Secondary Spawner: "Infected", active: yes, repeat: 1
+14:35:45.58 [64] StaticAirplaneCrate
+14:35:45.58   Primary Spawner: "Static", active: yes, repeat: 1
+14:35:45.58 [65] VehicleATVCivil
+14:35:45.58   Primary Spawner: "Vehicle", active: yes, repeat: 1
+14:35:45.58 [66] VehicleATVSTAG
+14:35:45.58   Primary Spawner: "Vehicle", active: yes, repeat: 1
+14:35:45.58 [67] VehicleRFMosquito
+14:35:45.58   Primary Spawner: "Vehicle", active: yes, repeat: 1
+14:35:45.58 [68] VehicleUAZ
+14:35:45.58   Primary Spawner: "Vehicle", active: yes, repeat: 1
+14:35:45.58 [69] VehicleVodnik
+14:35:45.58   Primary Spawner: "Vehicle", active: yes, repeat: 1
+14:35:45.58 [70] VehicleBus
+14:35:45.58   Primary Spawner: "Vehicle", active: yes, repeat: 1
+14:35:45.58 [71] VehicleTractor
+14:35:45.58   Primary Spawner: "Vehicle", active: yes, repeat: 1
+14:35:45.58 [72] VehicleMH6Helicopter
+14:35:45.58   Primary Spawner: "Vehicle", active: yes, repeat: 1
+14:35:45.58 [73] VehicleMerlinHelicopter
+14:35:45.58   Primary Spawner: "Vehicle", active: yes, repeat: 1
+14:35:45.58 [74] VehicleUh1hHelicopter
+14:35:45.58   Primary Spawner: "Vehicle", active: yes, repeat: 1
+14:35:45.58 [75] VehicleGyroHelicopter
+14:35:45.58   Primary Spawner: "Vehicle", active: yes, repeat: 1
+14:35:45.58 [76] VehicleUtilityBoat
+14:35:45.58   Primary Spawner: "Vehicle", active: yes, repeat: 1
+14:35:45.58 [77] VehicleZodiacBoat
+14:35:45.58   Primary Spawner: "Vehicle", active: yes, repeat: 1
+14:35:45.58 [CE][Hive] :: Initializing of spawners done.
+14:35:45.76 [CE][Hive] :: Init sequence finished.
+14:35:45.76 Player connect enabled
+14:35:47.733 [IdleMode] Entering IN - save processed
+14:38:06.491 [Login]: Adding player Survivor (22645055) to login queue at position 0
+14:38:06.491 [LoginMachine]: Add player Survivor (22645055 192.168.56.1:64776)
+14:38:06.491 [StateMachine]: Player Survivor (dpnid 22645055 uid ) Entering AuthPlayerLoginState
+14:38:06.789 [IdleMode] Leaving OUT
+14:38:06.837 [StateMachine]: Player Survivor (dpnid 22645055 uid ) State Error (AuthPlayerLoginState)
+14:38:06.837 Player Unknown (22645055) kicked from server: 120 (Le client a un PBO qui n'est pas prÃ©sent sur le serveur. (C:\steam\steamapps\common\DayZ\!Workshop\@DeerIsle Official (Experimental - Dev Build)\addons\abandoned_building.pbo))
+14:38:06.837 [StateMachine]: Kick player Survivor (dpnid 22645055 uid ) State AuthPlayerLoginState
+14:38:06.853 [Disconnect]: Client 22645055 early disconnect
+14:38:06.854 [Disconnect]: No identity -> remove player info 22645055 
+14:38:06.854 [Disconnect]: DisconnectPlayerFinish 22645055
+14:38:06.854 [Disconnect]: Remove player info 22645055
+14:38:06.855 [Disconnect]: Player destroy 22645055 
+14:38:28.889 [CE][LootRespawner] (PRIDummy) :: Item [0] causing search overtime: "Offroad_02_Wheel"
+14:38:28.989 [CE][LootRespawner] (PRIDummy) :: Item [1] causing search overtime: "ExpansionHelipadKit"
+14:38:29.89 [CE][LootRespawner] (PRIDummy) :: Item [2] causing search overtime: "Offroad_02_Hood"
+14:38:29.189 [CE][LootRespawner] (PRIDummy) :: Item [3] causing search overtime: "ExpansionHescoKit"
+14:38:29.288 [CE][LootRespawner] (PRIDummy) :: Item [4] causing search overtime: "Offroad_02_Trunk"
+14:38:29.389 [CE][LootRespawner] (PRIDummy) :: Item [5] causing search overtime: "ExpansionCamoTentKit"
+14:38:29.489 [CE][LootRespawner] (PRIDummy) :: Item [6] causing search overtime: "ExpansionCamoBoxKit"
+14:38:29.589 [CE][LootRespawner] (PRIDummy) :: Item [7] causing search overtime: "ExpansionBarrierGateKit"
+14:38:29.689 [CE][LootRespawner] (PRIDummy) :: Item [8] causing search overtime: "AmmoBox_Expansion_46x30_25rnd"
+14:38:29.789 [CE][LootRespawner] (PRIDummy) :: Item [9] causing search overtime: "Chainmail_Coif"
+14:38:29.889 [CE][LootRespawner] (PRIDummy) :: Item [10] causing search overtime: "Mace"
+14:38:29.988 [CE][LootRespawner] (PRIDummy) :: Item [11] causing search overtime: "EyeMask_Blue"
+14:38:30.89 [CE][LootRespawner] (PRIDummy) :: Item [12] causing search overtime: "MedievalBoots"
+14:38:30.189 [CE][LootRespawner] (PRIDummy) :: Item [13] causing search overtime: "JMC_Book_DIARYFROST"
+14:38:55.790 [CE][LootRespawner] (PRIDummy) :: Item [14] causing search overtime: "Offroad_02_Wheel"
+14:38:55.890 [CE][LootRespawner] (PRIDummy) :: Item [15] causing search overtime: "ExpansionHelipadKit"
+14:38:55.990 [CE][LootRespawner] (PRIDummy) :: Item [16] causing search overtime: "Offroad_02_Hood"
+14:38:56.90 [CE][LootRespawner] (PRIDummy) :: Item [17] causing search overtime: "ExpansionHescoKit"
+14:38:56.190 [CE][LootRespawner] (PRIDummy) :: Item [18] causing search overtime: "Offroad_02_Trunk"
+14:38:56.290 [CE][LootRespawner] (PRIDummy) :: Item [19] causing search overtime: "ExpansionCamoTentKit"
+14:38:56.390 [CE][LootRespawner] (PRIDummy) :: Item [20] causing search overtime: "ExpansionCamoBoxKit"
+14:38:56.490 [CE][LootRespawner] (PRIDummy) :: Item [21] causing search overtime: "ExpansionBarrierGateKit"
+14:38:56.590 [CE][LootRespawner] (PRIDummy) :: Item [22] causing search overtime: "AmmoBox_Expansion_46x30_25rnd"
+14:38:56.690 [CE][LootRespawner] (PRIDummy) :: Item [23] causing search overtime: "Chainmail_Coif"
+14:38:56.790 [CE][LootRespawner] (PRIDummy) :: Item [24] causing search overtime: "Mace"
+14:38:56.890 [CE][LootRespawner] (PRIDummy) :: Item [25] causing search overtime: "EyeMask_Blue"
+14:38:56.989 [CE][LootRespawner] (PRIDummy) :: Item [26] causing search overtime: "MedievalBoots"
+14:38:57.90 [CE][LootRespawner] (PRIDummy) :: Item [27] causing search overtime: "JMC_Book_DIARYFROST"
+14:38:59.592 [CE][Links] found 0 total links between groups, of 1
+14:38:59.592 [CE][SpawnRandomLoot] (StaticBoatSubmarine) :: Type: Land_STAG_Submarine_Dark, lootmin: 8, lootmax: 10, wanted: 9, deloot: 3, containermaxsum: 18
+14:38:59.599 	!!! (child) Land_STAG_Submarine_Dark spawns loot or dispatch but can not be saved because of non-saveable StorageCategory.
+14:38:59.600 [CE][Links] found 0 total links between groups, of 2
+14:38:59.600 [CE][SpawnRandomLoot] (StaticBoatSubmarine) :: Type: Land_STAG_Submarine_Dark, lootmin: 8, lootmax: 10, wanted: 8, deloot: 3, containermaxsum: 18
+14:38:59.609 	!!! (child) Land_STAG_Submarine_Dark spawns loot or dispatch but can not be saved because of non-saveable StorageCategory.
+14:38:59.610 [CE][Links] found 0 total links between groups, of 3
+14:38:59.610 [CE][SpawnRandomLoot] (StaticBoatSubmarine) :: Type: Land_STAG_Submarine_Dark, lootmin: 8, lootmax: 10, wanted: 8, deloot: 3, containermaxsum: 18
+14:38:59.617 	!!! (child) Land_STAG_Submarine_Dark spawns loot or dispatch but can not be saved because of non-saveable StorageCategory.
+14:38:59.618 [CE][Links] found 0 total links between groups, of 4
+14:38:59.618 [CE][SpawnRandomLoot] (StaticBoatSubmarine) :: Type: Land_STAG_Submarine_Dark, lootmin: 8, lootmax: 10, wanted: 8, deloot: 3, containermaxsum: 18
+14:38:59.624 	!!! (child) Land_STAG_Submarine_Dark spawns loot or dispatch but can not be saved because of non-saveable StorageCategory.
+14:38:59.625 [CE][Links] found 0 total links between groups, of 5
+14:38:59.625 [CE][SpawnRandomLoot] (StaticBoatSubmarine) :: Type: Land_STAG_Submarine_Dark, lootmin: 8, lootmax: 10, wanted: 8, deloot: 3, containermaxsum: 18
+14:38:59.632 	!!! (child) Land_STAG_Submarine_Dark spawns loot or dispatch but can not be saved because of non-saveable StorageCategory.
+14:38:59.889 [CE][VehicleRespawner] (PRIContaminatedArea) :: Initial random enabled for "StaticContaminatedArea" - Chosen nominal: 1
+14:39:22.692 [CE][LootRespawner] (PRIDummy) :: Item [28] causing search overtime: "Offroad_02_Wheel"
+14:39:22.792 [CE][LootRespawner] (PRIDummy) :: Item [29] causing search overtime: "ExpansionHelipadKit"
+14:39:22.892 [CE][LootRespawner] (PRIDummy) :: Item [30] causing search overtime: "Offroad_02_Hood"
+14:39:22.991 [CE][LootRespawner] (PRIDummy) :: Item [31] causing search overtime: "ExpansionHescoKit"
+14:39:23.92 [CE][LootRespawner] (PRIDummy) :: Item [32] causing search overtime: "Offroad_02_Trunk"
+14:39:23.192 [CE][LootRespawner] (PRIDummy) :: Item [33] causing search overtime: "ExpansionCamoTentKit"
+14:39:23.292 [CE][LootRespawner] (PRIDummy) :: Item [34] causing search overtime: "ExpansionCamoBoxKit"
+14:39:23.392 [CE][LootRespawner] (PRIDummy) :: Item [35] causing search overtime: "ExpansionBarrierGateKit"
+14:39:23.492 [CE][LootRespawner] (PRIDummy) :: Item [36] causing search overtime: "AmmoBox_Expansion_46x30_25rnd"
+14:39:23.592 [CE][LootRespawner] (PRIDummy) :: Item [37] causing search overtime: "Chainmail_Coif"
+14:39:23.692 [CE][LootRespawner] (PRIDummy) :: Item [38] causing search overtime: "Mace"
+14:39:23.792 [CE][LootRespawner] (PRIDummy) :: Item [39] causing search overtime: "EyeMask_Blue"
+14:39:23.892 [CE][LootRespawner] (PRIDummy) :: Item [40] causing search overtime: "MedievalBoots"
+14:39:23.992 [CE][LootRespawner] (PRIDummy) :: Item [41] causing search overtime: "JMC_Book_DIARYFROST"
+14:39:24.695 [CE][Links] found 0 total links between groups, of 6
+14:39:24.695 [CE][SpawnRandomLoot] (StaticPoliceCar) :: Type: Land_Wreck_sed01_aban1_police, lootmin: 3, lootmax: 5, wanted: 4, deloot: 3, containermaxsum: 6
+14:39:24.696 	!!! (child) Land_Wreck_sed01_aban1_police spawns loot or dispatch but can not be saved because of non-saveable StorageCategory.
+14:39:24.697 [CE][Links] found 0 total links between groups, of 7
+14:39:24.697 [CE][SpawnRandomLoot] (StaticPoliceCar) :: Type: Land_Wreck_sed01_aban1_police, lootmin: 3, lootmax: 5, wanted: 4, deloot: 3, containermaxsum: 6
+14:39:24.698 	!!! (child) Land_Wreck_sed01_aban1_police spawns loot or dispatch but can not be saved because of non-saveable StorageCategory.
+14:39:24.698 [CE][Links] found 0 total links between groups, of 8
+14:39:24.698 [CE][SpawnRandomLoot] (StaticPoliceCar) :: Type: Land_Wreck_sed01_aban1_police, lootmin: 3, lootmax: 5, wanted: 4, deloot: 3, containermaxsum: 6
+14:39:24.699 	!!! (child) Land_Wreck_sed01_aban1_police spawns loot or dispatch but can not be saved because of non-saveable StorageCategory.
+14:39:24.700 [CE][Links] found 0 total links between groups, of 9
+14:39:24.700 [CE][SpawnRandomLoot] (StaticPoliceCar) :: Type: Land_Wreck_sed01_aban2_police, lootmin: 3, lootmax: 5, wanted: 4, deloot: 3, containermaxsum: 6
+14:39:24.701 	!!! (child) Land_Wreck_sed01_aban2_police spawns loot or dispatch but can not be saved because of non-saveable StorageCategory.
+14:39:24.704 [CE][Links] found 0 total links between groups, of 10
+14:39:24.704 [CE][SpawnRandomLoot] (StaticPoliceCar) :: Type: Land_Wreck_sed01_aban2_police, lootmin: 3, lootmax: 5, wanted: 3, deloot: 3, containermaxsum: 6
+14:39:24.704 	!!! (child) Land_Wreck_sed01_aban2_police spawns loot or dispatch but can not be saved because of non-saveable StorageCategory.
+14:39:24.709 [CE][Links] found 0 total links between groups, of 11
+14:39:24.709 [CE][SpawnRandomLoot] (StaticPoliceCar) :: Type: Land_Wreck_sed01_aban2_police, lootmin: 3, lootmax: 5, wanted: 3, deloot: 3, containermaxsum: 6
+14:39:24.709 	!!! (child) Land_Wreck_sed01_aban2_police spawns loot or dispatch but can not be saved because of non-saveable StorageCategory.
+14:39:27.95 !!! [CE][VehicleRespawner] (PRIBoat) :: Respawning: "VehicleBoat" - Failed to spawn the requested amount (1 < 39) within 117 attempts.
+14:39:27.392 !!! [CE][VehicleRespawner] (PRIBoatSTAG) :: Respawning: "VehicleBoatSTAG" - Failed to spawn the requested amount (0 < 3) within 9 attempts.
+14:39:34.470 [IdleMode] Entering IN - save processed
+=======================================================
+-------------------------------------------------------
+Time: 14:40:26
+Exception code: C0000374 Un segment de mémoire a été endommagé.
+ at 854FCA39
+Allocator: system
+graphics:  No
+resolution:  160x120x32
+Addons:
+  STAG_Barrel in STAG_Industries\data\barrel\
+  DayZExpansion_Sounds_Vehicles_Air_Uh1h in DayZExpansion\Sounds\Vehicles\Air\Uh1h\
+  DayZExpansion_Weapons_Rifles_G36 in DayZExpansion\Objects\Weapons\Firearms\Rifles\G36\
+  TK_WallL in TK\buildings\wall\wall_l\
+  Survivalists_Weapons_JMC_Pistols_ttglock18c in Survivalists_Weapons_JMC\pistols\ttglock18c\
+  DayZExpansion_Objects_Gear_Spraycans in DayZExpansion\Objects\Gear\Spraycans\
+  BuilderItems_Industrial in DayZExpansion\Objects\Structures\BuilderItems\DZ\industrial\
+  STAG_BallisticHelmet in STAG_Industries\data\helmet\
+  DayZExpansion_Quests_Objects_Containers in DayZExpansion\Quests\Dta\Objects\Containers\
+  DayZExpansion_Vehicles_Ground_CivilianSedan in DayZExpansion\Vehicles\Ground\CivillianSedan\
+  DayZExpansion_Vehicles_Ground_LandRover in DayZExpansion\Vehicles\Ground\LandRover\
+  DZ_Surfaces_Sakhal in DZ\surfaces_sakhal\
+  DZ_Weapons_Firearms_UMP in DZ\weapons\firearms\ump45\
+  DZ_Nonlethal_Shockpistol in DZ\weapons\nonlethal\shockpistol\
+  DayZExpansion_Sounds_Vehicles_Air_Gyro in DayZExpansion\Sounds\Vehicles\Air\Gyro\
+  STAG_Beret in STAG_Industries\data\beret\
+  DayZExpansion_Weapons_Sniper_AWM in DayZExpansion\Objects\Weapons\Firearms\Sniper\AWM\
+  JMC_DeerIsle_Scripts in deerisle\scripts\
+  DayZExpansion_PersonalStorage_Scripts in DayZExpansion\PersonalStorage\Scripts\
+  Survivalists_Weapons_JMC_Rifles_Kar98 in Survivalists_Weapons_JMC\rifles\kar98\
+  jmc_SnowOwl_Optic in Weapons\data\attachments\snowowloptic\
+  DayZExpansion_Vehicles_Air_HatchBird in DayZExpansion\Vehicles\Air\HatchBird\
+  DayZExpansion_Vehicles_Water_Boat_Zodiac in DayZExpansion\Vehicles\Water\Zodiac\
+  DZ_Pistols_1911 in DZ\weapons\pistols\1911\
+  jmc_iceland_facility in deerisle\objects\iceland_facility\
+  BuilderItems_Panels in DayZExpansion\Objects\Structures\BuilderItems\DZ\panels\
+  Survivalists_Weapons_JMC_Pistols_ttm9 in Survivalists_Weapons_JMC\pistols\ttm9\
+  DayZExpansion_PersonalStorage_Preload in 0_DayZExpansion_PersonalStorage_Preload\
+  Survivalists_Weapons_JMC_Rifles_ttar9 in Survivalists_Weapons_JMC\rifles\ttar9\
+  DayZExpansion_Objects_BaseBuilding_Flags in DayZExpansion\Objects\Basebuilding\Flags\
+  jmc_lugge_deco_raft in deerisle\objects\Lugge_Raft\
+  DayZExpansion_Sounds_Vehicles_Air_An2 in DayZExpansion\Sounds\Vehicles\Air\An2\
+  DeerIsle_Plants in deerisle\objects\jmc_di_objects\plants\
+  DayZExpansion_Vehicles_Ground_Hatchback in DayZExpansion\Vehicles\Ground\OffroadHatchback\
+  DZ_Gear_Medical in DZ\gear\medical\, DZ_Vehicles_Parts in DZ\vehicles\parts\
+  DayZExpansion_LanguageCore_Chat in DayZExpansion\languagecore\Chat\
+  Survivalists_Weapons_JMC_Pistols in Survivalists_Weapons_JMC\pistols\
+  Survivalists_Weapons_JMC_Explosives in Survivalists_Weapons_JMC\explosives\
+  DZ_Animals_sus_scrofa in DZ\animals\sus_scrofa\
+  DZ_Sounds_Effects in DZ\sounds\hpp\
+  DZ_Weapons_Explosives in DZ\weapons\explosives\
+  DZ_Weapons_Launchers_RPG7 in DZ\weapons\launchers\rpg7\
+  DZ_Weapons_Magazines in DZ\weapons\attachments\magazine\
+  BuilderItems_Items in DayZExpansion\Objects\Structures\BuilderItems\DZ\statics\vanillaitems\
+  JMC_AncientRuins in deerisle\objects\jmc_di_objects\ancientruin\
+  Survivalists_Weapons_JMC_Rifles in Survivalists_Weapons_JMC\rifles\
+  DayZExpansion_ReflexOptic in DayZExpansion\Objects\Weapons\Attachments\Optics\Reflex\
+  DZ_Characters_Tops in DZ\characters\tops\
+  DayZExpansion_Weapons_SMG_VityazSN in DayZExpansion\Objects\Weapons\Firearms\SMG\VityazSN\
+  DayZExpansion_NameTags_Scripts in DayZExpansion\NameTags\Scripts\
+  Survivalists_Weapons_JMC_Shotguns in Survivalists_Weapons_JMC\shotguns\
+  JMC_Till_Sounds in JMC_EG\scripts\4_world\temple\
+  STAG_6sh118 in STAG_Industries\data\6sh118\
+  DZ_Characters_Shoes in DZ\characters\shoes\
+  DZ_Weapons_Launchers in DZ\weapons\launchers\
+  DZ_Pistols_Magnum in DZ\weapons\pistols\magnum\
+  DayZExpansion_NameTags_Preload in 0_DayZExpansion_NameTags_Preload\
+  BuilderItems_water_sakhal in DayZExpansion\Objects\Structures\BuilderItems\Sakhal\water\
+  DayZExpansion_Objects_BaseBuilding_Pillars in DayZExpansion\Objects\Basebuilding\Pillars\
+  deerisle_objects_FW190 in deerisle\objects\FW190\
+  STAG_Bandana in STAG_Industries\data\bandana\
+  DayZExpansion_Navigation_Worlds in DayZExpansion\Navigation\Worlds\
+  DZ_Sounds_Vehicles in DZ\sounds\vehicles\
+  DZ_Weapons_Firearms_pm73rak in DZ\weapons\firearms\pm73rak\
+  DZ_Pistols_Encore in DZ\weapons\pistols\longhorn\
+  STAG_MountainBag in STAG_Industries\data\mtnbag\
+  Survivalists_Weapons_JMC_Rifles_ttscarl in Survivalists_Weapons_JMC\rifles\ttscarl\
+  STAG_Cargo_Pants in STAG_Industries\data\pants\
+  STAG_Knifes in STAG_Industries\data\knifes\
+  DayZExpansion_LanguageCore_Licensed in DayZExpansion\languagecore\Licensed\
+  jmc_alc in deerisle\objects\alc\
+  DayZExpansion_Weapons_SMG_Kedr in DayZExpansion\Objects\Weapons\Firearms\SMG\P99\
+  TK_WallS in TK\buildings\wall\
+  DayZExpansion_Vehicles_Air_An2 in DayZExpansion\Vehicles\Air\An2\
+  Survivalists_Weapons_JMC_rifles_ttkrp39 in Survivalists_Weapons_JMC\rifles\ttkrp39\
+  DayZExpansion_Vehicles_Objects_Gear in DayZExpansion\Vehicles\Objects\Gear\
+  DZ_Structures_Bliss_Roads in DZ\structures_bliss\roads\, DZ_UI in DZ\ui\
+  DZ_Pistols_Derringer in DZ\weapons\pistols\derringer\
+  DZ_Worlds_Enoch_Data in DZ\worlds\enoch\data\
+  STAG_Vest in STAG_Industries\data\vest\
+  DayZExpansion_Sounds_Ground_TT650 in DayZExpansion\Sounds\Vehicles\Ground\TT650\
+  BuilderItemsBliss_Plants in DayZExpansion\Objects\Structures\BuilderItems\Bliss\plants\
+  DayZExpansion_Sounds_Missions in DayZExpansion\Missions\Sounds\
+  Survivalists_Weapons_JMC_Melee_Blade in Survivalists_Weapons_JMC\melee\blade\
+  jmc_military_lootcases in deerisle\objects\militarycases\
+  JM_COT_Objects_Debug in JM\COT\Objects\Debug\
+  Survivalists_Weapons_JMC_Rifles_aek in Survivalists_Weapons_JMC\rifles\aek\
+  DayZExpansion_Vehicles_Ground_oldbike in DayZExpansion\Vehicles\Ground\OldBike\
+  DayZExpansion_Worlds_ChernarusPlus_Rays in DayZExpansion\Worlds\ChernarusPlus\VanillaRays\
+  DZ_Gear_Drinks in DZ\gear\drinks\, DZ_Vehicles_Wheeled in DZ\vehicles\wheeled\
+  DZ_Weapons_Archery_Bow_pvc in DZ\weapons\archery\bow_pvc\
+  DZ_Weapons_Melee_Blunt in DZ\weapons\melee\blunt\
+  DZ_Worlds_Enoch_Navmesh in DZ\worlds\enoch\navmesh\, DZ_Scripts in scripts\
+  STAG_TacticalGloves in STAG_Industries\data\golves\
+  DayZExpansion_Core_Objects_Bases in DayZExpansion\Core\Objects\Bases\
+  JM_CF_GUI in JM\CF\GUI\, DZ_Animals_bos_taurus in DZ\animals\bos_taurus\
+  DZ_ModuleZ in DZ\modulesDayz\
+  DZ_Weapons_Firearms_Ruger1022 in DZ\weapons\firearms\ruger1022\
+  DZ_Weapons_Firearms_Winchester70 in DZ\weapons\firearms\winchester70\
+  DZ_Pistols_Flaregun in DZ\weapons\pistols\flaregun\
+  DZ_Pistols in DZ\weapons\pistols\, STAG_Canteen in STAG_Industries\data\canteens\
+  A2_Props_CH47 in ArmA2_Props\ch47\
+  DayZExpansion_Navigation_GUI in DayZExpansion\Navigation\GUI\
+  jmc_ce_looot_objects in deerisle\objects\CELootObjects\
+  Survivalists_Weapons_JMC_Attachments_Muzzles in Survivalists_Weapons_JMC\attachments\muzzle\
+  DayZExpansion_Objects_Structures_BuilderItems_Bliss in DayZExpansion\Objects\Structures\BuilderItems\Bliss\
+  DayZExpansion_LanguageCore_Garage in DayZExpansion\languagecore\Garage\
+  jmc_SnowOwl in Weapons\data\snowowl\
+  DayZExpansion_Sounds_Weapons_Ricochet in DayZExpansion\Sounds\Weapons\Ricochet\
+  DZ_Worlds_Sakhal in DZ\worlds\sakhal\world\
+  DZ_Structures_Bliss_Walls in DZ\structures_bliss\walls\
+  jmc_SnowOwl_Ammo in Weapons\data\ammunition\snowowl\
+  DayZExpansion_Objects_BaseBuilding_Ramps in DayZExpansion\Objects\Basebuilding\Ramps\
+  DayZExpansion_Objects_BaseBuilding_Items in DayZExpansion\Objects\Basebuilding\Items\
+  JMC_DeerIsle_ClassicWalk in JMC_ClassicWalk\
+  DayZExpansion_LanguageCore_SpawnSelection in DayZExpansion\languagecore\SpawnSelection\
+  Survivalists_Weapons_JMC_Shotguns_ttitacha in Survivalists_Weapons_JMC\shotguns\ttitacha\
+  deerisle_navmesh in deerisle\navmesh\
+  DayZExpansion_Objects_Firearms_RPG7 in DayZExpansion\Objects\Weapons\Firearms\RPG7\
+  jmc_fastfood in deerisle\objects\fastfood\
+  BuilderItems_Billboards in DayZExpansion\Objects\Structures\BuilderItems\DZ\billboards\
+  DZ_Plants_Bliss in DZ\plants_bliss\
+  DZ_Worlds_Chernarusplus_World in DZ\worlds\chernarusplus\world\
+  DayZExpansion_Hardline_Objects_Gear in DayZExpansion\Hardline\Objects\Gear\
+  DayZExpansion_Vehicles_Air_C130J in DayZExpansion\Vehicles\Air\C130J\
+  JMC_Smokey in smk\
+  BuilderItems_StaticItems_Core in DayZExpansion\Objects\Structures\BuilderItems\DZ\statics\core\
+  DayZExpansion_Vehicles_Data in DayZExpansion\Vehicles\Data\
+  Benni_CatFood in deerisle\objects\catfood\
+  DZ_Weapons_Firearms_AKM in DZ\weapons\firearms\akm\
+  DZ_Worlds_ChernarusPlus_CE in DZ\worlds\chernarusplus\ce\
+  DayZExpansion_BaseBuilding_GUI in DayZExpansion\BaseBuilding\GUI\
+  DayZExpansion_Sounds_Explosions in DayZExpansion\Sounds\Explosions\
+  DeerIsle_Proxies in deerisle\objects\jmc_di_objects\proxies\
+  DeerIsle_FinderOuter in deerisle\DeerIsle_FinderOuter\
+  DayZExpansion_Sounds_UI in DayZExpansion\Sounds\UI\
+  DZ_Structures_Bliss_Ruins in DZ\structures_bliss\ruins\
+  DZ_Structures_Bliss_Underground in DZ\structures_bliss\underground\
+  DZ_weapons_nonlethal_DartGun in DZ\weapons\nonlethal\dartgun\
+  DayZExpansion_Core_Scripts in DayZExpansion\Core\Scripts\
+  BuilderItems_Bliss_Residential in DayZExpansion\Objects\Structures\BuilderItems\Bliss\residential\
+  DayZExpansion_Navigation_Preload in 0_DayZExpansion_Navigation_Preload\
+  Expansion_Headgear in DayZExpansion\Data\Characters\Headgear\
+  TK_Buildings in TK\buildings\
+  DayZExpansion_Objects_Gear_Gps in DayZExpansion\Objects\Gear\Gps\
+  DF_Scripts in DabsFramework\Scripts\, JM_CF_Defines in JM\CF\Defines\
+  DZ_Animals_bos_taurus_fem in DZ\animals\bos_taurus_fem\
+  DZ_Characters_Pants in DZ\characters\pants\
+  DZ_Characters_Vests in DZ\characters\vests\
+  DZ_Weapons_Firearms_Scout in DZ\weapons\firearms\scout\
+  DZ_Weapons_Firearms_IZH18 in DZ\weapons\firearms\izh18\
+  DZ_Weapons_Launchers_M203 in DZ\weapons\launchers\m203\
+  JMC_AudioFix in JMC_AudioFix\
+  BuilderItems_Expansion_Airdrop in DayZExpansion\Objects\Structures\BuilderItems\Expansion\Airdrop\
+  DayZExpansion_Chat_Preload in 0_DayZExpansion_Chat_Preload\
+  TK_Plants in TK\vegetation\
+  DayZExpansion_Core_Preload in 0_DayZExpansion_Core_Preload\
+  DZ_Animals_gallus_gallus_domesticus in DZ\animals\gallus_gallus_domesticus\
+  DZ_Data_Data_ParticleEffects in DZ\data\data\particleeffects\
+  DZ_Pistols_mkii in DZ\weapons\pistols\mkii\
+  TK_Ind_Shed in TK\buildings\ind\ind_shed\
+  STAG_Cap in STAG_Industries\data\baseballcap\, JMC_Reading in JMC_Reading\
+  DF_GUI in DabsFramework\GUI\, JM_CF_Scripts in JM\CF\Scripts\
+  DZ_Structures_Roads in DZ\structures\roads\
+  DZ_Weapons_Firearms_cz61 in DZ\weapons\firearms\cz61\
+  BuilderItems_Sidewalks in DayZExpansion\Objects\Structures\BuilderItems\DZ\sidewalks\
+  jmc_atv_STAG in STAG_Industries\data\atv\
+  DayZExpansion_DefineTest in DayZExpansion\DefineTest\
+  DeerIsle_Textures in deerisle\objects\jmc_di_objects\textures\
+  TK_Misc_Lamp in TK\buildings\misc\misc_lamp\
+  DayZExpansion_Objects_Gear_Breifcase in DayZExpansion\Core\Objects\Briefcase\
+  Survivalists_Weapons_JMC_Rifles_avs36 in Survivalists_Weapons_JMC\rifles\avs36\
+  Survivalists_Weapons_JMC_Rifles_ESP_M14 in Survivalists_Weapons_JMC\rifles\esp_m14\
+  DayZExpansion_Navigation_Scripts in DayZExpansion\Navigation\Scripts\
+  STAG_Consumables in STAG_Industries\data\consumables\, JMC_Boats in JMC_Boats\
+  DayZExpansion_Quests_Scripts in DayZExpansion\Quests\Scripts\
+  DayZExpansion_Vehicles_Ground_UAZ in DayZExpansion\Vehicles\Ground\UAZ\
+  DZ_Animals_sus_domesticus in DZ\animals\sus_domesticus\
+  DZ_Animals_capra_hircus_fem in DZ\animals\capra_hircus_fem\
+  DZ_Gear_Containers in DZ\gear\containers\
+  DZ_Weapons_Attachments_Data in DZ\weapons\attachments\data\
+  DayZExpansion_Quests_Preload in 0_DayZExpansion_Quests_Preload\
+  DayZExpansion_Weapons_Shotguns_DT11 in DayZExpansion\Objects\Weapons\Firearms\Shotguns\DT11\
+  jmc_Prototype in Weapons\data\prototype\
+  Survivalists_Weapons_JMC_Rifles_Junkak in Survivalists_Weapons_JMC\rifles\junkak\
+  DeerIsle_Shaman in deerisle\objects\shaman\
+  DayZExpansion_LanguageCore_Navigation in DayZExpansion\languagecore\Navigation\
+  UnlimitedALe_pepega_20880910 in UnlimitedALe\oufzfm3k9bpc\n042prchkznt\nywecmkpkujz\0yizn6leji4l\kvrjycarkdme\g2pyrmx6apmo.nxhkcxhepygb.51353697.rvmat\
+  DayZExpansion_Weapons_Optics_DeltaPoint in DayZExpansion\Objects\Weapons\Attachments\Optics\Deltapoint\
+  STAG_Industries_Submarine in STAG_Industries_Submarine\
+  JM_COT_Scripts in JM\COT\Scripts\, STAG_Boots in STAG_Industries\data\boots\
+  DayZExpansion_AI_Preload in 0_DayZExpansion_AI_Preload\
+  DayZExpansion_Objects_Gear_Guitar in DayZExpansion\Objects\Gear\Guitar\
+  DayZExpansion_Chat_Scripts in DayZExpansion\Chat\Scripts\
+  DayZExpansion_LanguageCore_MapAssets in DayZExpansion\languagecore\MapAssets\
+  STAG_Boats in STAG_Industries\data\boat\, DZ_Gear_Books in DZ\gear\books\
+  DZ_Pistols_pmm in DZ\weapons\pistols\pmm\
+  BuilderItems_Parts in DayZExpansion\Objects\Structures\BuilderItems\DZ\parts\
+  DayZExpansion_Objects_BaseBuilding_Data in DayZExpansion\Objects\Basebuilding\Data\
+  DayZExpansion_Core_GUI in DayZExpansion\Core\GUI\
+  Expansion_Lasers_Impacts in DayZExpansion\Objects\Weapons\Attachments\Lasers\impacts\
+  Expansion_Tops in DayZExpansion\Data\Characters\Tops\
+  DayZExpansion_Stanag60RND in DayZExpansion\Objects\Weapons\Attachments\Support\Stanag60\
+  Survivalists_Weapons_JMC_Rifles_Higgins in Survivalists_Weapons_JMC\rifles\higgins\
+  TK_HouseA in TK\buildings\housea\
+  Survivalists_Weapons_JMC_Smgs_ttagram in Survivalists_Weapons_JMC\smgs\ttagram\
+  DayZExpansion_Skins in DayZExpansion\Skins\Weapons\
+  DZ_Worlds_Sakhal_Navmesh in DZ\worlds\sakhal\navmesh\
+  DZ_Animals_AnimConfig in DZ\animals\animconfig\
+  DZ_Structures_Walls in DZ\structures\walls\
+  DZ_Weapons_Launchers_M79 in DZ\weapons\launchers\m79\
+  DZ_Weapons_Launchers_GP25 in DZ\weapons\launchers\gp25\
+  DZ_Weapons_Muzzles in DZ\weapons\attachments\muzzle\
+  DayZExpansion_Book_Scripts in DayZExpansion\Book\Scripts\
+  Survivalists_Weapons_JMC_Melee_Blunt in Survivalists_Weapons_JMC\melee\blunt\
+  STAG_CoyoteBag in STAG_Industries\data\cybag\
+  Survivalists_Weapons_JMC_Adapters in Survivalists_Weapons_JMC\attachments\adapters\
+  ADM_Diving_Mod in AdmiralsDivingMod\, A2_Props_MV22 in ArmA2_Props\mv22\
+  STAG_RepaitKit in STAG_Industries\data\repairkit\
+  Survivalists_Weapons_JMC_Rifles_ttbar in Survivalists_Weapons_JMC\rifles\ttbar\
+  DayZExpansion_P2PMarket_Scripts in DayZExpansion\P2PMarket\Scripts\
+  DayZExpansion_Garage_Scripts in DayZExpansion\Garage\Scripts\
+  DayZExpansion_Quests_Particles in DayZExpansion\Quests\Particles\
+  DayZExpansion_Sounds_Ground_Bus in DayZExpansion\Sounds\Vehicles\Ground\Bus\
+  DZ_Weapons_Firearms_Repeater in DZ\weapons\firearms\repeater\
+  DZ_Surfaces_Deerisle in deerisle\surfaces\
+  DayZExpansion_Garage_GUI in DayZExpansion\Garage\GUI\
+  BuilderItems_Whywouldanyoneusethese in DayZExpansion\Objects\Structures\BuilderItems\DZ\water\
+  DayZExpansion_AI_Scripts in DayZExpansion\AI\Scripts\
+  DayZExpansion_P2PMarket_Preload in 0_DayZExpansion_P2PMarket_Preload\
+  DayZExpansion_Objects_Explosives_Licensed in DayZExpansion\Objects\Weapons\Explosives\
+  Survivalists_Weapons_JMC_Rifles_ESPAR22 in Survivalists_Weapons_JMC\rifles\espar22\
+  DayZExpansion_Garage_Preload in 0_DayZExpansion_Garage_Preload\
+  DayZExpansion_Weapons_SMG_MPX in DayZExpansion\Objects\Weapons\Firearms\SMG\GTM\
+  DayZExpansion_Book_Preload in 0_DayZExpansion_Book_Preload\
+  Survivalists_Weapons_JMC_Rifles_ttak458 in Survivalists_Weapons_JMC\rifles\ttak458\
+  TK_HouseC in TK\buildings\housec\
+  DayZExpansion_BaseBuilding_Objects_Explosives in DayZExpansion\BaseBuilding\Objects\Explosives\
+  DZ_Server_Data in DZ\server\
+  jmc_military_mountain_boots in JMC_ClassicWalk\scripts\4_world\classicwalk\
+  DayZExpansion_Sounds_Vehicles_Water_LHD in DayZExpansion\Sounds\Vehicles\Water\LHD\
+  UnlimitedALe_pepega_55068598 in UnlimitedALe\ahala59qukdz\hfuraxuxzdgq\vw3zl0eqrbrt\tuxylezsfvth\cp0cajm6iq3z\uhmva4uzdqvj.9junlajlfdfo.21416123.c\
+  TK_Misc_Mil in TK\buildings\mil\
+  DayZExpansion_Objects_Gear_Box in DayZExpansion\Objects\Gear\Box\
+  A2_Props_LHD in ArmA2_Props\lhd\
+  DayZExpansion_Objects_Structures_Props in DayZExpansion\Objects\Structures\Props\
+  Deerisle_Security_System in deerisle\Deerisle_Security_System\
+  DayZExpansion_Objects_Structures_HangedBody in DayZExpansion\Objects\Structures\hanged_body\
+  STAG_PlateCarrierHolster in STAG_Industries\data\holster\
+  DayZExpansion_Sounds_PropaneTorch in DayZExpansion\Sounds\Items\PropaneTorch\
+  DayZExpansion_Sounds_Weapons_Crossbow in DayZExpansion\Sounds\Weapons\Crossbow\
+  DayZExpansion_Worlds_ChernarusPlus_Gloom in DayZExpansion\Worlds\ChernarusPlus\Gloom\
+  DZ_Structures_Ruins in DZ\structures\ruins\
+  Survivalists_Weapons_JMC_Rifles_ttsok94 in Survivalists_Weapons_JMC\rifles\ttsok94\
+  DayZExpansion_Dta_Animations in DayZExpansion\Dta\Animations\
+  STAG_SmershBags in STAG_Industries\data\smershbags\
+  DayZExpansion_Market_Objects in DayZExpansion\Market\Objects\
+  ArmA2_Props in ArmA2_Props\
+  DayZExpansion_LanguageCore_Hardline in DayZExpansion\languagecore\Hardline\
+  TK_Misc in TK\misc\
+  DayZExpansion_Objects_Gravecross in DayZExpansion\Objects\Gear\GraveCross\
+  Survivalists_Weapons_JMC_Attachments in Survivalists_Weapons_JMC\attachments\
+  DayZExpansion_Quests_Dta_Core in DayZExpansion\Quests\Dta\Core\
+  DayZExpansion_Sounds_Items_Spraycan in DayZExpansion\Sounds\Items\SprayCan\
+  DZ_Characters_Belts in DZ\characters\belts\
+  DZ_Structures_Wrecks in DZ\structures\wrecks\
+  DZ_Weapons_Firearms_FAL in DZ\weapons\firearms\fal\
+  DZ_Weapons_Firearms_M16A2 in DZ\weapons\firearms\m16a2\
+  DZ_Pistols_CZ75 in DZ\weapons\pistols\cz75\
+  DayZExpansion_Sounds_Vehicles_Air_Mh6 in DayZExpansion\Sounds\Vehicles\Air\Mh6\
+  RFMosquito_sounds in RFMosquito\sound\
+  TK_Cables in TK\buildings\misc\misc_cables\
+  DayZExpansion_Dta_Core in DayZExpansion\Dta\Core\
+  BuilderItems_Residential in DayZExpansion\Objects\Structures\BuilderItems\DZ\residential\
+  Admirals_Diving_Gear in AdmiralsDivingMod\gear\
+  Survivalists_Weapons_JMC_Attachments_supports in Survivalists_Weapons_JMC\attachments\support\
+  DayZExpansion_Objects_BaseBuilding_Stairs in DayZExpansion\Objects\Basebuilding\Stairs\
+  DayZExpansion_Vehicles_Air_Uh1h in DayZExpansion\Vehicles\Air\Uh1h\
+  STAG_SmershVest in STAG_Industries\data\smershvests\
+  DayZExpansion_Hardline_Scripts in DayZExpansion\Hardline\Scripts\
+  DayZExpansion_Vehicles_Ground_Truck_01 in DayZExpansion\Vehicles\Ground\Truck_01\
+  DZ_Animals_capreolus_capreolus_fem in DZ\animals\capreolus_capreolus_fem\
+  DZ_Gear_Tools in DZ\gear\tools\, DZ_Surfaces_Bliss in DZ\surfaces_bliss\
+  DeerIsle_AbandonedBuilding in deerisle\objects\abandoned_building\
+  DayZExpansion_M79 in DayZExpansion\Objects\Weapons\Firearms\M79\
+  BuilderItems_Bliss_Signs in DayZExpansion\Objects\Structures\BuilderItems\Bliss\signs\
+  DayZExpansion_NameTags_GUI in DayZExpansion\NameTags\GUI\, TK_Cave in TK\cave\
+  BuilderItems_Walls in DayZExpansion\Objects\Structures\BuilderItems\DZ\walls\
+  STAG_Heatpack in STAG_Industries\data\heatpack\, JM_COT_GUI in JM\COT\GUI\
+  Survivalists_Weapons_JMC_Rifles_ttr700 in Survivalists_Weapons_JMC\rifles\ttr700\
+  DayZExpansion_Hardline_Preload in 0_DayZExpansion_Hardline_Preload\
+  DayZExpansion_Lighthouse_Lamp in DayZExpansion\Objects\Structures\Lighthouse_Lamp\
+  DayZExpansion_Objects_Gear_Consumables in DayZExpansion\Objects\Gear\Consumables\
+  BuilderItems_Bliss_Military in DayZExpansion\Objects\Structures\BuilderItems\Bliss\military\
+  DayZExpansion_Vehicles_Air_Gyro in DayZExpansion\Vehicles\Air\Gyro\
+  DZ_AI_Bliss in DZ\AI_bliss\, DZ_Data_Bliss in DZ\data_bliss\
+  DZ_Weapons_Archery_Bow_Recurve in DZ\weapons\archery\bow_recurve\
+  Admirals_Diving_Sounds in AdmiralsDivingMod\sounds\
+  Survivalists_Weapons_JMC_Pistols_ttmakarov in Survivalists_Weapons_JMC\pistols\ttmakarov\
+  DayZExpansion_PlayerList_GUI in DayZExpansion\PlayerList\GUI\
+  DayZExpansion_VanillaFixes_Animals in DayZExpansion\VanillaFixes\Animals\
+  DZ_data_trackingconfigs in DZ\data\trackingconfigs\, DZ_Gear_Food in DZ\gear\food\
+  DayZExpansion_Chat_GUI in DayZExpansion\Chat\GUI\
+  DayZExpansion_LanguageCore_Main in DayZExpansion\languagecore\Main\
+  DayZExpansion_LanguageCore_Missions in DayZExpansion\languagecore\Missions\
+  DayZExpansion_KillFeed_Preload in 0_DayZExpansion_Killfeed_Preload\
+  DayZExpansion_Sounds_Vehicles_Water_Vodnik in DayZExpansion\Sounds\Vehicles\Ground\Vodnik\
+  DayZExpansion_Objects_Structures_IndustrialProps in DayZExpansion\Objects\Structures\IndustrialProps\
+  DeerIsle_FinderOuter_Sounds_Music in deerisle\DeerIsle_FinderOuter\sounds\
+  DayZExpansion_Sounds_Weapons_Kar98 in DayZExpansion\Sounds\Weapons\Kar98\
+  DZ_Weapons_Firearms_SKS in DZ\weapons\firearms\sks\
+  DZ_Nonlethal in DZ\weapons\nonlethal\
+  DZ_Weapons_Projectiles in DZ\weapons\projectiles\
+  DayZExpansion_Crossbow in DayZExpansion\Objects\Weapons\Firearms\Archery\Crossbow\
+  STAG_NBC in STAG_Industries\data\nbc\, JMC_Mjolnir in deerisle\objects\mjolnir\
+  jmc_snow_vegetation in deerisle\objects\SnowVegetation\
+  BuilderItems_Ruins in DayZExpansion\Objects\Structures\BuilderItems\DZ\ruins\
+  DayZExpansion_Objects_Missions in DayZExpansion\Missions\Objects\
+  BuilderItems_StaticItems_Expansion in DayZExpansion\Objects\Structures\BuilderItems\DZ\statics\expansion\
+  DayZExpansion_Scripts in DayZExpansion\Scripts\
+  DayZExpansion_VanillaFixes_GUI in DayZExpansion\VanillaFixes\GUI\
+  DayZExpansion_VirtualContainerStorage_Scripts in DayZExpansion\VirtualContainerStorage\Scripts\
+  DZ_Rocks_Sakhal in DZ\rocks_sakhal\
+  DZ_Characters_Backpacks in DZ\characters\backpacks\
+  DZ_Gear_Camping in DZ\gear\camping\, DZ_Rocks in DZ\rocks\
+  DZ_Structures_Furniture in DZ\structures\furniture\
+  DZ_Weapons_Firearms_AK101 in DZ\weapons\firearms\ak101\
+  DZ_Weapons_Firearms_Famas in DZ\weapons\firearms\famas\
+  DZ_Weapons_Firearms_CZ527 in DZ\weapons\firearms\cz527\
+  DeerIsle_Ruinwalls in deerisle\objects\jmc_di_objects\ruinedwalls\
+  DayZExpansion_Vehicles_Air_Mh6 in DayZExpansion\Vehicles\Air\Mh6\
+  DayZExpansion_Kar98ScopeOptic in DayZExpansion\Objects\Weapons\Attachments\Optics\Kar98Scope\
+  TK_HouseK in TK\buildings\housek\
+  DayZExpansion_LanguageCore_AI in DayZExpansion\languagecore\AI\
+  DayZExpansion_Preload in 0_DayZExpansion_Preload\
+  zeroy_custom_buildings in deerisle\objects\wind_turbine\
+  HazSTAG_Scripts in STAG_Industries\scripts\
+  DayZExpansion_Core_Objects_Currencies in DayZExpansion\Core\Objects\Currencies\
+  BuilderItems_Bliss_Specific in DayZExpansion\Objects\Structures\BuilderItems\Bliss\specific\
+  BuilderItems_Rail in DayZExpansion\Objects\Structures\BuilderItems\DZ\rail\
+  DayZExpansion_Objects_Structures_ExpansionFlag in DayZExpansion\Objects\Structures\ExpansionFlag\
+  Survivalists_Weapons_JMC_Rifles_ESPAR47 in Survivalists_Weapons_JMC\rifles\espar47\
+  TK_Gear in TK\gear\, DeerIsle_Fences in deerisle\objects\fences\
+  DayZExpansion_Sounds_Church in DayZExpansion\Sounds\Church\
+  DayZExpansion_Worlds_IntroScenes in DayZExpansion\Worlds\IntroScenes\
+  DZ_data_aiconfigs_bliss in DZ\data_bliss\aiconfigs\
+  DZ_Sounds_Characters in DZ\sounds\Characters\
+  DZ_Weapons_Archery in DZ\weapons\archery\
+  TK_Ind_Oil_Mine in TK\buildings\ind\ind_oil_mine\
+  DayZExpansion_Dta_World in DayZExpansion\Dta\World\
+  DayZExpansion_Dta_Game in DayZExpansion\Dta\Game\
+  TK_HouseL in TK\buildings\housel\, jmc_lab in deerisle\objects\lab\
+  My_Super_Fishing_Mod in STAG_Industries\data\fishingrod\
+  jmc_deerisle_misc in deerisle\objects\misc\
+  DayZExpansion_LanguageCore_PlayerList in DayZExpansion\languagecore\PlayerList\
+  jmc_eg_objects in JMC_EG\data\, JM_COT_LanguageCore in JM\COT\languagecore\
+  DayZExpansion_Structures_Industrial_Misc in DayZExpansion\Structures\Industrial\Misc\
+  DZ_Data_Sakhal in DZ\data_sakhal\, DZ_Animals_ovis_aries in DZ\animals\ovis_aries\
+  DZ_Structures in DZ\structures\data\
+  DZ_Weapons_Firearms_VSS in DZ\weapons\firearms\vss\
+  Admirals_Diving_Objects in AdmiralsDivingMod\object\
+  DayZExpansion_Groups_Scripts in DayZExpansion\Groups\Scripts\
+  DayZExpansion_Vehicles_Ground_Vodnik in DayZExpansion\Vehicles\Ground\Vodnik\
+  STAG_M65_Jacket in STAG_Industries\data\jacket\, TK_Ind in TK\buildings\ind\
+  JMC_EG_Sounds in JMC_EG\sounds\
+  DayZExpansion_LanguageCore_Market in DayZExpansion\languagecore\Market\
+  DayZExpansion_PersonalStorageNew_Scripts in DayZExpansion\PersonalStorageNew\Scripts\
+  DayZExpansion_Vehicles_Water_Carrier in DayZExpansion\Vehicles\Water\Carrier\
+  BuilderItems_StaticItems_Weapons in DayZExpansion\Objects\Structures\BuilderItems\DZ\statics\weapons\
+  DZ_Animals_cervus_elaphus in DZ\animals\cervus_elaphus\
+  DZ_Animals_ursus_arctos in DZ\animals_bliss\ursus_arctos\
+  DayZExpansion_Weapons_Pistols_Taser in DayZExpansion\Objects\Weapons\Firearms\Pistols\X2Taser\
+  STAG_Industries in STAG_Industries\
+  DayZExpansion_Objects_BaseBuilding_Walls in DayZExpansion\Objects\Basebuilding\Walls\
+  BuilderItems_Wrecks in DayZExpansion\Objects\Structures\BuilderItems\DZ\wrecks\
+  DayZExpansion_PersonalStorage_Objects in DayZExpansion\PersonalStorage\Objects\
+  TK_Misc_Market in TK\buildings\misc\misc_market\
+  DayZExpansion_Groups_Preload in 0_DayZExpansion_Groups_Preload\
+  DayZExpansion_LanguageCore_BaseBuilding in DayZExpansion\languagecore\BaseBuilding\
+  DZ_Characters_Masks in DZ\characters\masks\, DZ_Snow_Rocks in DZ\rocks\snow_rocks\
+  TK_Ind_PowerStation in TK\buildings\ind\ind_pipes\
+  DayZExpansion_AI_Animations in DayZExpansion\AI\Animations\
+  STAG_ArmyBack in STAG_Industries\data\armybackpack\
+  jmc_fiberplant in deerisle\objects\fiberplant\
+  Survivalists_Weapons_JMC_Rifles_ttrpd in Survivalists_Weapons_JMC\rifles\ttrpd\
+  DayZExpansion_PlayerList_Scripts in DayZExpansion\PlayerList\Scripts\
+  DayZExpansion_Sounds_Book in DayZExpansion\Sounds\Book\
+  DayZExpansion_Sounds_Ground_Vehicle_CivilianSedan in DayZExpansion\Sounds\Vehicles\Ground\CivilianSedan\
+  DZ_Gear_Cooking in DZ\gear\cooking\, TK_Objects in TK\
+  DayZExpansion_Sounds_Vehicles_Water_Zodiac in DayZExpansion\Sounds\Vehicles\Water\Zodiac\
+  TK_Misc_Well in TK\buildings\misc\misc_well\
+  DayZExpansion_Groups_GUI in DayZExpansion\Groups\GUI\
+  DayZExpansion_Objects_Structures_IvyAutumn in DayZExpansion\Objects\Structures\IvyAutumn\
+  DayZExpansion_Sounds_Weapons_M79 in DayZExpansion\Sounds\Weapons\M79\
+  DZ_Animals_capra_hircus in DZ\animals\capra_hircus\, DZ_Data in DZ\data\
+  Survivalists_Weapons_JMC_Pistols_Flintlock in Survivalists_Weapons_JMC\pistols\flintlock\
+  DayZExpansion_Objects_BaseBuilding_Safes in DayZExpansion\Objects\Basebuilding\Safes\
+  Survivalists_Weapons_JMC_Rifles_ESP_G36C in Survivalists_Weapons_JMC\rifles\esp_g36c\
+  deerisle_ai_spawner in deerisle\ai\spawner\
+  DayZExpansion_Objects_Airdrop in DayZExpansion\Objects\Airdrop\
+  Survivalists_Weapons_JMC_Rifles_ttgarand in Survivalists_Weapons_JMC\rifles\ttgarand\
+  DZ_Expansion_AI_Weapons_Debug in DayZExpansion\AI\DebugWeapons\
+  DayZExpansion_Objects_BaseBuilding_Tents in DayZExpansion\Objects\Basebuilding\Tents\
+  DayZExpansion_Objects_Structures_Wreck in DayZExpansion\Objects\Structures\Wreck\
+  DayZExpansion_Animations_Preload in 0_DayZExpansion_Animations_Preload\
+  DZ_Characters in DZ\characters\data\, DZ_Weapons_Firearms in DZ\weapons\firearms\
+  DayZExpansion_Navigation_Worlds_ChernarusPlus in DayZExpansion\Navigation\Worlds\chernarusplus\
+  Survivalists_Weapons_JMC_Ammunition in Survivalists_Weapons_JMC\ammunition\
+  DayZExpansion_Market_GUI in DayZExpansion\Market\GUI\
+  DayZExpansion_AI_Gear in DayZExpansion\AI\Gear\
+  cype_Policestation in TK\buildings\policestation\
+  DayZExpansion_SmokeGrenades in DayZExpansion\Objects\Weapons\Throwables\Smokes\
+  TK_Roads in TK\roads\
+  DayZExpansion_VanillaFixes_Scripts in DayZExpansion\VanillaFixes\Scripts\
+  DZ_Worlds_Sakhal_CE in DZ\worlds\sakhal\ce\
+  DZ_Characters_Glasses in DZ\characters\glasses\
+  DZ_Weapons_Ammunition in DZ\weapons\ammunition\
+  DZ_Weapons_Firearms_M4 in DZ\weapons\firearms\m4\
+  DZ_Weapons_Melee in DZ\weapons\melee\, DZ_Pistols_Red9 in DZ\weapons\pistols\red9\
+  Animal_JMC_PolarBear in deerisle\animals\polarbear\
+  BuilderItems_Expansion_BaseBuilding in DayZExpansion\Objects\Structures\BuilderItems\Expansion\BaseBuilding\
+  BuilderItems_Rocks in DayZExpansion\Objects\Structures\BuilderItems\DZ\rocks\
+  DeerIsle_Deadbodies in deerisle\objects\jmc_di_objects\deadbodies\
+  JMC_TrackedDivingContainer in TD\, RFMosquito_mod in RFMosquito\
+  DayZExpansion_Objects_Structures_Signs in DayZExpansion\Objects\Structures\Signs\
+  jmc_iceland in deerisle\objects\iceland\
+  Fwinkies_OBJECT in deerisle\objects\Fwinkies\
+  DZ_Sounds_Weapons in DZ\sounds\weapons\
+  DZ_Structures_Bliss_Military in DZ\structures_bliss\military\
+  DZ_Structures_BuildingParts in DZ\structures\Proxy_BuildingParts\
+  DZ_Weapons_Archery_Bow_Quickie in DZ\weapons\archery\bow_quickie\
+  DeerIsle_Subway in deerisle\objects\jmc_di_objects\subway\
+  deerisle_data in deerisle\data\
+  DayZExpansion_BaseBuilding_Electricity in DayZExpansion\Objects\Basebuilding\Electricity\
+  jmc_atv in jmc_atv\
+  Survivalists_Weapons_JMC_Rifles_ttrpg7 in Survivalists_Weapons_JMC\rifles\ttrpg7\
+  jmc_dungeon2 in deerisle\objects\dungeon2\
+  DZ_Animals_lepus_europaeus in DZ\animals\lepus_europaeus\
+  DZ_Characters_Headgear in DZ\characters\headgear\
+  DZ_Weapons_Animations in DZ\weapons\animations\
+  DZ_Weapons_Firearms_M14 in DZ\weapons\firearms\m14\
+  DZ_Pistols_p1 in DZ\weapons\pistols\p1\
+  TK_Billboards in TK\buildings\misc\misc_billboards\
+  A2_Props_UH60Wreck in ArmA2_Props\uh60wreck\
+  DayZExpansion_Core_NavmeshCarvers in DayZExpansion\Core\Objects\NavmeshCarvers\
+  DayZExpansion_Animations_Player in DayZExpansion\Animations\Player\
+  DZ_Spawn_Proxies in DZ\data\proxies\, DZ_Gear_Crafting in DZ\gear\crafting\
+  DZ_Radio in DZ\gear\radio\
+  DZ_Structures_Residential in DZ\structures\residential\
+  DZ_Weapons_Firearms_PP19 in DZ\weapons\firearms\pp19\
+  DZ_Weapons_Firearms_Trumpet in DZ\weapons\firearms\trumpet\
+  DayZExpansion_Objects_Structures_Grass in DayZExpansion\Objects\Structures\Grass\
+  STAG_Flag in STAG_Industries\data\flag\
+  DayZExpansion_Objects_Structures_Flags in DayZExpansion\Objects\Structures\Flags\
+  Survivalists_Weapons_JMC_Rifles_ESP_M110 in Survivalists_Weapons_JMC\rifles\esp_m110\
+  TK_Garbage in TK\buildings\misc\misc_garbage\
+  BuilderItems_Military_Imp in DayZExpansion\Objects\Structures\BuilderItems\DZ\military\improvised\
+  DayZExpansion_Weapons_Rifles_M14 in DayZExpansion\Objects\Weapons\Firearms\Rifles\M14\
+  DayZExpansion_Vehicles_Preload in 0_DayZExpansion_Vehicles_Preload\
+  jmc_skeletons in deerisle\objects\Skeleton\, DZ_AI in DZ\AI\
+  DZ_Animals_vulpes_vulpes in DZ\animals\vulpes_vulpes\
+  DZ_Structures_Bliss_Rail in DZ\structures_bliss\rail\
+  DZ_Structures_Bliss_Signs in DZ\structures_bliss\signs\
+  DZ_Pistols_FNX45 in DZ\weapons\pistols\fnx45\
+  DZ_Gear_Consumables in STAG_Industries\data\battery\
+  Expansion_Armbands in DayZExpansion\Data\Characters\Armbands\
+  Expansion_Gloves in DayZExpansion\Data\Characters\Gloves\
+  DayZExpansion_Weapons_Shotguns_BenelliM4 in DayZExpansion\Objects\Weapons\Firearms\Shotguns\Remore\
+  Survivalists_Weapons_JMC_Rifles_Ferguson in Survivalists_Weapons_JMC\rifles\ferguson\
+  DayZExpansion_GUI in DayZExpansion\GUI\
+  BuilderItemsBliss_Rocks in DayZExpansion\Objects\Structures\BuilderItems\Bliss\rocks\
+  DayZExpansion_Sounds_BaseBuilding in DayZExpansion\Sounds\BaseBuilding\
+  DayZExpansion_Sounds_Ground_Vehicle_Sedan_02 in DayZExpansion\Sounds\Vehicles\Ground\Sedan_02\
+  DZ_Animals_gallus_gallus_domesticus_feminam in DZ\animals\gallus_gallus_domesticus_feminam\
+  DZ_Animals_rangifer_tarandus in DZ\animals\rangifer_tarandus\
+  DZ_Animals_Bliss in DZ\animals_bliss\
+  DZ_Structures_Bliss_Specific in DZ\structures_bliss\specific\
+  DZ_Weapons_Shotguns_Izh43 in DZ\weapons\shotguns\izh43\
+  DZ_Weapons_Lights in DZ\weapons\attachments\light\
+  smpl_structures_doors in deerisle\Deerisle_Security_System\items\testhouse\
+  DeerisleCredits in DeerisleCredits\
+  DayZExpansion_Kar98Bayonet in DayZExpansion\Objects\Weapons\Attachments\Support\kar98bayonet\
+  DayZExpansion_Objects_Firearms_Flaregun in DayZExpansion\Objects\Weapons\Firearms\Flaregun\
+  DayZExpansion_BaseBuilding_Scripts in DayZExpansion\BaseBuilding\Scripts\
+  DayZExpansion_Objects_BaseBuilding_Floors in DayZExpansion\Objects\Basebuilding\Floors\
+  Survivalists_Weapons_JMC_Pistols_tt57 in Survivalists_Weapons_JMC\pistols\tt57\
+  DayZExpansion_M9 in DayZExpansion\Objects\Weapons\Firearms\Pistols\M9\
+  DayZExpansion_Weapons_Rifles_M16 in DayZExpansion\Objects\Weapons\Firearms\Rifles\M16\
+  DayZExpansion_Sounds_Vehicles_Air_Merlin in DayZExpansion\Sounds\Vehicles\Air\Merlin\
+  DayZExpansion_Sounds_Weapons_RPG7 in DayZExpansion\Sounds\Weapons\RPG7\
+  DZ_Anims_Cfg in DZ\anims\cfg\, DZ_Gear_Cultivation in DZ\gear\cultivation\
+  DZ_Water_Bliss in DZ\water_bliss\
+  DZ_Weapons_Firearms_B95 in DZ\weapons\firearms\b95\
+  DayZExpansion_Objects_TemporaryOwnedContainer in DayZExpansion\Core\Objects\TemporaryOwnedContainer\
+  Survivalists_Weapons_JMC_Smgs_ttp90 in Survivalists_Weapons_JMC\smgs\ttp90\
+  jmc_dungeon in deerisle\objects\dungeon\
+  BuilderItems_rocks_sakhal in DayZExpansion\Objects\Structures\BuilderItems\Sakhal\rocks\
+  DayZExpansion_Navigation_LocationTypes in DayZExpansion\Navigation\Worlds\locationtypes\
+  DayZExpansion_Vehicles_Ground_250N in DayZExpansion\Vehicles\Ground\250N\
+  DayZExpansion_BaseBuilding_Preload in 0_DayZExpansion_BaseBuilding_Preload\
+  DayZExpansion_Vehicles_Ground_Hatchback_02 in DayZExpansion\Vehicles\Ground\Hatchback_02\
+  DayZExpansion_Vehicles_Scripts in DayZExpansion\Vehicles\Scripts\
+  DZ_Structures_Bliss_Industrial in DZ\structures_bliss\industrial\
+  DZ_Structures_Military in DZ\structures\military\
+  DZ_Pistols_Glock in DZ\weapons\pistols\glock\
+  STAG_AmmoBox in STAG_Industries\data\ammoboxsabot\
+  jmc_Prototype_Optic in Weapons\data\attachments\prototypeoptic\
+  BuilderItems_Misc in DayZExpansion\Objects\Structures\BuilderItems\DZ\misc\
+  DayZExpansion_Vehicles_Water_Boat_Utility in DayZExpansion\Vehicles\Water\Utility\
+  DayZExpansion_Parachute in DayZExpansion\Objects\Gear\Parachute\
+  DayZExpansion_Vehicles_Water_Boat_01 in DayZExpansion\Vehicles\Water\Boat_01\
+  DZ_Plants_Sakhal in DZ\plants_sakhal\, DZ_Characters_Heads in DZ\characters\heads\
+  DZ_Plants in DZ\plants\, DZ_Weapons_Firearms_M249Para in DZ\weapons\firearms\m249\
+  STAG_Armband in STAG_Industries\data\armband\
+  Survivalists_Weapons_JMC_Smgs_ttmp5 in Survivalists_Weapons_JMC\smgs\ttmp5\
+  DeerIsle_Data in deerisle\objects\jmc_di_objects\data\
+  Survivalists_Weapons_JMC_Attachments_Lights in Survivalists_Weapons_JMC\attachments\lights\
+  DayZExpansion_LanguageCore_Core in DayZExpansion\languagecore\Core\
+  DayZExpansion_Sounds_Ground_OffroadHatchback in DayZExpansion\Sounds\Vehicles\Ground\OffroadHatchback\
+  DayZExpansion_P2PMarket_GUI in DayZExpansion\P2PMarket\GUI\
+  BuilderItems_Bridges in DayZExpansion\Objects\Structures\BuilderItems\DZ\bridges\
+  TK_Gear_hat in TK\gear\hats\, DayZExpansion_Sounds_AI in DayZExpansion\AI\Sounds\
+  ExpansionProp_AntiAir in DayZExpansion\Vehicles\Objects\AntiAir\
+  DZ_Structures_Sakhal in DZ\structures_sakhal\
+  DZ_Anims_Anm_Player in DZ\anims\anm\player\, DZ_Gear_Optics in DZ\gear\optics\
+  DZ_Structures_Industrial in DZ\structures\industrial\, DZ_Surfaces in DZ\surfaces\
+  DZ_Vehicles_Water in DZ\vehicles\water\
+  DZ_Weapons_Launchers_LAW in DZ\weapons\launchers\law\
+  Survivalists_Weapons_JMC_Pistols_ttl35 in Survivalists_Weapons_JMC\pistols\ttl35\
+  DayZExpansion_Sounds_Ground_N250 in DayZExpansion\Sounds\Vehicles\Ground\N250\
+  DayZExpansion_AI_GUI in DayZExpansion\AI\GUI\
+  jmc_rocks in deerisle\objects\rocks\
+  DayZExpansion_Kar98 in DayZExpansion\Objects\Weapons\Firearms\Sniper\Kar98\
+  BuilderItems_structures_sakhal in DayZExpansion\Objects\Structures\BuilderItems\Sakhal\structures\
+  UnlimitedALe_pepega_23032333 in UnlimitedALe\zikucslvmqe3\wtnpazj1dkcv\1f02i19r98nr\keygvlewoor8\1cxa1r2za2og\ytnonjyrlz2s.wh5ohz8f1q1a.48516080.sqf\
+  Survivalists_Weapons_JMC_Rifles_ttstg44 in Survivalists_Weapons_JMC\rifles\ttstg44\
+  Survivalists_Weapons_JMC_Smgs in Survivalists_Weapons_JMC\smgs\
+  Survivalists_Weapons_JMC_Smgs_tec9 in Survivalists_Weapons_JMC\smgs\tec9\
+  DayZExpansion_Worlds_enoch_Gloom in DayZExpansion\Worlds\enoch\Gloom\
+  DZ_Structures_Specific in DZ\structures\specific\
+  DZ_Weapons_Firearms_aug in DZ\weapons\firearms\aug\
+  DZ_Weapons_Optics in DZ\weapons\attachments\optics\
+  DZ_Worlds_Enoch_CE in DZ\worlds\enoch\ce\
+  CarUpdate in UnlimitedALe\tvcqnezbcogi\ajd0dglev0rn\v3fkuynke9al\d8yta04tumzp\fad7hqha0ofd\jdt6qr1ojbgw.rnwzwjwk1efz.18306310.sqf\
+  BuilderItems_plants_sakhal in DayZExpansion\Objects\Structures\BuilderItems\Sakhal\plants\
+  Survivalists_TestMod in Survivalists_TestMod\
+  DayZExpansion_Navigation_Worlds_Shakal in DayZExpansion\Navigation\Worlds\sakhal\
+  jmc_Weapons_Sounds in Weapons\sounds\
+  DayZExpansion_LanguageCore_Quests in DayZExpansion\languagecore\Quests\
+  DeerisleStag_Billboards in deerisle\objects\billboards\
+  DayZExpansion_Objects_Structures_BMX in DayZExpansion\Objects\Structures\BMX\
+  DayZExpansion_Vehicles_Skins in DayZExpansion\Skins\Vehicles\
+  DayZExpansion_SpawnSelection_GUI in DayZExpansion\SpawnSelection\GUI\
+  DayZExpansion_Structures_Industrial_Power in DayZExpansion\Structures\Industrial\Power\
+  DayZExpansion_Weapons_Scripts in DayZExpansion\Weapons\Scripts\
+  DZ_Animals_cervus_elaphus_feminam in DZ\animals\cervus_elaphus_fem\
+  DZ_Characters_Zombies in DZ\characters\zombies\, DZ_Gear_Traps in DZ\gear\traps\
+  DZ_Sounds_AI in DZ\sounds\ai\
+  DZ_Structures_Bliss_Wrecks in DZ\structures_bliss\wrecks\
+  DZ_Weapons_Firearms_SaigaK in DZ\weapons\shotguns\saiga\
+  DayZExpansion_Objects_Structures_Debug in DayZExpansion\Objects\Structures\Debug\
+  Survivalists_Weapons_JMC_Shotguns_tt870 in Survivalists_Weapons_JMC\shotguns\tt870\
+  JMC_DI_SOUNDS in deerisle\sounds\
+  DayZExpansion_Weapons_Preload in 0_DayZExpansion_Weapons_Preload\
+  BuilderItems_Military_Misc in DayZExpansion\Objects\Structures\BuilderItems\DZ\military\misc\
+  DayZExpansion_Weapons_SMG_MP5 in DayZExpansion\Objects\Weapons\Firearms\SMG\MP5\
+  STAG_Food in STAG_Industries\data\food\
+  DayZExpansion_Vehicles_Ground_TT650 in DayZExpansion\Vehicles\Ground\TT650\
+  DayZExpansion_Particles in DayZExpansion\Particles\
+  DayZExpansion_Objects_Firearms_LAW in DayZExpansion\Objects\Weapons\Firearms\LAW\
+  jmc_objects_smk in smk\data\
+  DayZExpansion_PersonalStorage_GUI in DayZExpansion\PersonalStorage\GUI\
+  DayZExpansion_Sounds_Ground_Vehicle_Hatchback_02 in DayZExpansion\Sounds\Vehicles\Ground\Hatchback_02\
+  DZ_Animals_canis_lupus in DZ\animals\canis_lupus\
+  DZ_Structures_Signs in DZ\structures\signs\, DZ_Weapons_Misc in DZ\weapons\misc\
+  DZ_Weapons_Shotguns_Izh18Shotgun in DZ\weapons\shotguns\izh18shotgun\
+  Survivalists_Weapons_JMC_Pistols_ttmauser1914 in Survivalists_Weapons_JMC\pistols\ttmauser1914\
+  BuilderItems_Plants in DayZExpansion\Objects\Structures\BuilderItems\DZ\plants\
+  DayZExpansion_Book_GUI in DayZExpansion\Book\GUI\, DeerIsle_Weapons in Weapons\
+  DayZExpansion_Market_Structures in DayZExpansion\Market\Structures\
+  Survivalists_Weapons_JMC_Smgs_ots71 in Survivalists_Weapons_JMC\smgs\ots71\
+  DayZExpansion_Missions_Scripts in DayZExpansion\Missions\Scripts\
+  DZ_Animals_rangifer_tarandus_feminam in DZ\animals\rangifer_tarandus_fem\
+  DZ_Animals_capreolus_capreolus in DZ\animals\capreolus_capreolus\
+  DZ_Sounds_Bliss in DZ\sounds_bliss\
+  DZ_Weapons_Firearms_SV98 in DZ\weapons\firearms\sv98\, Grid_Mod in Grid_Mod\
+  TK_Misc_Powerline in TK\buildings\misc\misc_powerline\
+  DayZExpansion_Market_Scripts in DayZExpansion\Market\Scripts\
+  DayZExpansion_Weapons_SMG_MP7 in DayZExpansion\Objects\Weapons\Firearms\SMG\mp7\
+  DayZExpansion_Missions_Preload in 0_DayZExpansion_Missions_Preload\
+  DeerIsle_Classic_Objects in deerisle\objects\classic_objects\
+  DayZExpansion_LanguageCore_Book in DayZExpansion\languagecore\Book\
+  TK_Rocks in TK\rocks\
+  Survivalists_Weapons_JMC_Attachments_Optics in Survivalists_Weapons_JMC\attachments\optics\
+  STAG_BarrelHoles in STAG_Industries\data\barrelholes\
+  DayZExpansion_Garage_Objects in DayZExpansion\Garage\Objects\
+  Survivalists_Weapons_JMC_Rifles_Marlin in Survivalists_Weapons_JMC\rifles\marlin\
+  DayZExpansion_Quests_GUI in DayZExpansion\Quests\GUI\
+  DZ_Structures_Data_Bliss in DZ\structures_bliss\data\
+  DayZExpansion_Market_Preload in 0_DayZExpansion_Market_Preload\
+  jmc_deerisle_wintergear in deerisle\objects\wintergear\
+  DayZExpansion_NotificationScheduler_Scripts in DayZExpansion\NotificationScheduler\Scripts\
+  DayZExpansion_Objects_Gear_ExampleOpenableLockableContainers in DayZExpansion\Objects\Gear\ExampleOpenableLockableContainers\
+  Survivalists_Weapons_JMC in Survivalists_Weapons_JMC\
+  DayZExpansion_AI_Particles in DayZExpansion\AI\Particles\
+  DayZExpansion_LanguageCore_PersonalStorage in DayZExpansion\languagecore\PersonalStorage\
+  JMC_Water in deerisle\objects\water\
+  Survivalists_Weapons_JMC_Proxy in Survivalists_Weapons_JMC\proxy\
+  DZ_Animals_ovis_aries_fem in DZ\animals\ovis_aries_fem\
+  DZ_Weapons_Firearms_groza in DZ\weapons\firearms\ots14\
+  DZ_Weapons_Firearms_AK74 in DZ\weapons\firearms\ak74\
+  DayZExpansion_Weapons_Rifles_M1A in DayZExpansion\Objects\Weapons\Firearms\Rifles\M1A\
+  AreaTriggerEvents in JMC_AreaTriggerEvents\
+  BuilderItems_Furniture in DayZExpansion\Objects\Structures\BuilderItems\DZ\furniture\
+  DayZExpansion_Objects_BaseBuilding_Gates in DayZExpansion\Objects\Basebuilding\Gates\
+  DayZExpansion_LanguageCore_Vehicles in DayZExpansion\languagecore\Vehicles\
+  DayZExpansion_MapAssets_Scripts in DayZExpansion\MapAssets\Scripts\
+  DayZExpansion_Vehicles_Ground_Offroad_02 in DayZExpansion\Vehicles\Ground\Offroad_02\
+  DZ_Characters_Gloves in DZ\characters\gloves\
+  DZ_Sounds_Environment in DZ\sounds\environment\
+  DayZExpansion_HAMROptic in DayZExpansion\Objects\Weapons\Attachments\Optics\Hamr\
+  DeerIsle_Signs in deerisle\objects\jmc_di_objects\signs\
+  DZ_Worlds_Deerisle_CE in deerisle\ce\
+  DayZExpansion_MapAssets_Preload in 0_DayZExpansion_MapAssets_Preload\
+  jmc_deerisle_nbc in deerisle\objects\nbc\
+  jmc_sciencelab in deerisle\objects\sciencelab\
+  STAG_FirstAidKit in STAG_Industries\data\firstaidkit\
+  DayZExpansion_LanguageCore_Weapons in DayZExpansion\languagecore\Weapons\
+  DeerIsle_Basement in deerisle\objects\jmc_di_objects\basement\
+  BuilderItems_Garbage in DayZExpansion\Objects\Structures\BuilderItems\DZ\garbage\
+  DayZExpansion_Vehicles_Ground_Sedan_02 in DayZExpansion\Vehicles\Ground\Sedan_02\
+  DZ_Water_Sakhal in DZ\water_sakhal\, DZ_Structures_Rail in DZ\structures\rail\
+  DZ_Water in DZ\water\, DZ_Weapons_Firearms_MP5 in DZ\weapons\firearms\mp5\
+  DayZExpansion_ModStorage_Scripts in DayZExpansion\ModStorage\Scripts\
+  zisb_modular_caves_for_deerisle in deerisle\objects\zisb_modular_caves_for_deerisle\
+  DayZExpansion_Objects_Structures_Grass_Sample in DayZExpansion\Objects\Structures\Grass_Sample\
+  BuilderItems_Military in DayZExpansion\Objects\Structures\BuilderItems\DZ\military\
+  Survivalists_TestMod_Sounds in Survivalists_TestMod\sounds\
+  DayZExpansion_PMII25Optic in DayZExpansion\Objects\Weapons\Attachments\Optics\PMII25x\
+  Survivalists_Weapons_JMC_Shotguns_ttbecker in Survivalists_Weapons_JMC\shotguns\ttbecker\
+  DayZExpansion_P2PMarket_Objects in DayZExpansion\P2PMarket\Objects\
+  BuilderItems_Specific in DayZExpansion\Objects\Structures\BuilderItems\DZ\specific\
+  BuilderItems_Bliss_Roads in DayZExpansion\Objects\Structures\BuilderItems\Bliss\roads\
+  DayZExpansion_Sounds_Vehicles_Air_HatchBird in DayZExpansion\Sounds\Vehicles\Air\HatchBird\
+  DayZExpansion_SpawnSelection_Scripts in DayZExpansion\SpawnSelection\Scripts\
+  DayZExpansion_Vehicles_GUI in DayZExpansion\Vehicles\GUI\
+  DZ_Weapons_Firearms_MosinNagant in DZ\weapons\firearms\mosin9130\
+  DZ_Pistols_DE in DZ\weapons\pistols\de\
+  jmc_infinity in deerisle\objects\infinity\
+  DayZExpansion_EXPS3HoloOptic in DayZExpansion\Objects\Weapons\Attachments\Optics\exps3\
+  DayZExpansion_Objects_Kits in DayZExpansion\Objects\Kits\
+  BuilderItems_Expansion_Vehicles in DayZExpansion\Objects\Structures\BuilderItems\Expansion\Vehicles\
+  DayZExpansion_SpawnSelection_Preload in 0_DayZExpansion_SpawnSelection_Preload\
+  DayZExpansion_ModStorage_Preload in 0_DayZExpansion_ModStorage_Preload\
+  DZ_Weapons_Archery_Crossbow in DZ\weapons\archery\crossbow\
+  DZ_Weapons_Melee_Powered in DZ\weapons\melee\powered\
+  DZ_Weapons_Shotguns in DZ\weapons\shotguns\
+  DayZExpansion_Animations_AI in DayZExpansion\Animations\AI\
+  STAG_TeddyBear in STAG_Industries\data\teddybear\
+  DayZExpansion_Weapons_Firearms_Vanilla_Override in DayZExpansion\Objects\Weapons\Firearms\Vanilla\Override\
+  DeerIsle_Aeggs in deerisle\objects\jmc_di_objects\aeggs\
+  DayZExpansion_Vehicles_Ground_Ikarus in DayZExpansion\Vehicles\Ground\Bus\
+  jmc_objects in deerisle\objects\jmc_di_objects\
+  DayZExpansion_Vehicles_Air_Merlin in DayZExpansion\Vehicles\Air\Merlin\
+  BuilderItems_Traffic in DayZExpansion\Objects\Structures\BuilderItems\DZ\traffic\
+  Survivalists_Weapons_JMC_Shotguns_Boomstick in Survivalists_Weapons_JMC\shotguns\boomstick\
+  BuilderItems_Bliss_Rail in DayZExpansion\Objects\Structures\BuilderItems\Bliss\rail\
+  DZ_Weapons_Firearms_CZ550 in DZ\weapons\firearms\cz550\
+  DayZExpansion_Hardline_GUI in DayZExpansion\Hardline\GUI\
+  DayZExpansion_Objects_Gear_Electricity in DayZExpansion\Objects\Gear\Electricity\
+  Expansion_Lasers_ANPEQ15 in DayZExpansion\Objects\Weapons\Attachments\Lasers\ANPEQ\
+  DayZExpansion_Objects_Structures_Editor in DayZExpansion\Objects\Structures\Editor\
+  BuilderItems_Bliss_Walls in DayZExpansion\Objects\Structures\BuilderItems\Bliss\walls\
+  jmc_stagsupplycrates in deerisle\objects\stagsupplycrates\, AM_Fog in AM_Fog\
+  DayZExpansion_Core_Objects_CircuitBoard in DayZExpansion\Core\Objects\CircuitBoard\
+  DZ_Structures_Bliss_Residential in DZ\structures_bliss\residential\
+  DZ_Weapons_Supports in DZ\weapons\attachments\support\
+  Survivalists_Weapons_JMC_Crafting in Survivalists_Weapons_JMC\crafting\
+  Leuchtturm in deerisle\objects\lighthouse\
+  DayZExpansion_Core in DayZExpansion\Core\Stub\
+  BuilderItems_Bliss_Industrial in DayZExpansion\Objects\Structures\BuilderItems\Bliss\industrial\
+  DayZExpansion_Vehicles_Ground_Tractor in DayZExpansion\Vehicles\Ground\Tractor\
+  TK_Construction in TK\buildings\misc\misc_construction\
+  DayZExpansion_Sounds_Vehicles_Water_Utility in DayZExpansion\Sounds\Vehicles\Water\Utility\
+  deerisle in deerisle\world\
+  Survivalists_Weapons_JMC_Pistols_ttp38 in Survivalists_Weapons_JMC\pistols\ttp38\
+  DayZExpansion_Objects_BaseBuilding_Vanilla_Tents in DayZExpansion\Objects\Basebuilding\Vanilla\Tents\
+  DayZExpansion_Weapons_Animations in DayZExpansion\Weapons\Animations\Player\
+  DZ_Gear_Navigation in DZ\gear\navigation\
+  DZ_Weapons_Firearms_SSG82 in DZ\weapons\firearms\ssg82\
+  DZ_Weapons_Melee_Blade in DZ\weapons\melee\blade\
+  DZ_Worlds_Enoch in DZ\worlds\enoch\world\
+  DayZExpansion_Objects_BaseBuilding_Tents_Kits in DayZExpansion\Objects\Basebuilding\Tents_Kits\
+  Survivalists_Weapons_JMC_Pistols_Kingcobra in Survivalists_Weapons_JMC\pistols\kingcobra\
+  DayZExpansion_Objects_BaseBuilding_Misc in DayZExpansion\Objects\Basebuilding\Misc\
+  DayZExpansion_LanguageCore_Groups in DayZExpansion\languagecore\Groups\
+  InfectedSoldierHardJMC in deerisle\ai\ai\, DZ_data_aiconfigs in DZ\data\aiconfigs\
+  DZ_Weapons_Firearms_SVD in DZ\weapons\firearms\svd\
+  DayZExpansion_Weapons_Firearms_Vanilla_Skins in DayZExpansion\Objects\Weapons\Firearms\Vanilla\Skins\
+  STAG_DryBag in STAG_Industries\data\drybag\
+  BuilderItems_Bliss_Ruins in DayZExpansion\Objects\Structures\BuilderItems\Bliss\ruins\
+  STAG_PlateCarrier in STAG_Industries\data\vest2\
+  Expansion_Backpacks in DayZExpansion\Data\Characters\Backpacks\
+  DayZExpansion_Objects_Misc in DayZExpansion\Objects\Misc\
+  DayZExpansion_Objects_Structures_BuilderItems_DZ in DayZExpansion\Objects\Structures\BuilderItems\DZ\
+  DayZExpansion_Quests_Objects_Boards in DayZExpansion\Quests\Dta\Objects\Board\
+  DayZExpansion_Structures_Residential_Misc in DayZExpansion\Structures\Residential\Misc\
+  DayZExpansion_VanillaFixes_Sounds in DayZExpansion\VanillaFixes\Sounds\
+  DZ_Animals in DZ\animals\, DZ_Rocks_Bliss in DZ\rocks_bliss\
+  STAG_Mask in STAG_Industries\data\masks\, JMC_EG in JMC_EG\
+  TK_WallK in TK\buildings\wall\wall_k\
+  Survivalists_Weapons_JMC_Pistols_Derringer in Survivalists_Weapons_JMC\pistols\derringer\
+  STAG_Pouches in STAG_Industries\data\pouches\
+  DayZExpansion_PersonalStorageNew_Objects in DayZExpansion\PersonalStorageNew\Objects\
+  DeerIsle_Sewer in deerisle\objects\jmc_di_objects\sewer\
+  DayZExpansion_Sounds_Common in DayZExpansion\Sounds\Vehicles\Common\
+  DayZExpansion_Sounds_Ground_Truck_01_Base in DayZExpansion\Sounds\Vehicles\Ground\Truck_01_Base\
+  RPC_Scripts in JM\CF\Defines\, DZ_Worlds_Sakhal_Data in DZ\worlds\sakhal\data\
+  DZ_Pistols_pb6p9 in DZ\weapons\pistols\pb6p9\
+  DZ_Weapons_Shotguns_MP133 in DZ\weapons\shotguns\remington_r12\
+Mods: @CF;@DabsFramework;@DayZ-Expansion-Bundle;@DayZ-Expansion-Licensed;@DayZ-Expansion-Animations;@InfiniteStamina;@Community-Online-Tools;@DeerIsleDev
+Version 1.28.161464
+Fault address:  854FCA39 00:854FCA39 Unknown module
+file:     dayzOffline
+world:    deerisle
+Prev. code bytes: CC CC CC CC CC CC CC 48 83 EC 48 E8 57 7D F4 FF
+Fault code bytes: EB 00 48 83 C4 48 C3 CC 40 55 48 83 EC 20 48 8B
+=======================================================
+note: Minidump has been generated into the file profiles\DayZServer_x64_2026-03-22_14-40-26.mdmp

@@ -1,0 +1,83 @@
+---------------------------------------------
+Log C:\steam\steamapps\common\DayZServer\profiles\crash_2026-03-19_22-02-01.log started at 19.03. 22:02:10
+
+
+
+------------------------------------
+DESKTOP-J3UTEK4, 19.03 2026 22:02:10
+NULL pointer to instance
+Class:      'PowderedMilk'
+Entity id:2974895
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@225#1
+$CurrentDir:mpmissions\dayzOffline.chernarusplus\init.c:97 Function CreateCustomMission
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 profiles profiles mod @CF;@DeerIsle 
+
+
+------------------------------------
+DESKTOP-J3UTEK4, 19.03 2026 22:02:10
+NULL pointer to instance
+Class:      'PowderedMilk'
+Entity id:2974927
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@225#1
+$CurrentDir:mpmissions\dayzOffline.chernarusplus\init.c:97 Function CreateCustomMission
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 profiles profiles mod @CF;@DeerIsle 
+
+
+------------------------------------
+DESKTOP-J3UTEK4, 19.03 2026 22:02:10
+NULL pointer to instance
+Class:      'BakedBeansCan'
+Entity id:2974935
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@225#1
+$CurrentDir:mpmissions\dayzOffline.chernarusplus\init.c:97 Function CreateCustomMission
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 profiles profiles mod @CF;@DeerIsle 
+
+
+------------------------------------
+DESKTOP-J3UTEK4, 19.03 2026 22:02:10
+NULL pointer to instance
+Class:      'SardinesCan'
+Entity id:2974948
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@225#1
+$CurrentDir:mpmissions\dayzOffline.chernarusplus\init.c:97 Function CreateCustomMission
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 profiles profiles mod @CF;@DeerIsle 

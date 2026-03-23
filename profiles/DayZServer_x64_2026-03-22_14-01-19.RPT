@@ -1,0 +1,40 @@
+=====================================================================
+== C:\steam\steamapps\common\DayZServer\DayZServer_x64.exe
+== DayZServer_x64.exe -config=serverDZ.cfg -port=2302 -profiles=profiles -mod=@CF;@DabsFramework;@DayZ-Expansion-Bundle;@DayZ-Expansion-Licensed;@DayZ-Expansion-Animations;@InfiniteStamina;@Community-Online-Tools;@DeerIsleDev
+=====================================================================
+Exe timestamp: 2026/03/17 21:15:13
+Current time:  2026/03/22 14:01:25
+Version 1.28.161464
+=====================================================================
+
+14:01:25.685 [Inputs] Loading inputs default "bin/constants.xml"
+14:01:25.686 [Inputs] Loading inputs default "bin/specific.xml"
+14:01:25.687 [Inputs] Loading inputs default "DeerisleCredits/inputs.xml"
+14:01:25.687 [Inputs] Loading inputs default "JM/COT/Scripts/Data/Inputs.xml"
+14:01:25.687 [Inputs] Loading inputs default "deerisle/scripts/Inputs.xml"
+14:01:25.687 [Inputs] Loading inputs default "RFMosquito/modded_Inputs.xml"
+14:01:25.688 [Inputs] Loading inputs default "DayZExpansion/Groups/Scripts/Data/Inputs.xml"
+14:01:25.688 [Inputs] Loading inputs default "DayZExpansion/Market/Scripts/Data/Inputs.xml"
+14:01:25.688 [Inputs] Loading inputs default "DayZExpansion/Navigation/Scripts/Data/Inputs.xml"
+14:01:25.688 !!! [Inputs] Attempt to register duplicate exclusion group "chatexpansion"
+14:01:25.688 [Inputs] Loading inputs default "DayZExpansion/PlayerList/Scripts/Data/Inputs.xml"
+14:01:25.688 !!! [Inputs] Attempt to register duplicate exclusion group "chatexpansion"
+14:01:25.689 [Inputs] Loading inputs default "DayZExpansion/Scripts/Data/Inputs.xml"
+14:01:25.689 !!! [Inputs] Attempt to register duplicate exclusion group "chatexpansion"
+14:01:25.689 [Inputs] Loading inputs default "DayZExpansion/Vehicles/Scripts/Data/Inputs.xml"
+14:01:25.689 [Inputs] Loading inputs default "AdmiralsDivingMod/Scripts/Data/modded_Inputs.xml"
+14:01:25.689 [Inputs] Loading inputs default "DayZExpansion/AI/Scripts/inputs.xml"
+14:01:25.689 [Inputs] Loading inputs default "DayZExpansion/BaseBuilding/Scripts/Data/Inputs.xml"
+14:01:25.689 !!! [Inputs] Attempt to register duplicate exclusion group "chatexpansion"
+14:01:25.690 [Inputs] Loading inputs default "DayZExpansion/Book/Scripts/Data/Inputs.xml"
+14:01:25.690 !!! [Inputs] Attempt to register duplicate exclusion group "chatexpansion"
+14:01:25.690 [Inputs] Loading inputs default "DayZExpansion/Chat/Scripts/Data/Inputs.xml"
+14:01:25.690 !!! [Inputs] Attempt to register duplicate exclusion group "chatexpansion"
+14:01:25.690 [Inputs] Loading inputs default "DayZExpansion/Quests/Scripts/Data/Inputs.xml"
+14:01:25.690 [Inputs] Loading inputs cfg "profiles\Users\Survivor\Server.core.xml"
+14:01:25.690 !!! [Inputs] Cannot read inputs cfg "profiles\Users\Survivor\Server.core.xml", parser error
+14:01:25.690 [Inputs] Loading inputs cfg "bin/core.xml"
+14:01:25.690 !!! [Inputs] Cannot load input preset "#STR_USER", file does not exist
+14:01:25.691 [Inputs] Exporting inputs cfg "profiles\Users\Survivor\Server.core.xml"
+14:01:38.308 Hostname of server: "Maison"
+14:01:46.536  --- Termination successfully completed --- 

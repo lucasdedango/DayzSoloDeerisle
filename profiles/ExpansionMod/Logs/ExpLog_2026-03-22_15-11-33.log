@@ -1,0 +1,32 @@
+15:14:38.087 [Expansion Quests] Initialize quest system on the connected client with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+15:14:38.091 [Expansion Quests] Created new persistent player quest data for player UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+15:14:38.091 [Expansion Quests] Create new achievement/auto-start quest for quest ID=8 for player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+15:14:38.092 [Expansion Quests] Added new objective data for type=TARGET | Key= | ID=3
+15:14:38.092 [Expansion Quests] Updated and saved persistent player quest data for player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ= | Quest ID=8
+15:14:38.092 [Expansion Quests] Create new achievement/auto-start quest for quest ID=9 for player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+15:14:38.092 [Expansion Quests] Added new objective data for type=TARGET | Key= | ID=2
+15:14:38.092 [Expansion Quests] Updated and saved persistent player quest data for player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ= | Quest ID=9
+15:14:38.092 [Expansion Quests] Create new achievement/auto-start quest for quest ID=11 for player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+15:14:38.093 [Expansion Quests] Added new objective data for type=ACTION | Key= | ID=1
+15:14:38.093 [Expansion Quests] Updated and saved persistent player quest data for player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ= | Quest ID=11
+15:14:38.093 [Expansion Quests] Create new achievement/auto-start quest for quest ID=14 for player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+15:14:38.093 [Expansion Quests] Added new objective data for type=TRAVEL | Key= | ID=3
+15:14:38.093 [Expansion Quests] Updated and saved persistent player quest data for player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ= | Quest ID=14
+15:14:38.094 [Expansion Quests] Sending rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ= quest configs to client for player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+15:14:38.094 [Expansion Quests] Sending player quest data for 4 quests to player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=
+15:14:38.099 [Expansion Quests] Added new objective data for type=TRAVEL | Key= | ID=3
+15:14:38.100 [Expansion Quests] Updated and saved persistent player quest data for player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ= | Quest ID=14
+15:14:38.100 [Expansion Quests] Player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ= has completed quest with ID=14
+15:14:38.105 [Expansion Quests] Updated and saved persistent player quest data for player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ= | Quest ID=14
+15:15:53.725 [SpawnSelection] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) spawned at <10493.400391, 16.896009, 5411.615723>
+15:33:34.069 [Killfeed] Survivor est mort en se vidant de son sang.
+15:34:36.669 [SpawnSelection] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) spawned at <10397.962891, 17.839876, 5373.638672>
+15:56:27.924 [VehicleEnter] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) entered vehicle Bateau en caoutchouc (id=4B4CD5F597460428D3A4FE8D88373655 pos=<10662.8, 0.61, 5722.02>) as driver
+15:56:57.320 [VehicleLeave] Player "Survivor" (id=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ=) left vehicle Bateau en caoutchouc (id=4B4CD5F597460428D3A4FE8D88373655 pos=<10662.8, 0.31, 5722.02>)
+16:02:08.961 [Killfeed] Survivor est mort en se vidant de son sang.
+17:12:35.533 [Expansion Quests] Added new objective data for type=TARGET | Key= | ID=3
+17:12:35.535 [Expansion Quests] Updated and saved persistent player quest data for player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ= | Quest ID=8
+17:12:35.536 [Expansion Quests] Added new objective data for type=TARGET | Key= | ID=2
+17:12:35.538 [Expansion Quests] Updated and saved persistent player quest data for player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ= | Quest ID=9
+17:12:35.539 [Expansion Quests] Added new objective data for type=ACTION | Key= | ID=1
+17:12:35.543 [Expansion Quests] Updated and saved persistent player quest data for player with UID=rjw6F3ezw5A4oZfMhrGpqQRcwQ_8XjR9ZUx1FGdEelQ= | Quest ID=11

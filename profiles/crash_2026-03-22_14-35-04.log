@@ -1,0 +1,168 @@
+---------------------------------------------
+Log C:\steam\steamapps\common\DayZServer\profiles\crash_2026-03-22_14-35-04.log started at 22.03. 14:35:24
+
+
+
+------------------------------------
+DESKTOP-J3UTEK4, 22.03 2026 14:35:24
+NULL pointer to instance
+Function: 'CreateLightAtObjMemoryPoint'
+Stack trace:
+scripts/4_World/entities\scriptedlightbase.c:218 Function CreateLightAtObjMemoryPoint
+JMC_EG/Scripts/4_World/egevent\jmc_eg_cryptbowl.c:12 Function jmc_IceFireBowl
+deerisle/scripts/4_World/deerislebase\deerisle.c:984 Function SpawnObject
+deerisle/scripts/4_World/deerislebase\deerisle.c:456 Function DeerIsleBase
+deerisle/scripts/4_World/deerislebase\deerisle.c:9 Function GetDeerIsleBase
+deerisle/scripts/5_Mission/missionserver.c:21 Function MissionServer@384#2
+$CurrentDir:mpmissions\dayzOffline.deerisle\init.c:110 Function CreateCustomMission
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 profiles profiles mod @CF;@DabsFramework;@DayZ-Expansion-Bundle;@DayZ-Expansion-Licensed;@DayZ-Expansion-Animations;@InfiniteStamina;@Community-Online-Tools;@DeerIsleDev 
+
+
+------------------------------------
+DESKTOP-J3UTEK4, 22.03 2026 14:35:24
+NULL pointer to instance
+Class:      'Rice'
+Entity id:3432379
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+DayZExpansion/BaseBuilding/Scripts/4_World/dayzexpansion_basebuilding\entities\itembase.c:205 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@557#1
+$CurrentDir:mpmissions\dayzOffline.deerisle\init.c:110 Function CreateCustomMission
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 profiles profiles mod @CF;@DabsFramework;@DayZ-Expansion-Bundle;@DayZ-Expansion-Licensed;@DayZ-Expansion-Animations;@InfiniteStamina;@Community-Online-Tools;@DeerIsleDev 
+
+
+------------------------------------
+DESKTOP-J3UTEK4, 22.03 2026 14:35:24
+NULL pointer to instance
+Class:      'Rice'
+Entity id:3432380
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+DayZExpansion/BaseBuilding/Scripts/4_World/dayzexpansion_basebuilding\entities\itembase.c:205 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@557#1
+$CurrentDir:mpmissions\dayzOffline.deerisle\init.c:110 Function CreateCustomMission
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 profiles profiles mod @CF;@DabsFramework;@DayZ-Expansion-Bundle;@DayZ-Expansion-Licensed;@DayZ-Expansion-Animations;@InfiniteStamina;@Community-Online-Tools;@DeerIsleDev 
+
+
+------------------------------------
+DESKTOP-J3UTEK4, 22.03 2026 14:35:24
+NULL pointer to instance
+Class:      'TunaCan'
+Entity id:3432402
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+DayZExpansion/BaseBuilding/Scripts/4_World/dayzexpansion_basebuilding\entities\itembase.c:205 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@557#1
+$CurrentDir:mpmissions\dayzOffline.deerisle\init.c:110 Function CreateCustomMission
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 profiles profiles mod @CF;@DabsFramework;@DayZ-Expansion-Bundle;@DayZ-Expansion-Licensed;@DayZ-Expansion-Animations;@InfiniteStamina;@Community-Online-Tools;@DeerIsleDev 
+
+
+------------------------------------
+DESKTOP-J3UTEK4, 22.03 2026 14:35:24
+NULL pointer to instance
+Class:      'TunaCan'
+Entity id:3432443
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+DayZExpansion/BaseBuilding/Scripts/4_World/dayzexpansion_basebuilding\entities\itembase.c:205 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@557#1
+$CurrentDir:mpmissions\dayzOffline.deerisle\init.c:110 Function CreateCustomMission
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 profiles profiles mod @CF;@DabsFramework;@DayZ-Expansion-Bundle;@DayZ-Expansion-Licensed;@DayZ-Expansion-Animations;@InfiniteStamina;@Community-Online-Tools;@DeerIsleDev 
+
+
+------------------------------------
+DESKTOP-J3UTEK4, 22.03 2026 14:35:24
+NULL pointer to instance
+Class:      'PowderedMilk'
+Entity id:3432467
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+DayZExpansion/BaseBuilding/Scripts/4_World/dayzexpansion_basebuilding\entities\itembase.c:205 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@557#1
+$CurrentDir:mpmissions\dayzOffline.deerisle\init.c:110 Function CreateCustomMission
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 profiles profiles mod @CF;@DabsFramework;@DayZ-Expansion-Bundle;@DayZ-Expansion-Licensed;@DayZ-Expansion-Animations;@InfiniteStamina;@Community-Online-Tools;@DeerIsleDev 
+
+
+------------------------------------
+DESKTOP-J3UTEK4, 22.03 2026 14:40:26
+Unhandled exception
+
+Program: C:\steam\steamapps\common\DayZServer\DayZServer_x64.exe
+Reason: SEH exception thrown. Exception code: 0xc0000374 at 0x7ffe854fca39
+
+[RtlIsZeroMemory]: ??? addr:0x7ffe854fca39
+[RtlIsZeroMemory]: ??? addr:0x7ffe854fca03
+[_misaligned_access]: ??? addr:0x7ffe85505a9a
+[_misaligned_access]: ??? addr:0x7ffe85505d7a
+[_misaligned_access]: ??? addr:0x7ffe85511d75
+[RtlGetCurrentServiceSessionId]: ??? addr:0x7ffe8542c38c
+[RtlFreeHeap]: ??? addr:0x7ffe8542afd1
+[free_base]: ??? addr:0x7ffe829c364b
+SymGetSymFromAddr:487, addr:0x7ff73fa62bd2
+SymGetSymFromAddr:487, addr:0x7ff73fa8e0f6
+SymGetSymFromAddr:487, addr:0x7ff73fe950af
+SymGetSymFromAddr:487, addr:0x7ff73fe94fd4
+SymGetSymFromAddr:487, addr:0x7ff73fce0a08
+SymGetSymFromAddr:487, addr:0x7ff73fc5fdfa
+SymGetSymFromAddr:487, addr:0x7ff73fcc41e2
+SymGetSymFromAddr:487, addr:0x7ff73fcc465e
+SymGetSymFromAddr:487, addr:0x7ff73fcd109e
+SymGetSymFromAddr:487, addr:0x7ff73ff207d0
+[CDPCreateServer]: ??? addr:0x7ff740378421
+[CDPCreateServer]: ??? addr:0x7ff74037813d
+SymGetSymFromAddr:487, addr:0x7ff73fdcb77b
+[CDPCreateServer]: ??? addr:0x7ff74037a4d8
+SymGetSymFromAddr:487, addr:0x7ff73fdcb6cf
+[CDPCreateServer]: ??? addr:0x7ff74037adfd
+SymGetSymFromAddr:487, addr:0x7ff73fef737e
+[CDPCreateServer]: ??? addr:0x7ff7404d96fe
+[BaseThreadInitThunk]: ??? addr:0x7ffe8370257d
+[RtlUserThreadStart]: ??? addr:0x7ffe8544af08
+[RtlUserThreadStart]: ??? addr:0x7ffe8544af08
+
+
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 profiles profiles mod @CF;@DabsFramework;@DayZ-Expansion-Bundle;@DayZ-Expansion-Licensed;@DayZ-Expansion-Animations;@InfiniteStamina;@Community-Online-Tools;@DeerIsleDev 

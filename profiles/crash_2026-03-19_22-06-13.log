@@ -1,0 +1,146 @@
+---------------------------------------------
+Log C:\steam\steamapps\common\DayZServer\profiles\crash_2026-03-19_22-06-13.log started at 19.03. 22:06:25
+
+
+
+------------------------------------
+DESKTOP-J3UTEK4, 19.03 2026 22:06:25
+NULL pointer to instance
+Class:      'BakedBeansCan'
+Entity id:3468088
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@225#1
+scripts/5_Mission/somemission.c:9 Function CreateMission
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 profiles profiles mod @CF;@DeerIsle 
+
+
+------------------------------------
+DESKTOP-J3UTEK4, 19.03 2026 22:06:25
+NULL pointer to instance
+Class:      'Canteen'
+Entity id:3468130
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@225#1
+scripts/5_Mission/somemission.c:9 Function CreateMission
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 profiles profiles mod @CF;@DeerIsle 
+
+
+------------------------------------
+DESKTOP-J3UTEK4, 19.03 2026 22:06:25
+NULL pointer to instance
+Class:      'PowderedMilk'
+Entity id:3468133
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@225#1
+scripts/5_Mission/somemission.c:9 Function CreateMission
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 profiles profiles mod @CF;@DeerIsle 
+
+
+------------------------------------
+DESKTOP-J3UTEK4, 19.03 2026 22:06:25
+NULL pointer to instance
+Class:      'BakedBeansCan'
+Entity id:3468134
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@225#1
+scripts/5_Mission/somemission.c:9 Function CreateMission
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 profiles profiles mod @CF;@DeerIsle 
+
+
+------------------------------------
+DESKTOP-J3UTEK4, 19.03 2026 22:06:25
+NULL pointer to instance
+Class:      'TunaCan'
+Entity id:3468186
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@225#1
+scripts/5_Mission/somemission.c:9 Function CreateMission
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 profiles profiles mod @CF;@DeerIsle 
+
+
+------------------------------------
+DESKTOP-J3UTEK4, 19.03 2026 22:10:25
+Unhandled exception
+
+Program: C:\steam\steamapps\common\DayZServer\DayZServer_x64.exe
+Reason: SEH exception thrown. Exception code: 0xc0000374 at 0x7ffc792dca39
+
+[RtlIsZeroMemory]: ??? addr:0x7ffc792dca39
+[RtlIsZeroMemory]: ??? addr:0x7ffc792dca03
+[_misaligned_access]: ??? addr:0x7ffc792e5a9a
+[_misaligned_access]: ??? addr:0x7ffc792e5d7a
+[_misaligned_access]: ??? addr:0x7ffc792f1d75
+[RtlGetCurrentServiceSessionId]: ??? addr:0x7ffc7920c38c
+[RtlFreeHeap]: ??? addr:0x7ffc7920afd1
+[free_base]: ??? addr:0x7ffc767b364b
+SymGetSymFromAddr:487, addr:0x7ff7d13d2bd2
+SymGetSymFromAddr:487, addr:0x7ff7d13fe0f6
+SymGetSymFromAddr:487, addr:0x7ff7d18050af
+SymGetSymFromAddr:487, addr:0x7ff7d1804fd4
+SymGetSymFromAddr:487, addr:0x7ff7d1650a08
+SymGetSymFromAddr:487, addr:0x7ff7d15cfdfa
+SymGetSymFromAddr:487, addr:0x7ff7d16341e2
+SymGetSymFromAddr:487, addr:0x7ff7d163465e
+SymGetSymFromAddr:487, addr:0x7ff7d164109e
+SymGetSymFromAddr:487, addr:0x7ff7d18907d0
+[CDPCreateServer]: ??? addr:0x7ff7d1ce8421
+[CDPCreateServer]: ??? addr:0x7ff7d1ce813d
+SymGetSymFromAddr:487, addr:0x7ff7d173b77b
+[CDPCreateServer]: ??? addr:0x7ff7d1cea4d8
+SymGetSymFromAddr:487, addr:0x7ff7d173b6cf
+[CDPCreateServer]: ??? addr:0x7ff7d1ceadfd
+SymGetSymFromAddr:487, addr:0x7ff7d186737e
+[CDPCreateServer]: ??? addr:0x7ff7d1e496fe
+[BaseThreadInitThunk]: ??? addr:0x7ffc783c257d
+[RtlUserThreadStart]: ??? addr:0x7ffc7922af08
+[RtlUserThreadStart]: ??? addr:0x7ffc7922af08
+
+
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 profiles profiles mod @CF;@DeerIsle 

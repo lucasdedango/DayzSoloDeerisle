@@ -1,0 +1,61 @@
+---------------------------------------------
+Log C:\steam\steamapps\common\DayZServer\profiles\script_2026-03-22_14-01-25.log started at 22.03. 14:01:25
+
+SCRIPT       : Registered 428 temporary action enum(s), UAN==428
+SCRIPT    (W): @"JMC_AreaTriggerEvents/scripts/3_Game/ateconfig.c,54": FIX-ME: Unexpected statement 'ref'
+SCRIPT    (W): @"UnlimitedALe\ElTQsqhzqrkb\RzoASIAiOUaB\ZXoAZjjfS6s6\DhRyxnz0OlrU\i6sNF7dnzLCp\PoBtGer15ecz.hTcIW8TXEaD6.37281678.sQF.c,4": FIX-ME: Overriding function 'GetStaminaWeightLimitThreshold' but not marked as 'override'
+SCRIPT    (W): @"UnlimitedALe\ElTQsqhzqrkb\RzoASIAiOUaB\ZXoAZjjfS6s6\DhRyxnz0OlrU\i6sNF7dnzLCp\PoBtGer15ecz.hTcIW8TXEaD6.37281678.sQF.c,10": FIX-ME: Overriding function 'GetStaminaKgToStaminaPercentPenalty' but not marked as 'override'
+SCRIPT    (W): @"UnlimitedALe\ElTQsqhzqrkb\RzoASIAiOUaB\ZXoAZjjfS6s6\DhRyxnz0OlrU\i6sNF7dnzLCp\PoBtGer15ecz.hTcIW8TXEaD6.37281678.sQF.c,16": FIX-ME: Overriding function 'GetStaminaMinCap' but not marked as 'override'
+SCRIPT       : Registering faction type eAIFactionShamans ID -1484989417
+SCRIPT       : Registering faction type eAIFactionObservers ID -563736721
+SCRIPT       : Registering faction type eAIFactionInvincibleObservers ID -1227299746
+SCRIPT       : Registering faction type eAIFactionRaiders ID 1535276022
+SCRIPT       : Registering faction type eAIFactionYeetBrigade ID 1408543989
+SCRIPT       : Registering faction type eAIFactionWest ID 113880155
+SCRIPT       : Registering faction type eAIFactionInvincibleYeetBrigade ID -1118767876
+SCRIPT       : Registering faction type eAIFactionEast ID 90522109
+SCRIPT       : Registering faction type eAIFactionGuards ID 963933710
+SCRIPT       : Registering faction type eAIFactionMercenaries ID 1629891834
+SCRIPT       : Registering faction type eAIFactionBrawlers ID 1955753718
+SCRIPT       : Registering faction type eAIFactionCivilian ID 1096178351
+SCRIPT       : Registering faction type eAIFactionPassive ID -1159399789
+SCRIPT       : Registering faction type eAIFactionInvincibleGuards ID 782746017
+SCRIPT       : ... Backlit Effects Enabled
+SCRIPT       : 14:01:28.000 [EXPANSION LOG]: DayZGame<9d8cbad0> Start time (local time) 2026-03-22 14:01:20
+SCRIPT       : 14:01:28.000 [EXPANSION LOG]: DayZGame<9d8cbad0> Start time (UTC) 2026-03-22 13:01:20
+SCRIPT       : 14:01:28.000 [EXPANSION LOG]: DayZGame<9d8cbad0> Runtime since start (seconds) 8.69
+SCRIPT    (W): @"deerisle/Deerisle_Security_System/scripts/4_World/deerisle-security-system\config\securityconfig.c,64": Missing ';' at the end of line
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\jmc_eg_safezone.c,41": Missing ';' at the end of line
+SCRIPT    (W): @"Weapons/Scripts/4_World/itembase\jmc_prototype_optic.c,3": Missing ';' at the end of line
+SCRIPT    (W): @"deerisle/scripts/4_World/deerislebase\deerisle.c,9": FIX-ME: Unexpected statement 'ref'
+SCRIPT    (W): @"DeerIsle/DeerIsle_FinderOuter/scripts/4_world/divinglootconfig.c,39": Missing ';' at the end of line
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\jmc_eg_meteor.c,16": FIX-ME: Overloaded method 'EOnContact', argument name 'contact' differs from prototype 'extra'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/teleport\jmc_eg_teleport_usage_arrival.c,30": FIX-ME: Overloaded method 'EOnSimulate', argument name 'owner' differs from prototype 'other'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/teleport\jmc_eg_teleport_usage.c,24": FIX-ME: Overloaded method 'EOnSimulate', argument name 'owner' differs from prototype 'other'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\jmc_fx_spawn_smoke.c,25": FIX-ME: Overriding function 'DeleteSafe' but not marked as 'override'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\jmc_eg_smokey.c,134": FIX-ME: Overloaded method 'EOnSimulate', argument name 'owner' differs from prototype 'other'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\jmc_temple_smokey.c,73": FIX-ME: Overloaded method 'EOnSimulate', argument name 'owner' differs from prototype 'other'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\jmc_eg_meteor_snow.c,16": FIX-ME: Overloaded method 'EOnContact', argument name 'contact' differs from prototype 'extra'
+SCRIPT    (W): @"smk/scripts/4_World/smokey.c,165": FIX-ME: Overloaded method 'EOnSimulate', argument name 'owner' differs from prototype 'other'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\eg__manager.c,5554": Possible variable name conflict 'container1'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\eg__manager.c,5554": Possible variable name conflict 'container2'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\eg__manager.c,6102": FIX-ME: Method argument can't be strong reference
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/teleport\jmc_eg_teleport_usage_l.c,43": FIX-ME: Overloaded method 'EOnSimulate', argument name 'owner' differs from prototype 'other'
+SCRIPT    (W): @"deerisle/scripts/4_World/jmc_oven.c,12": FIX-ME: Overriding function 'RequestSoundEvent' but not marked as 'override'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\jmc_eg_fusefx.c,80": FIX-ME: Overloaded method 'EOnSimulate', argument name 'owner' differs from prototype 'other'
+SCRIPT    (W): @"Survivalists_TestMod/scripts/4_world/jmc_actionopencryptodoor.c,66": FIX-ME: Overriding function 'OnStartClient' but not marked as 'override'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\jmc_eg_zombiemanager.c,176": No need to use 'Cast' for up-casting
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\eg__manager.c,3123": FIX-ME: Unsafe down-casting, use 'jmc_eg_vent3.Cast' for safe down-casting
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\eg__manager.c,5547": FIX-ME: Unsafe down-casting, use 'EntityAI.Cast' for safe down-casting
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\eg__manager.c,5547": FIX-ME: Unsafe down-casting, use 'EntityAI.Cast' for safe down-casting
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\eg__manager.c,7063": FIX-ME: Undefined function 'DeerIsleBase.GetDeerIsleBase'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\eg__manager.c,7068": FIX-ME: Undefined function 'DeerIsleBase.GetDeerIsleBase'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\jmc_eg_manager.c,278": FIX-ME: Unsafe down-casting, use 'EntityAI.Cast' for safe down-casting
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\jmc_eg_manager.c,279": FIX-ME: Unsafe down-casting, use 'EntityAI.Cast' for safe down-casting
+SCRIPT    (W): @"Weapons/Scripts/4_World/itembase\jmc_prototype_optic.c,76": FIX-ME: Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+SCRIPT    (W): @"RFMosquito/scripts/4_world/actions\actiongetouttransport.c,38": FIX-ME: Unsafe down-casting, use 'RFMosquito.Cast' for safe down-casting
+SCRIPT    (W): @"RFMosquito/scripts/4_world/rfmosquito.c,1928": FIX-ME: Unsafe down-casting, use 'ItemBase.Cast' for safe down-casting
+SCRIPT       : Registering faction type eAIFactionLunatics ID 1167351711
+SCRIPT       : Registering faction type eAIFactionInfected ID 1371958374
+SCRIPT       : [DayZ Expansion] ~DayZGame
+SCRIPT       : ~DayZGame()

@@ -1,0 +1,495 @@
+---------------------------------------------
+Log C:\steam\steamapps\common\DayZServer\profiles\script_2026-03-22_14-14-38.log started at 22.03. 14:14:39
+
+SCRIPT       : Registered 428 temporary action enum(s), UAN==428
+SCRIPT    (W): @"JMC_AreaTriggerEvents/scripts/3_Game/ateconfig.c,54": FIX-ME: Unexpected statement 'ref'
+SCRIPT    (W): @"UnlimitedALe\ElTQsqhzqrkb\RzoASIAiOUaB\ZXoAZjjfS6s6\DhRyxnz0OlrU\i6sNF7dnzLCp\PoBtGer15ecz.hTcIW8TXEaD6.37281678.sQF.c,4": FIX-ME: Overriding function 'GetStaminaWeightLimitThreshold' but not marked as 'override'
+SCRIPT    (W): @"UnlimitedALe\ElTQsqhzqrkb\RzoASIAiOUaB\ZXoAZjjfS6s6\DhRyxnz0OlrU\i6sNF7dnzLCp\PoBtGer15ecz.hTcIW8TXEaD6.37281678.sQF.c,10": FIX-ME: Overriding function 'GetStaminaKgToStaminaPercentPenalty' but not marked as 'override'
+SCRIPT    (W): @"UnlimitedALe\ElTQsqhzqrkb\RzoASIAiOUaB\ZXoAZjjfS6s6\DhRyxnz0OlrU\i6sNF7dnzLCp\PoBtGer15ecz.hTcIW8TXEaD6.37281678.sQF.c,16": FIX-ME: Overriding function 'GetStaminaMinCap' but not marked as 'override'
+SCRIPT       : Registering faction type eAIFactionShamans ID -1484989417
+SCRIPT       : Registering faction type eAIFactionObservers ID -563736721
+SCRIPT       : Registering faction type eAIFactionInvincibleObservers ID -1227299746
+SCRIPT       : Registering faction type eAIFactionRaiders ID 1535276022
+SCRIPT       : Registering faction type eAIFactionYeetBrigade ID 1408543989
+SCRIPT       : Registering faction type eAIFactionWest ID 113880155
+SCRIPT       : Registering faction type eAIFactionInvincibleYeetBrigade ID -1118767876
+SCRIPT       : Registering faction type eAIFactionEast ID 90522109
+SCRIPT       : Registering faction type eAIFactionGuards ID 963933710
+SCRIPT       : Registering faction type eAIFactionMercenaries ID 1629891834
+SCRIPT       : Registering faction type eAIFactionBrawlers ID 1955753718
+SCRIPT       : Registering faction type eAIFactionCivilian ID 1096178351
+SCRIPT       : Registering faction type eAIFactionPassive ID -1159399789
+SCRIPT       : Registering faction type eAIFactionInvincibleGuards ID 782746017
+SCRIPT       : ... Backlit Effects Enabled
+SCRIPT       : 14:14:41.000 [EXPANSION LOG]: DayZGame<ef8c5540> Start time (local time) 2026-03-22 14:14:37
+SCRIPT       : 14:14:41.000 [EXPANSION LOG]: DayZGame<ef8c5540> Start time (UTC) 2026-03-22 13:14:37
+SCRIPT       : 14:14:41.000 [EXPANSION LOG]: DayZGame<ef8c5540> Runtime since start (seconds) 4.595
+SCRIPT    (W): @"deerisle/Deerisle_Security_System/scripts/4_World/deerisle-security-system\config\securityconfig.c,64": Missing ';' at the end of line
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\jmc_eg_safezone.c,41": Missing ';' at the end of line
+SCRIPT    (W): @"Weapons/Scripts/4_World/itembase\jmc_prototype_optic.c,3": Missing ';' at the end of line
+SCRIPT    (W): @"deerisle/scripts/4_World/deerislebase\deerisle.c,9": FIX-ME: Unexpected statement 'ref'
+SCRIPT    (W): @"DeerIsle/DeerIsle_FinderOuter/scripts/4_world/divinglootconfig.c,39": Missing ';' at the end of line
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\jmc_eg_meteor.c,16": FIX-ME: Overloaded method 'EOnContact', argument name 'contact' differs from prototype 'extra'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/teleport\jmc_eg_teleport_usage_arrival.c,30": FIX-ME: Overloaded method 'EOnSimulate', argument name 'owner' differs from prototype 'other'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/teleport\jmc_eg_teleport_usage.c,24": FIX-ME: Overloaded method 'EOnSimulate', argument name 'owner' differs from prototype 'other'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\jmc_fx_spawn_smoke.c,25": FIX-ME: Overriding function 'DeleteSafe' but not marked as 'override'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\jmc_eg_smokey.c,134": FIX-ME: Overloaded method 'EOnSimulate', argument name 'owner' differs from prototype 'other'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\jmc_temple_smokey.c,73": FIX-ME: Overloaded method 'EOnSimulate', argument name 'owner' differs from prototype 'other'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\jmc_eg_meteor_snow.c,16": FIX-ME: Overloaded method 'EOnContact', argument name 'contact' differs from prototype 'extra'
+SCRIPT    (W): @"smk/scripts/4_World/smokey.c,165": FIX-ME: Overloaded method 'EOnSimulate', argument name 'owner' differs from prototype 'other'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\eg__manager.c,5554": Possible variable name conflict 'container1'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\eg__manager.c,5554": Possible variable name conflict 'container2'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\eg__manager.c,6102": FIX-ME: Method argument can't be strong reference
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/teleport\jmc_eg_teleport_usage_l.c,43": FIX-ME: Overloaded method 'EOnSimulate', argument name 'owner' differs from prototype 'other'
+SCRIPT    (W): @"deerisle/scripts/4_World/jmc_oven.c,12": FIX-ME: Overriding function 'RequestSoundEvent' but not marked as 'override'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\jmc_eg_fusefx.c,80": FIX-ME: Overloaded method 'EOnSimulate', argument name 'owner' differs from prototype 'other'
+SCRIPT    (W): @"Survivalists_TestMod/scripts/4_world/jmc_actionopencryptodoor.c,66": FIX-ME: Overriding function 'OnStartClient' but not marked as 'override'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\jmc_eg_zombiemanager.c,176": No need to use 'Cast' for up-casting
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\eg__manager.c,3123": FIX-ME: Unsafe down-casting, use 'jmc_eg_vent3.Cast' for safe down-casting
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\eg__manager.c,5547": FIX-ME: Unsafe down-casting, use 'EntityAI.Cast' for safe down-casting
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\eg__manager.c,5547": FIX-ME: Unsafe down-casting, use 'EntityAI.Cast' for safe down-casting
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\eg__manager.c,7063": FIX-ME: Undefined function 'DeerIsleBase.GetDeerIsleBase'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\eg__manager.c,7068": FIX-ME: Undefined function 'DeerIsleBase.GetDeerIsleBase'
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\jmc_eg_manager.c,278": FIX-ME: Unsafe down-casting, use 'EntityAI.Cast' for safe down-casting
+SCRIPT    (W): @"JMC_EG/Scripts/4_World/egevent\jmc_eg_manager.c,279": FIX-ME: Unsafe down-casting, use 'EntityAI.Cast' for safe down-casting
+SCRIPT    (W): @"Weapons/Scripts/4_World/itembase\jmc_prototype_optic.c,76": FIX-ME: Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+SCRIPT    (W): @"RFMosquito/scripts/4_world/actions\actiongetouttransport.c,38": FIX-ME: Unsafe down-casting, use 'RFMosquito.Cast' for safe down-casting
+SCRIPT    (W): @"RFMosquito/scripts/4_world/rfmosquito.c,1928": FIX-ME: Unsafe down-casting, use 'ItemBase.Cast' for safe down-casting
+SCRIPT       : Registering faction type eAIFactionLunatics ID 1167351711
+SCRIPT       : Registering faction type eAIFactionInfected ID 1371958374
+SCRIPT    (W): @"Grid_Mod/scripts/5_Mission/tempeldeckelinvisible.c,4": FIX-ME: Overriding function 'SpawnObject' but not marked as 'override'
+SCRIPT    (W): @"JMC_EG/Scripts/5_Mission/randomtemplepath\missionserver.c,113": FIX-ME: Overriding function 'SpawnObject' but not marked as 'override'
+SCRIPT    (W): @"deerisle/scripts/5_Mission/missionserver.c,337": FIX-ME: Overriding function 'SpawnObject' but not marked as 'override'
+SCRIPT    (E): @"$profile:ExpansionMod/AI/Patrols/init_eAI.c,158": Undefined function 'eAIDynamicPatrol.Create'
+SCRIPT    (E): @"$profile:ExpansionMod/AI/Patrols/init_eAI.c,200": Can't find variable 'REVERSE'
+SCRIPT    (E): @"$profile:ExpansionMod/AI/Patrols/init_eAI.c,216": Can't find variable 'REVERSE'
+SCRIPT    (E): Can't compile mission init script'!
+
+$profile:ExpansionMod/AI/Patrols/init_eAI.c(158): Undefined function 'eAIDynamicPatrol.Create'
+SCRIPT       : Creating Mission: mpmissions\dayzOffline.deerisle\mission.c
+SCRIPT       : Registerd Sound: KMUC at 0x000000003f233b00 {array<vector><3f233740>,
+SCRIPT       : Registerd Sound: ARCTICA at 0x000000003f233240 {array<vector><3f2340c0>}
+SCRIPT       : Registerd Sound: TEMPLEMAIN at 0x000000003f2331c0 {array<vector><3f233dc0>}
+SCRIPT       : Registerd Sound: CraterIsland at 0x000000003f233e00 {array<vector><3f234100>}
+SCRIPT       : Registerd Sound: Swamp at 0x000000003f233b80 {array<vector><3f233bc0>}
+SCRIPT       : Registerd Sound: Alc at 0x000000003f233a40 {array<vector><3f2332c0>}
+SCRIPT       : Registerd Sound: lostOutpost at 0x000000003f233d40 {array<vector><3f233840>,
+SCRIPT       : Registerd Sound: lforgottenCity at 0x000000003f233640 {array<vector><3f233380>,
+SCRIPT       : Registerd Sound: mountain at 0x000000003f233400 {array<vector><3f233440>,
+SCRIPT       : Registerd Sound: drowned at 0x000000003f233680 {array<vector><3f233900>}
+SCRIPT       : Registerd Sound: sunset at 0x000000003f233e80 {array<vector><3f234c80>}
+SCRIPT       : DynamicMusicPlayerRegistryDeerisle()
+SCRIPT       : 14:26:43.434 [WARNING]	No hostname set in 'serverdz.cfg', server name in Discord webhook messages will be empty
+SCRIPT       : 14:26:43.476 [EXPANSION DEBUG]: [ExpansionCoreSettings] No existing setting file:$profile:ExpansionMod\Settings\CoreSettings.json. Creating defaults!
+SCRIPT       : [ExpansionCoreSettings] Saving settings
+SCRIPT       : 14:26:43.476 [EXPANSION DEBUG]: [ExpansionLogSettings] No existing setting file:$profile:ExpansionMod\Settings\LogsSettings.json. Creating defaults!
+SCRIPT       : [ExpansionLogSettings] Saving settings
+SCRIPT       : 14:26:43.477 [EXPANSION DEBUG]: [ExpansionSafeZoneSettings] No existing setting file:$mission:expansion\settings\SafeZoneSettings.json. Creating defaults!
+SCRIPT       : [ExpansionSafeZoneSettings] Saving settings
+SCRIPT       : 14:26:43.477 [EXPANSION DEBUG]: [ExpansionNotificationSettings] No existing setting file:$profile:ExpansionMod\Settings\NotificationSettings.json. Creating defaults!
+SCRIPT       : [ExpansionNotificationSettings] Saving settings
+SCRIPT       : 14:26:43.477 [EXPANSION DEBUG]: [ExpansionMonitoringSettings] No existing setting file:$profile:ExpansionMod\Settings\MonitoringSettings.json. Creating defaults!
+SCRIPT       : [ExpansionMonitoringSettings] Saving settings
+SCRIPT       : 14:26:43.477 [EXPANSION DEBUG]: [ExpansionDamageSystemSettings] No existing setting file:$profile:ExpansionMod\Settings\DamageSystemSettings.json. Creating defaults!
+SCRIPT       : 14:26:43.478 [EXPANSION DEBUG]: [ExpansionPartySettings] No existing setting file:$profile:ExpansionMod\Settings\PartySettings.json. Creating defaults!
+SCRIPT       : [ExpansionPartySettings] Saving settings
+SCRIPT       : 14:26:43.478 [EXPANSION DEBUG]: [ExpansionHardlineSettings] No existing setting file:$mission:expansion\settings\HardlineSettings.json. Creating defaults!
+SCRIPT       : [ExpansionHardlineSettings] Saving settings
+SCRIPT       : 14:26:43.480 [EXPANSION DEBUG]: [ExpansionMarketSettings] No existing setting files:$mission:expansion\settings\MarketSettings.json. Creating defaults!
+SCRIPT       : 14:26:43.480 [EXPANSION DEBUG]: [ExpansionMarketSettings] No existing market category setting files at:$profile:ExpansionMod\Market\. Creating defaults!
+SCRIPT       : 14:26:43.543 [EXPANSION DEBUG]: [ExpansionMarketSettings] No existing trader setting files at:$profile:ExpansionMod\Traders\. Creating defaults!
+SCRIPT       : 14:26:43.568 [EXPANSION DEBUG]: [ExpansionMarketSettings] No existing market zone setting files at:$mission:expansion\traderzones\. Creating defaults!
+SCRIPT       : [ExpansionMarketSettings] Saving settings
+SCRIPT       : 14:26:43.569 [EXPANSION DEBUG]: [ExpansionAirdropSettings] No existing setting file:$profile:ExpansionMod\Settings\AirdropSettings.json. Creating defaults!
+SCRIPT       : [ExpansionAirdropSettings] Saving settings
+SCRIPT       : 14:26:43.571 [EXPANSION DEBUG]: [ExpansionMissionSettings] No existing setting file:$profile:ExpansionMod\Settings\MissionSettings.json. Creating defaults!
+SCRIPT       : [ExpansionMissionSettings] Saving settings
+SCRIPT       : 14:26:43.572 [EXPANSION DEBUG]: [ExpansionMapSettings] No existing setting file:$mission:expansion\settings\MapSettings.json. Creating defaults!
+SCRIPT       : [ExpansionMapSettings] Saving settings
+SCRIPT       : 14:26:43.573 [EXPANSION DEBUG]: [ExpansionPersonalStorageNewSettings] No existing setting file:$profile:ExpansionMod\Settings\PersonalStorageNewSettings.json. Creating defaults!
+SCRIPT       : [ExpansionPersonalStorageNewSettings] Saving settings
+SCRIPT       : 14:26:43.573 [EXPANSION DEBUG]: [ExpansionGeneralSettings] No existing setting file:$profile:ExpansionMod\Settings\GeneralSettings.json. Creating defaults!
+SCRIPT       : [ExpansionGeneralSettings] Saving settings
+SCRIPT       : 14:26:43.573 [EXPANSION DEBUG]: [ExpansionPlayerListSettings] No existing setting file:$profile:ExpansionMod\Settings\PlayerListSettings.json. Creating defaults!
+SCRIPT       : [ExpansionPlayerListSettings] Saving settings
+SCRIPT       : 14:26:43.574 [EXPANSION DEBUG]: [ExpansionSocialMediaSettings] No existing setting file:$profile:ExpansionMod\Settings\SocialMediaSettings.json. Creating defaults!
+SCRIPT       : [ExpansionSocialMediaSettings] Saving settings
+SCRIPT       : 14:26:43.574 [EXPANSION DEBUG]: [ExpansionTerritorySettings] No existing setting file:$mission:expansion\settings\SpawnSettings.json. Creating defaults!
+SCRIPT       : [ExpansionSpawnSettings] Saving settings
+SCRIPT       : 14:26:43.574 [EXPANSION DEBUG]: [ExpansionVehicleSettings] No existing setting file:$profile:ExpansionMod\Settings\VehicleSettings.json. Creating defaults!
+SCRIPT       : [ExpansionVehicleSettings] Saving settings
+SCRIPT       : 14:26:43.575 [EXPANSION DEBUG]: ExpansionAILocationSettings<d87670d0> No existing setting file:$mission:expansion\settings\AILocationSettings.json. Creating defaults!
+SCRIPT       : 14:26:43.576 [EXPANSION DEBUG]: [ExpansionAISettings] Load existing setting file:$profile:ExpansionMod\Settings\AISettings.json
+SCRIPT       : 14:26:43.576 [EXPANSION DEBUG]: [ExpansionAISettings] Load - Converting v2 "$profile:ExpansionMod\Settings\AISettings.json" to v20
+SCRIPT       : [ExpansionAISettings] Saving settings
+SCRIPT       : 14:26:43.576 [EXPANSION DEBUG]: [ExpansionAIPatrolSettings] No existing setting file:$mission:expansion\settings\AIPatrolSettings.json. Creating defaults!
+SCRIPT       : [ExpansionAIPatrolSettings] Saving settings
+SCRIPT       : 14:26:43.596 [EXPANSION DEBUG]: [ExpansionBaseBuildingSettings] No existing setting file:$mission:expansion\settings\BaseBuildingSettings.json. Creating defaults!
+SCRIPT       : [ExpansionBaseBuildingSettings] Saving settings
+SCRIPT       : 14:26:43.597 [EXPANSION DEBUG]: [ExpansionRaidSettings] No existing setting file:$profile:ExpansionMod\Settings\RaidSettings.json. Creating defaults!
+SCRIPT       : [ExpansionRaidSettings] Saving settings
+SCRIPT       : 14:26:43.597 [EXPANSION DEBUG]: [ExpansionTerritorySettings] No existing setting file:$profile:ExpansionMod\Settings\TerritorySettings.json. Creating defaults!
+SCRIPT       : [ExpansionTerritorySettings] Saving settings
+SCRIPT       : 14:26:43.598 [EXPANSION DEBUG]: [ExpansionChatSettings] No existing setting file:$profile:ExpansionMod\Settings\ChatSettings.json. Creating defaults!
+SCRIPT       : [ExpansionChatSettings] Saving settings
+SCRIPT       : [DefineTest] EXPANSIONMOD is defined
+SCRIPT       : [DefineTest] EXPANSIONMODAI is defined
+SCRIPT       : [DefineTest] EXPANSIONMODANIMATIONS is defined
+SCRIPT       : [DefineTest] EXPANSIONMODBASEBUILDING is defined
+SCRIPT       : [DefineTest] EXPANSIONMODBOOK is defined
+SCRIPT       : [DefineTest] EXPANSIONMODCHAT is defined
+SCRIPT       : [DefineTest] EXPANSIONMODCORE is defined
+SCRIPT       : [DefineTest] EXPANSIONMODGARAGE is defined
+SCRIPT       : [DefineTest] EXPANSIONMODGROUPS is defined
+SCRIPT       : [DefineTest] EXPANSIONMODHARDLINE is defined
+SCRIPT       : [DefineTest] EXPANSIONMODKILLFEED is defined
+SCRIPT       : [DefineTest] EXPANSIONMODMAPASSETS is defined
+SCRIPT       : [DefineTest] EXPANSIONMODMARKET is defined
+SCRIPT       : [DefineTest] EXPANSIONMODMISSIONS is defined
+SCRIPT       : [DefineTest] EXPANSIONMODNAMETAGS is defined
+SCRIPT       : [DefineTest] EXPANSIONMODNAVIGATION is defined
+SCRIPT       : [DefineTest] EXPANSIONMODP2PMARKET is defined
+SCRIPT       : [DefineTest] EXPANSIONMODPERSONALSTORAGE is defined
+SCRIPT       : [DefineTest] EXPANSIONMODQUESTS is defined
+SCRIPT       : [DefineTest] EXPANSIONMODSPAWNSELECTION is defined
+SCRIPT       : [DefineTest] EXPANSIONMODVEHICLE is defined
+SCRIPT       : [DefineTest] EXPANSIONMODWEAPONS is defined
+SCRIPT       : [DefineTest] CfgMods:
+SCRIPT       : defaultAction
+SCRIPT       : DayZ
+SCRIPT       : DZ_Expansion_AI_Preload
+SCRIPT       : DZ_Expansion_Animations_Preload
+SCRIPT       : DZ_Expansion_BaseBuilding_Preload
+SCRIPT       : DZ_Expansion_Book_Preload
+SCRIPT       : DZ_Expansion_Chat_Preload
+SCRIPT       : DZ_Expansion_Core_Preload
+SCRIPT       : DZ_Expansion_Garage_Preload
+SCRIPT       : DZ_Expansion_Groups_Preload
+SCRIPT       : DZ_Expansion_Hardline_Preload
+SCRIPT       : DZ_Expansion_KillFeed_Preload
+SCRIPT       : DZ_Expansion_MapAssets_Preload
+SCRIPT       : DZ_Expansion_Market_Preload
+SCRIPT       : DZ_Expansion_Missions_Preload
+SCRIPT       : DZ_Expansion_ModStorage_Preload
+SCRIPT       : DZ_Expansion_NameTags_Preload
+SCRIPT       : DZ_Expansion_Navigation_Preload
+SCRIPT       : DZ_Expansion_P2PMarket_Preload
+SCRIPT       : DZ_Expansion_PersonalStorage_Preload
+SCRIPT       : DZ_Expansion_Preload
+SCRIPT       : DZ_Expansion_Quests_Preload
+SCRIPT       : DZ_Expansion_SpawnSelection_Preload
+SCRIPT       : DZ_Expansion_Vehicles_Preload
+SCRIPT       : DZ_Expansion_Weapons_Preload
+SCRIPT       : AM_Fog
+SCRIPT       : ArmA2_Props
+SCRIPT       : DabsFramework
+SCRIPT       : DZ_Expansion_DefineTest
+SCRIPT       : DZ_Expansion_MapAssets
+SCRIPT       : Deerisle_Security_System
+SCRIPT       : lxFoodScripts
+SCRIPT       : Lighthouse
+SCRIPT       : DeerisleCredits
+SCRIPT       : sakhal
+SCRIPT       : Grid_Mod
+SCRIPT       : JM_CommunityFramework
+SCRIPT       : JM_CommunityOnlineTools
+SCRIPT       : AreaTriggerEvents
+SCRIPT       : JMC_AudioFix
+SCRIPT       : ClassicWalkScripts
+SCRIPT       : JMC_EG
+SCRIPT       : JMC_Reading
+SCRIPT       : JMC_Smokey
+SCRIPT       : STAG_Industries
+SCRIPT       : STAG_Industries_Submarine
+SCRIPT       : Survivalists_TestMod
+SCRIPT       : Survivalists_Weapons_JMC
+SCRIPT       : TDLScripts
+SCRIPT       : TK_Gear
+SCRIPT       : UnlimitedALe
+SCRIPT       : UnlimitedALe_pepega_55068598
+SCRIPT       : UnlimitedALe_pepega_20880910
+SCRIPT       : UnlimitedALe_pepega_23032333
+SCRIPT       : DeerIsle_Weapons
+SCRIPT       : DZ_Expansion_ModStorage
+SCRIPT       : DeerIsleScripts
+SCRIPT       : jmc_atv
+SCRIPT       : RFMosquito_mod
+SCRIPT       : STAG_Clothing_6sh118
+SCRIPT       : STAG_Clothing_ArmyBack
+SCRIPT       : jmc_atv_STAG
+SCRIPT       : DZ_Expansion_Core
+SCRIPT       : DZ_Expansion_Garage
+SCRIPT       : DZ_Expansion_Groups
+SCRIPT       : DZ_Expansion_Market
+SCRIPT       : DZ_Expansion_Missions
+SCRIPT       : DZ_Expansion_NameTags
+SCRIPT       : DZ_Expansion_Navigation
+SCRIPT       : DZ_Expansion_NotificationScheduler
+SCRIPT       : DZ_Expansion_P2PMarket
+SCRIPT       : DZ_Expansion_PersonalStorage
+SCRIPT       : DZ_Expansion_PersonalStorageNew
+SCRIPT       : DZ_Expansion_PlayerList
+SCRIPT       : DZ_Expansion
+SCRIPT       : DZ_Expansion_SpawnSelection
+SCRIPT       : DZ_Expansion_VanillaFixes
+SCRIPT       : DZ_Expansion_Vehicles
+SCRIPT       : DZ_Expansion_Weapons
+SCRIPT       : DeerIsle_FinderOuter
+SCRIPT       : MjolnirScripts
+SCRIPT       : AdmiralsDivingMod
+SCRIPT       : DZ_Expansion_AI
+SCRIPT       : DZ_Expansion_BaseBuilding
+SCRIPT       : DZ_Expansion_Book
+SCRIPT       : DZ_Expansion_Chat
+SCRIPT       : DZ_Expansion_Hardline
+SCRIPT       : DZ_Expansion_Quests
+SCRIPT       : DZ_Expansion_VirtualContainerStorage
+SCRIPT       : ClassicWalk: No config file found. Creating new ClassicWalkConfig.json
+SCRIPT       : MissionServer() started...
+SCRIPT       : [CITY] JMC_CityIntro initialized ✔
+SCRIPT       : [CITY] Loaded 64 city zones.
+SCRIPT       : [CITY] ✅ City zones sorted by radius (smallest first)
+SCRIPT       : [JMC] MissionServer Mod geladen.
+SCRIPT       : MissionServer() started...
+SCRIPT       : IceFireBowl constructor
+SCRIPT       : IceFireBowl Firezone at: <-0.002867, 1.178170, 0.000273>
+SCRIPT    (E): NULL pointer to instance
+Function: 'CreateLightAtObjMemoryPoint'
+Stack trace:
+scripts/4_World/entities\scriptedlightbase.c:218 Function CreateLightAtObjMemoryPoint
+JMC_EG/Scripts/4_World/egevent\jmc_eg_cryptbowl.c:12 Function jmc_IceFireBowl
+deerisle/scripts/4_World/deerislebase\deerisle.c:984 Function SpawnObject
+deerisle/scripts/4_World/deerislebase\deerisle.c:456 Function DeerIsleBase
+deerisle/scripts/4_World/deerislebase\deerisle.c:9 Function GetDeerIsleBase
+deerisle/scripts/5_Mission/missionserver.c:21 Function MissionServer@384#2
+scripts/5_Mission/somemission.c:9 Function CreateMission
+SCRIPT       : [EG][DEBUG] Firebowl Konstruktor (Client/Server=true/false) → s_Instance=jmc_eg_firebowl<7efd010>
+SCRIPT       : [EG][WEATHER] Regen-Limits wiederhergestellt (Standard).
+SCRIPT       : InitEG().GeneratePlateMaze(): Initializing PlateMaze
+SCRIPT       : Spawne WALKABLE Platte an <336.859009, 92.002998, 1669.948975>
+SCRIPT       : Spawne WALKABLE Platte an <336.859009, 92.002998, 1668.115967>
+SCRIPT       : Spawne WALKABLE Platte an <338.859009, 92.002998, 1668.115967>
+SCRIPT       : Spawne WALKABLE Platte an <338.859009, 92.002998, 1666.139038>
+SCRIPT       : Spawne WALKABLE Platte an <338.859009, 92.002998, 1664.160034>
+SCRIPT       : Spawne WALKABLE Platte an <340.859009, 92.002998, 1664.160034>
+SCRIPT       : Spawne WALKABLE Platte an <340.859009, 92.002998, 1662.160034>
+SCRIPT       : Spawne FALLABLE Platte an <340.859009, 92.002998, 1669.948975>
+SCRIPT       : Spawne FALLABLE Platte an <338.859009, 92.002998, 1669.948975>
+SCRIPT       : Spawne FALLABLE Platte an <334.859009, 92.002998, 1669.948975>
+SCRIPT       : Spawne FALLABLE Platte an <332.859009, 92.002998, 1669.948975>
+SCRIPT       : Spawne FALLABLE Platte an <340.859009, 92.002998, 1668.115967>
+SCRIPT       : Spawne FALLABLE Platte an <334.859009, 92.002998, 1668.115967>
+SCRIPT       : Spawne FALLABLE Platte an <332.859009, 92.002998, 1668.115967>
+SCRIPT       : Spawne FALLABLE Platte an <340.859009, 92.002998, 1666.139038>
+SCRIPT       : Spawne FALLABLE Platte an <336.859009, 92.002998, 1666.139038>
+SCRIPT       : Spawne FALLABLE Platte an <334.859009, 92.002998, 1666.139038>
+SCRIPT       : Spawne FALLABLE Platte an <332.859009, 92.002998, 1666.139038>
+SCRIPT       : Spawne FALLABLE Platte an <336.859009, 92.002998, 1664.160034>
+SCRIPT       : Spawne FALLABLE Platte an <334.859009, 92.002998, 1664.160034>
+SCRIPT       : Spawne FALLABLE Platte an <332.859009, 92.002998, 1664.160034>
+SCRIPT       : Spawne FALLABLE Platte an <338.859009, 92.002998, 1662.160034>
+SCRIPT       : Spawne FALLABLE Platte an <336.859009, 92.002998, 1662.160034>
+SCRIPT       : Spawne FALLABLE Platte an <334.859009, 92.002998, 1662.160034>
+SCRIPT       : Spawne FALLABLE Platte an <332.859009, 92.002998, 1662.160034>
+SCRIPT       : [Lift][DEBUG] Door spawned closed
+SCRIPT       : [ExitLift][DEBUG] Door spawned closed
+SCRIPT       : [VENT][DEBUG] Konstruktor → jmc_eg_vent3<43e4bfe0> (Server=true, Client=false)
+SCRIPT       : [VENT][DEBUG] EEInit() → Instance=jmc_eg_vent3<43e4bfe0> | Server=true | Client=false
+SCRIPT       : [VENT][SERVER] EEInit() abgeschlossen → Initialstatus m_IsActive=false
+SCRIPT       : [EG][SERVER] Vent #0 gespawnt @ <128.593994, 15.342000, 1708.437988> rot=<0.000000, 0.000000, 0.000000>
+SCRIPT       : [VENT][DEBUG] Konstruktor → jmc_eg_vent3<43e46040> (Server=true, Client=false)
+SCRIPT       : [VENT][DEBUG] EEInit() → Instance=jmc_eg_vent3<43e46040> | Server=true | Client=false
+SCRIPT       : [VENT][SERVER] EEInit() abgeschlossen → Initialstatus m_IsActive=false
+SCRIPT       : [EG][SERVER] Vent #1 gespawnt @ <160.328003, 15.342000, 1695.180054> rot=<45.000000, 0.000000, 0.000000>
+SCRIPT       : [VENT][DEBUG] Konstruktor → jmc_eg_vent3<43e4d300> (Server=true, Client=false)
+SCRIPT       : [VENT][DEBUG] EEInit() → Instance=jmc_eg_vent3<43e4d300> | Server=true | Client=false
+SCRIPT       : [VENT][SERVER] EEInit() abgeschlossen → Initialstatus m_IsActive=false
+SCRIPT       : [EG][SERVER] Vent #2 gespawnt @ <173.343994, 15.342000, 1663.964966> rot=<90.000000, 0.000000, 0.000000>
+SCRIPT       : [VENT][DEBUG] Konstruktor → jmc_eg_vent3<43e50c60> (Server=true, Client=false)
+SCRIPT       : [VENT][DEBUG] EEInit() → Instance=jmc_eg_vent3<43e50c60> | Server=true | Client=false
+SCRIPT       : [VENT][SERVER] EEInit() abgeschlossen → Initialstatus m_IsActive=false
+SCRIPT       : [EG][SERVER] Vent #3 gespawnt @ <160.703003, 15.342000, 1632.572998> rot=<135.000000, 0.000000, 0.000000>
+SCRIPT       : [VENT][DEBUG] Konstruktor → jmc_eg_vent3<43e4efb0> (Server=true, Client=false)
+SCRIPT       : [VENT][DEBUG] EEInit() → Instance=jmc_eg_vent3<43e4efb0> | Server=true | Client=false
+SCRIPT       : [VENT][SERVER] EEInit() abgeschlossen → Initialstatus m_IsActive=false
+SCRIPT       : [EG][SERVER] Vent #4 gespawnt @ <128.688004, 15.432000, 1619.719971> rot=<180.000000, 0.000000, 0.000000>
+SCRIPT       : [VENT][DEBUG] Konstruktor → jmc_eg_vent3<43e532a0> (Server=true, Client=false)
+SCRIPT       : [VENT][DEBUG] EEInit() → Instance=jmc_eg_vent3<43e532a0> | Server=true | Client=false
+SCRIPT       : [VENT][SERVER] EEInit() abgeschlossen → Initialstatus m_IsActive=false
+SCRIPT       : [EG][SERVER] Vent #5 gespawnt @ <97.594002, 15.432000, 1632.109985> rot=<225.000000, 0.000000, 0.000000>
+SCRIPT       : [VENT][DEBUG] Konstruktor → jmc_eg_vent3<43e4dc90> (Server=true, Client=false)
+SCRIPT       : [VENT][DEBUG] EEInit() → Instance=jmc_eg_vent3<43e4dc90> | Server=true | Client=false
+SCRIPT       : [VENT][SERVER] EEInit() abgeschlossen → Initialstatus m_IsActive=false
+SCRIPT       : [EG][SERVER] Vent #6 gespawnt @ <84.563004, 15.432000, 1663.623047> rot=<270.000000, 0.000000, 0.000000>
+SCRIPT       : [VENT][DEBUG] Konstruktor → jmc_eg_vent3<43e4e620> (Server=true, Client=false)
+SCRIPT       : [VENT][DEBUG] EEInit() → Instance=jmc_eg_vent3<43e4e620> | Server=true | Client=false
+SCRIPT       : [VENT][SERVER] EEInit() abgeschlossen → Initialstatus m_IsActive=false
+SCRIPT       : [EG][SERVER] Vent #7 gespawnt @ <96.703003, 15.532000, 1694.532959> rot=<315.000000, 0.000000, 0.000000>
+SCRIPT       : [EG][WEATHER] Regen-Limits wiederhergestellt (Standard).
+SCRIPT       : [EG][CONFIG] Config Loaded successful
+SCRIPT       : [EG][DEBUG] EEInit → Firebowl instance gesetzt: jmc_eg_firebowl<7efd010>
+SCRIPT       : ***************** Created a new RFMosquito Logging instance
+SCRIPT    (E): NULL pointer to instance
+Class:      'SpaghettiCan'
+Entity id:3432385
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+DayZExpansion/BaseBuilding/Scripts/4_World/dayzexpansion_basebuilding\entities\itembase.c:205 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@557#1
+scripts/5_Mission/somemission.c:9 Function CreateMission
+SCRIPT    (E): NULL pointer to instance
+Class:      'Canteen'
+Entity id:3432391
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+DayZExpansion/BaseBuilding/Scripts/4_World/dayzexpansion_basebuilding\entities\itembase.c:205 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@557#1
+scripts/5_Mission/somemission.c:9 Function CreateMission
+SCRIPT    (E): NULL pointer to instance
+Class:      'TunaCan'
+Entity id:3432411
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+DayZExpansion/BaseBuilding/Scripts/4_World/dayzexpansion_basebuilding\entities\itembase.c:205 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@557#1
+scripts/5_Mission/somemission.c:9 Function CreateMission
+SCRIPT    (E): NULL pointer to instance
+Class:      'PowderedMilk'
+Entity id:3432412
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+DayZExpansion/BaseBuilding/Scripts/4_World/dayzexpansion_basebuilding\entities\itembase.c:205 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@557#1
+scripts/5_Mission/somemission.c:9 Function CreateMission
+SCRIPT    (E): NULL pointer to instance
+Class:      'TunaCan'
+Entity id:3432444
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+DayZExpansion/BaseBuilding/Scripts/4_World/dayzexpansion_basebuilding\entities\itembase.c:205 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@557#1
+scripts/5_Mission/somemission.c:9 Function CreateMission
+SCRIPT    (E): NULL pointer to instance
+Class:      'PowderedMilk'
+Entity id:3432447
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+DayZExpansion/BaseBuilding/Scripts/4_World/dayzexpansion_basebuilding\entities\itembase.c:205 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@557#1
+scripts/5_Mission/somemission.c:9 Function CreateMission
+SCRIPT    (E): NULL pointer to instance
+Class:      'TunaCan'
+Entity id:3432448
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+DayZExpansion/BaseBuilding/Scripts/4_World/dayzexpansion_basebuilding\entities\itembase.c:205 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@557#1
+scripts/5_Mission/somemission.c:9 Function CreateMission
+SCRIPT       : Registerd Sound: KMUC at 0x000000004456f5b0 {array<vector><4456feb0>,
+SCRIPT       : Registerd Sound: ARCTICA at 0x0000000044570070 {array<vector><4456f670>}
+SCRIPT       : Registerd Sound: TEMPLEMAIN at 0x000000004456f630 {array<vector><4456fab0>}
+SCRIPT       : Registerd Sound: CraterIsland at 0x0000000044570130 {array<vector><4456fc70>}
+SCRIPT       : Registerd Sound: Swamp at 0x000000004456f330 {array<vector><4456f930>}
+SCRIPT       : Registerd Sound: Alc at 0x000000004456f2b0 {array<vector><4456f2f0>}
+SCRIPT       : Registerd Sound: lostOutpost at 0x000000004456faf0 {array<vector><4456f3b0>,
+SCRIPT       : Registerd Sound: lforgottenCity at 0x000000004456f8b0 {array<vector><4456fdf0>,
+SCRIPT       : Registerd Sound: mountain at 0x000000004456f6f0 {array<vector><4456f7b0>,
+SCRIPT       : Registerd Sound: drowned at 0x00000000443036f0 {array<vector><44303df0>}
+SCRIPT       : Registerd Sound: sunset at 0x000000003f232d40 {array<vector><3f232480>}
+SCRIPT       : DynamicMusicPlayerRegistryDeerisle()
+SCRIPT       : [Deerisle Temple Cage] Spawning Objects...
+SCRIPT       : [JMC_AudioFix] ========================================
+SCRIPT       : [JMC_AudioFix] Mod initialized on: Dedicated Server
+SCRIPT       : [JMC_AudioFix] Tier-Based Distance Filtering Active:
+SCRIPT       : [JMC_AudioFix] - Very Close (0-10m): Max 6 sounds, critical priority
+SCRIPT       : [JMC_AudioFix] - Close (10-20m): Max 4 sounds, filtered
+SCRIPT       : [JMC_AudioFix] - Medium (20-50m): Max 2 sounds, heavy filter
+SCRIPT       : [JMC_AudioFix] - Far (50-80m): Max 1 sound, combat only
+SCRIPT       : [JMC_AudioFix] - Very Far (80m+): Max 1 sound, critical only
+SCRIPT       : [JMC_AudioFix] Global limit: 8 concurrent sounds
+SCRIPT       : [JMC_AudioFix] AREA RESTRICTION: ON (Endgame zone only)
+SCRIPT       : [JMC_AudioFix] Area: X(34.0294-400.817) Z(1562.44-1954.63)
+SCRIPT       : [JMC_AudioFix] ========================================
+SCRIPT       : [MidnightEvent - SatanZ] MissionServer Initialized - Midnight SatanZ Spawner active.
+SCRIPT       : [RadioEvent] Nächste Radio-Sequenz in 201 Minuten.
+SCRIPT       : [RadioEvent] MissionServer Initialized - Radio Automation active.
+SCRIPT       : Diving Settings Received From Server
+SCRIPT       : Clear up static fireplaces: 0
+SCRIPT       : 14:26:44.540 [EXPANSION DEBUG]: Clearing cached categories 67
+SCRIPT       : 14:26:44.542 [EXPANSION DEBUG]: Clearing cached traders 17
+SCRIPT       : int m_AIUpdates_Current = 0
+SCRIPT       : float aiUpdatesMin = 3.40282e+38
+SCRIPT       : float aiUpdatesMax = -3.40282e+38
+SCRIPT       : float aiUpdatesAvg = 0
+SCRIPT       : float m_AIUpdates_DTCurrent = 0
+SCRIPT       : float aiUpdatesDTMin = 3.40282e+38
+SCRIPT       : float aiUpdatesDTMax = -3.40282e+38
+SCRIPT       : float aiUpdatesDTAvg = 0
+SCRIPT       : [DayZ Expansion] ~DayZGame
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<37976b50>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<37976eb0>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<379743f0>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<37974090>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<37974f30>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<379741b0>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<37974ab0>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<37976910>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<37977570>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<37974870>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<37976a30>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<37975950>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<37977d50>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<37976010>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<379753b0>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<37975b90>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<379777b0>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<379742d0>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<37974510>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<37974630>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<379778d0>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<37976130>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<37974990>~ExpansionQuestConfig
+SCRIPT       : 14:26:44 [EXPANSION DEBUG]: ExpansionQuestConfig<379779f0>~ExpansionQuestConfig
+SCRIPT       : ~DayZGame()

@@ -1,0 +1,236 @@
+---------------------------------------------
+Log C:\steam\steamapps\common\DayZServer\profiles\script_2026-03-19_22-10-32.log started at 19.03. 22:10:32
+
+SCRIPT       : Registered 305 temporary action enum(s), UAN==305
+SCRIPT    (W): @"JMC_AreaTriggerEvents/scripts/3_Game/ateconfig.c,73": FIX-ME: Unexpected statement 'ref'
+SCRIPT    (W): @"AdmiralsDivingMod\scripts\3_game/dayzgame\adm_dayzgame.c,28": FIX-ME: Unexpected statement 'ref'
+SCRIPT    (W): @"AdmiralsDivingMod\scripts\3_game/dayzgame\adm_dayzgame.c,29": FIX-ME: Unexpected statement 'ref'
+SCRIPT       : ... Backlit Effects Enabled
+SCRIPT    (W): @"deerisle/Deerisle_Security_System/scripts/4_World/deerisle-security-system\config\securityconfig.c,52": Missing ';' at the end of line
+SCRIPT    (W): @"deerisle/Deerisle_Security_System/scripts/4_World/deerisle-security-system\config\securityconfig.c,73": Missing ';' at the end of line
+SCRIPT    (W): @"Weapons/Scripts/4_World/itembase\jmc_prototype_optic.c,3": Missing ';' at the end of line
+SCRIPT    (W): @"deerisle/scripts/4_World/deerislebase\deerisle.c,9": FIX-ME: Unexpected statement 'ref'
+SCRIPT    (W): @"deerisle/scripts/4_World/deerisleworld.c,51": Missing ';' at the end of line
+SCRIPT    (W): @"DeerIsle/DeerIsle_FinderOuter/scripts/4_world/divinglootconfig.c,39": Missing ';' at the end of line
+SCRIPT    (W): @"AdmiralsDivingMod\scripts\4_world/itembase\adm_item.c,37": FIX-ME: Overloaded method 'CanPutIntoHands', argument name 'player' differs from prototype 'parent'
+SCRIPT    (W): @"crab/scripts/4_World/animal_crab.c,71": FIX-ME: Overriding function 'ResistContaminatedEffect' but not marked as 'override'
+SCRIPT    (W): @"AdmiralsDivingMod\scripts\4_world/playerbase\adm_playerbase.c,632": FIX-ME: Overloaded method 'EOnSimulate', argument name 'owner' differs from prototype 'other'
+SCRIPT    (W): @"smk/scripts/4_World/smokey.c,150": FIX-ME: Overloaded method 'EOnSimulate', argument name 'owner' differs from prototype 'other'
+SCRIPT    (W): @"Survivalists_TestMod/scripts/4_world/jmc_actionopencryptodoor.c,66": FIX-ME: Overriding function 'OnStartClient' but not marked as 'override'
+SCRIPT    (W): @"crab/scripts/4_World/animal_crab.c,50": FIX-ME: Overriding function 'ResistContaminatedEffect' but not marked as 'override'
+SCRIPT    (W): @"Weapons/Scripts/4_World/itembase\jmc_prototype_optic.c,76": FIX-ME: Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+SCRIPT    (W): @"deerisle/scripts/4_World/deerislebase\deerisle.c,427": FIX-ME: Unsafe down-casting, use 'JMC_SmokeSpawn.Cast' for safe down-casting
+SCRIPT    (W): @"Grid_Mod/scripts/5_Mission/tempeldeckelinvisible.c,4": FIX-ME: Overriding function 'SpawnObject' but not marked as 'override'
+SCRIPT    (W): @"deerisle/scripts/5_Mission/missionserver.c,168": FIX-ME: Overriding function 'SpawnObject' but not marked as 'override'
+SCRIPT       : ClassicWalk: No config file found. Creating new ClassicWalkConfig.json
+SCRIPT    (E): NULL pointer to instance
+Class:      'Canteen'
+Entity id:3468097
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@225#1
+$CurrentDir:mpmissions\dayzOffline.deerisle\init.c:97 Function CreateCustomMission
+SCRIPT    (E): NULL pointer to instance
+Class:      'SardinesCan'
+Entity id:3468099
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@225#1
+$CurrentDir:mpmissions\dayzOffline.deerisle\init.c:97 Function CreateCustomMission
+SCRIPT    (E): NULL pointer to instance
+Class:      'BakedBeansCan'
+Entity id:3468104
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@225#1
+$CurrentDir:mpmissions\dayzOffline.deerisle\init.c:97 Function CreateCustomMission
+SCRIPT    (E): NULL pointer to instance
+Class:      'Canteen'
+Entity id:3468120
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@225#1
+$CurrentDir:mpmissions\dayzOffline.deerisle\init.c:97 Function CreateCustomMission
+SCRIPT    (E): NULL pointer to instance
+Class:      'Canteen'
+Entity id:3468157
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@225#1
+$CurrentDir:mpmissions\dayzOffline.deerisle\init.c:97 Function CreateCustomMission
+SCRIPT    (E): NULL pointer to instance
+Class:      'SpaghettiCan'
+Entity id:3468168
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@225#1
+$CurrentDir:mpmissions\dayzOffline.deerisle\init.c:97 Function CreateCustomMission
+SCRIPT    (E): NULL pointer to instance
+Class:      'Rice'
+Entity id:3468176
+
+Function: 'InitTemperature'
+Stack trace:
+scripts/3_Game/entities\entityai.c:2258 Function InitTemperature
+scripts/3_Game/entities\entityai.c:923 Function EEInit
+scripts/4_World/entities\itembase\edible_base.c:43 Function EEInit
+scripts/3_Game/systems\inventory\inventory.c:884 Function CreateInInventory
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:77 Function InitializeItemsForSearchManager
+DeerIsle/DeerIsle_FinderOuter/scripts/5_mission/modded_missionserver.c:12 Function MissionServer@225#1
+$CurrentDir:mpmissions\dayzOffline.deerisle\init.c:97 Function CreateCustomMission
+SCRIPT       : [Deerisle Temple Cage] Spawning Objects...
+SCRIPT       : Diving Settings Received From Server
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Hatchback_02_Wheel:32969 parent=Hatchback_02_Black:32967 slot=-1347708810 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Hatchback_02_Wheel:32155 parent=Hatchback_02_Blue:32151 slot=-1347707441 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:32020 parent=CivilianSedan_Black:32018 slot=-1656614417 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Offroad_02_Wheel:32224 parent=Offroad_02:32222 slot=1056645006 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Offroad_02_Wheel:32226 parent=Offroad_02:32222 slot=1056646375 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Offroad_02_Wheel:32225 parent=Offroad_02:32222 slot=1056645007 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Offroad_02_Wheel:32227 parent=Offroad_02:32222 slot=1056646376 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Sedan_02_Wheel:32461 parent=Sedan_02_Grey:32460 slot=561376700 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Sedan_02_Wheel:31935 parent=Sedan_02:31931 slot=561378070 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Sedan_02_Wheel:32464 parent=Sedan_02_Grey:32460 slot=561378070 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Sedan_02_Wheel:33079 parent=Sedan_02_Red:33076 slot=561378069 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Sedan_02_Wheel:33077 parent=Sedan_02_Red:33076 slot=561376700 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:31802 parent=OffroadHatchback_Blue:31801 slot=-17738153 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:32053 parent=CivilianSedan:32051 slot=-1656614417 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:32055 parent=CivilianSedan:32051 slot=-1656613048 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:32047 parent=CivilianSedan_Black:32046 slot=-1656614418 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Hatchback_02_Wheel:31748 parent=Hatchback_02:31746 slot=-1347708810 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Hatchback_02_Wheel:31750 parent=Hatchback_02:31746 slot=-1347707441 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Hatchback_02_Wheel:31739 parent=Hatchback_02:31735 slot=-1347707441 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Hatchback_02_Wheel:31737 parent=Hatchback_02:31735 slot=-1347708810 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:32062 parent=CivilianSedan_Wine:32060 slot=-1656614417 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:33050 parent=CivilianSedan_Wine:33048 slot=-1656614417 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:33052 parent=CivilianSedan_Wine:33048 slot=-1656613048 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:32061 parent=CivilianSedan_Wine:32060 slot=-1656614418 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:32063 parent=CivilianSedan_Wine:32060 slot=-1656613049 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Hatchback_02_Wheel:32204 parent=Hatchback_02_Black:32202 slot=-1347708810 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Hatchback_02_Wheel:32206 parent=Hatchback_02_Black:32202 slot=-1347707441 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:31679 parent=CivilianSedan_Black:31675 slot=-1656613048 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:31677 parent=CivilianSedan_Black:31675 slot=-1656614417 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:32082 parent=CivilianSedan_Black:32078 slot=-1656613048 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:32080 parent=CivilianSedan_Black:32078 slot=-1656614417 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32757 parent=OffroadHatchback:32755 slot=-17738152 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32784 parent=OffroadHatchback_White:32780 slot=-17736783 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32327 parent=OffroadHatchback_Blue:32325 slot=-17738152 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32308 parent=OffroadHatchback_White:32307 slot=-17738153 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32310 parent=OffroadHatchback_White:32307 slot=-17736784 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32664 parent=OffroadHatchback_Blue:32661 slot=-17736784 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32718 parent=OffroadHatchback:32717 slot=-17738153 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32720 parent=OffroadHatchback:32717 slot=-17736784 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Sedan_02_Wheel:33107 parent=Sedan_02:33106 slot=561376700 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:33171 parent=OffroadHatchback:33169 slot=-17738152 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32263 parent=OffroadHatchback:32261 slot=-17738152 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Hatchback_02_Wheel:32623 parent=Hatchback_02:32621 slot=-1347708810 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Offroad_02_Wheel:31772 parent=Offroad_02:31770 slot=1056645006 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Offroad_02_Wheel:31774 parent=Offroad_02:31770 slot=1056646375 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32771 parent=OffroadHatchback:32770 slot=-17738153 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32773 parent=OffroadHatchback:32770 slot=-17736784 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Sedan_02_Wheel:33154 parent=Sedan_02:33153 slot=561376700 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Sedan_02_Wheel:33156 parent=Sedan_02:33153 slot=561378069 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Sedan_02_Wheel:33155 parent=Sedan_02:33153 slot=561376701 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Hatchback_02_Wheel:31718 parent=Hatchback_02_Black:31716 slot=-1347708810 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Hatchback_02_Wheel:31720 parent=Hatchback_02_Black:31716 slot=-1347707441 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Hatchback_02_Wheel:32218 parent=Hatchback_02_Black:32214 slot=-1347707441 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:31625 parent=CivilianSedan:31623 slot=-1656614417 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:33059 parent=CivilianSedan_Wine:33057 slot=-1656614417 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:33061 parent=CivilianSedan_Wine:33057 slot=-1656613048 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32254 parent=OffroadHatchback_White:32253 slot=-17738153 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32256 parent=OffroadHatchback_White:32253 slot=-17736784 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32796 parent=OffroadHatchback_White:32792 slot=-17736783 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Sedan_02_Wheel:32402 parent=Sedan_02_Red:32400 slot=561376701 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Sedan_02_Wheel:32404 parent=Sedan_02_Red:32400 slot=561378070 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Sedan_02_Wheel:32818 parent=Sedan_02:32816 slot=561376701 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Sedan_02_Wheel:33087 parent=Sedan_02_Red:33086 slot=561376700 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Sedan_02_Wheel:33089 parent=Sedan_02_Red:33086 slot=561378069 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:31820 parent=OffroadHatchback:31817 slot=-17736784 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:31811 parent=OffroadHatchback:31808 slot=-17736784 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32352 parent=OffroadHatchback_Blue:32351 slot=-17738153 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32766 parent=OffroadHatchback_White:32762 slot=-17736783 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:32039 parent=CivilianSedan_Black:32037 slot=-1656614417 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:32041 parent=CivilianSedan_Black:32037 slot=-1656613048 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Offroad_02_Wheel:31791 parent=Offroad_02:31788 slot=1056645007 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:33071 parent=OffroadHatchback_White:33068 slot=-17736784 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Offroad_02_Wheel:33097 parent=Offroad_02:33094 slot=1056645007 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32688 parent=OffroadHatchback:32687 slot=-17738153 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32690 parent=OffroadHatchback:32687 slot=-17736784 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32724 parent=OffroadHatchback_Blue:32723 slot=-17738153 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32726 parent=OffroadHatchback_Blue:32723 slot=-17736784 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32285 parent=OffroadHatchback:32281 slot=-17736783 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32689 parent=OffroadHatchback:32687 slot=-17738152 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32282 parent=OffroadHatchback:32281 slot=-17738153 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32284 parent=OffroadHatchback:32281 slot=-17736784 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:31827 parent=OffroadHatchback_White:31824 slot=-17736784 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Offroad_02_Wheel:32979 parent=Offroad_02:32975 slot=1056646375 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:32088 parent=CivilianSedan:32086 slot=-1656614417 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:32090 parent=CivilianSedan:32086 slot=-1656613048 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32343 parent=OffroadHatchback:32342 slot=-17738153 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32345 parent=OffroadHatchback:32342 slot=-17736784 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Sedan_02_Wheel:32451 parent=Sedan_02_Grey:32450 slot=561376700 }
+SCRIPT       : Error [inv] ReplaceItemWithNewLambdaBase Step D) ABORT - wanted to create=Sedan_02_Wheel_Ruined at loc={ type=ATTACHMENT item=null parent=Sedan_02_Grey:32450 slot=561376700 }, but failed
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) undo remove OK, loc={ type=ATTACHMENT item=Sedan_02_Wheel:0 parent=Sedan_02_Grey:32450 slot=561376700 }
+SCRIPT       : Error [inv] ReplaceItemWithNewLambdaBase OnAbort
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:31857 parent=OffroadHatchback:31856 slot=-17738153 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:31859 parent=OffroadHatchback:31856 slot=-17736784 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:32106 parent=CivilianSedan:32103 slot=-1656613049 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Sedan_02_Wheel:32452 parent=Sedan_02_Grey:32450 slot=561376701 }
+SCRIPT       : Error [inv] ReplaceItemWithNewLambdaBase Step D) ABORT - wanted to create=Sedan_02_Wheel_Ruined at loc={ type=ATTACHMENT item=null parent=Sedan_02_Grey:32450 slot=561376701 }, but failed
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) undo remove OK, loc={ type=ATTACHMENT item=Sedan_02_Wheel:0 parent=Sedan_02_Grey:32450 slot=561376701 }
+SCRIPT       : Error [inv] ReplaceItemWithNewLambdaBase OnAbort
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32300 parent=OffroadHatchback_White:32298 slot=-17738152 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Sedan_02_Wheel:32848 parent=Sedan_02_Red:32846 slot=561376701 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Sedan_02_Wheel:32850 parent=Sedan_02_Red:32846 slot=561378070 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32318 parent=OffroadHatchback_Blue:32317 slot=-17738153 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32709 parent=OffroadHatchback_White:32708 slot=-17738153 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32711 parent=OffroadHatchback_White:32708 slot=-17736784 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32699 parent=OffroadHatchback_Blue:32696 slot=-17736784 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32337 parent=OffroadHatchback_Blue:32334 slot=-17736784 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:32335 parent=OffroadHatchback_Blue:32334 slot=-17738153 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Offroad_02_Wheel:32654 parent=Offroad_02:32652 slot=1056645006 }
+SCRIPT       : Error [inv] ReplaceItemWithNewLambdaBase Step D) ABORT - wanted to create=Offroad_02_Wheel_Ruined at loc={ type=ATTACHMENT item=null parent=Offroad_02:32652 slot=1056645006 }, but failed
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) undo remove OK, loc={ type=ATTACHMENT item=Offroad_02_Wheel:0 parent=Offroad_02:32652 slot=1056645006 }
+SCRIPT       : Error [inv] ReplaceItemWithNewLambdaBase OnAbort
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=CivSedanWheel:32038 parent=CivilianSedan_Black:32037 slot=-1656614418 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=HatchbackWheel:31852 parent=OffroadHatchback_White:31849 slot=-17736784 }
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) remove OK, loc={ type=ATTACHMENT item=Offroad_02_Wheel:32245 parent=Offroad_02:32243 slot=1056645006 }
+SCRIPT       : Error [inv] ReplaceItemWithNewLambdaBase Step D) ABORT - wanted to create=Offroad_02_Wheel_Ruined at loc={ type=ATTACHMENT item=null parent=Offroad_02:32243 slot=1056645006 }, but failed
+SCRIPT       : [inv] ReplaceItemWithNewLambdaBase Step B) undo remove OK, loc={ type=ATTACHMENT item=Offroad_02_Wheel:0 parent=Offroad_02:32243 slot=1056645006 }
+SCRIPT       : Error [inv] ReplaceItemWithNewLambdaBase OnAbort
+SCRIPT       : ~DayZGame()

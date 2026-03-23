@@ -1,0 +1,15 @@
+---------------------------------------------
+Log C:\steam\steamapps\common\DayZServer\profiles\script_2026-03-22_14-43-12.log started at 22.03. 14:43:12
+
+SCRIPT    (E): @"DayZExpansion/Core/Scripts/1_Core/dayzexpansion_core\cf_log.c,1": Unknown type 'CF_Log'
+SCRIPT    (E): Can't compile "Engine" script module!
+
+DayZExpansion/Core/Scripts/1_Core/dayzexpansion_core\cf_log.c(1): Unknown type 'CF_Log'
+SCRIPT    (E): @"DayZExpansion/Core/Scripts/1_Core/dayzexpansion_core\cf_log.c,1": Unknown type 'CF_Log'
+SCRIPT    (E): Can't compile "Engine" script module!
+
+DayZExpansion/Core/Scripts/1_Core/dayzexpansion_core\cf_log.c(1): Unknown type 'CF_Log'
+SCRIPT    (E): @"DayZExpansion/Core/Scripts/1_Core/dayzexpansion_core\cf_log.c,1": Unknown type 'CF_Log'
+SCRIPT    (E): Can't compile "Engine" script module!
+
+DayZExpansion/Core/Scripts/1_Core/dayzexpansion_core\cf_log.c(1): Unknown type 'CF_Log'

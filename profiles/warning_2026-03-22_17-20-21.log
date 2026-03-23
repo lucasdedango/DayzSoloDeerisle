@@ -1,0 +1,9 @@
+---------------------------------------------
+Log warning_2026-03-22_17-20-21.log started at 2026-03-22 17:59:39
+
+
+
+------------------------------------
+DESKTOP-J3UTEK4, 2026-03-22
+17:59:39.841 [DayZGame<ca004030>] :: [WARNING] :: Object 'OBJECT_WITHOUT_CONFIG_CLASS' with model file: dz\structures\walls\wall_indcnc_10.p3d has unregistered surface impact material <default_Mat>! Register this surface in ImpactMaterials (Script).
+Class:      'DayZGame'
