@@ -2,7 +2,7 @@
     "ConfigVersion": 28,
     "ID": 1,
     "ObjectiveType": 9,
-    "ObjectiveText": "Bring the Survivor to the marked location.",
+    "ObjectiveText": "Escort the island guide back to safety.",
     "TimeLimit": 180,
     "Active": 1,
     "Position": [
@@ -11,10 +11,10 @@
         0.0
     ],
     "MaxDistance": 20.0,
-    "MarkerName": "Escort Survivor",
+    "MarkerName": "Escort Island Guide",
     "ShowDistance": 1,
     "CanLootAI": 0,
-    "NPCLoadoutFile": "SurvivorLoadout",
-    "NPCClassName": "eAI_SurvivorM_Peter",
-    "NPCName": "Survivior"
+    "NPCLoadoutFile": "DeerIsleGuideLoadout",
+    "NPCClassName": "eAI_SurvivorF_Frida",
+    "NPCName": "Island Guide"
 }
