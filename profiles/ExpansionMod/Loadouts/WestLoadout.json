@@ -661,7 +661,315 @@
         {
             "ClassName": "BandageDressing",
             "Include": "",
-            "Chance": 0.15000000596046449,
+            "Chance": 0.15000000596046448,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "Rag",
+            "Include": "",
+            "Chance": 0.25,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "WaterBottle",
+            "Include": "",
+            "Chance": 0.45,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "Canteen",
+            "Include": "",
+            "Chance": 0.25,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "PeachesCan",
+            "Include": "",
+            "Chance": 0.45,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "SardinesCan",
+            "Include": "",
+            "Chance": 0.45,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "TacticalBaconCan",
+            "Include": "",
+            "Chance": 0.25,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "Ammo_556x45",
+            "Include": "",
+            "Chance": 0.45,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "Ammo_762x39",
+            "Include": "",
+            "Chance": 0.45,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "Ammo_9x19",
+            "Include": "",
+            "Chance": 0.25,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "Ammo_12gaPellets",
+            "Include": "",
+            "Chance": 0.25,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "NailBox",
+            "Include": "",
+            "Chance": 0.25,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "DuctTape",
+            "Include": "",
+            "Chance": 0.25,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "MetalWire",
+            "Include": "",
+            "Chance": 0.25,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "Rope",
+            "Include": "",
+            "Chance": 0.25,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "Pliers",
+            "Include": "",
+            "Chance": 0.25,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "Hammer",
+            "Include": "",
+            "Chance": 0.25,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "Screwdriver",
+            "Include": "",
+            "Chance": 0.25,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "Whetstone",
+            "Include": "",
+            "Chance": 0.25,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "Codeine",
+            "Include": "",
+            "Chance": 0.25,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "TetracyclineAntibiotics",
+            "Include": "",
+            "Chance": 0.25,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "Epinephrine",
+            "Include": "",
+            "Chance": 0.25,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "Morphine",
+            "Include": "",
+            "Chance": 0.25,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -724,7 +1032,7 @@
                                         {
                                             "ClassName": "ACOGOptic",
                                             "Include": "",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -738,7 +1046,7 @@
                                         {
                                             "ClassName": "ACOGOptic_6x",
                                             "Include": "",
-                                            "Chance": 0.15000000596046449,
+                                            "Chance": 0.15000000596046448,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -879,7 +1187,35 @@
                 {
                     "ClassName": "Mag_Scout_5Rnd",
                     "Include": "",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 1.0,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
+                    "ClassName": "Mag_Scout_5Rnd",
+                    "Include": "",
+                    "Chance": 1.0,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
+                    "ClassName": "Mag_Scout_5Rnd",
+                    "Include": "",
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -897,7 +1233,7 @@
         {
             "ClassName": "WEAPON",
             "Include": "",
-            "Chance": 1.0,
+            "Chance": 0.0,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -968,7 +1304,35 @@
                 {
                     "ClassName": "Mag_FAMAS_25Rnd",
                     "Include": "",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 1.0,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
+                    "ClassName": "Mag_FAMAS_25Rnd",
+                    "Include": "",
+                    "Chance": 1.0,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
+                    "ClassName": "Mag_FAMAS_25Rnd",
+                    "Include": "",
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -986,7 +1350,7 @@
         {
             "ClassName": "WEAPON",
             "Include": "",
-            "Chance": 1.0,
+            "Chance": 0.0,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -1018,7 +1382,7 @@
                                         {
                                             "ClassName": "Mag_STANAG_30Rnd",
                                             "Include": "",
-                                            "Chance": 0.6000000238418579,
+                                            "Chance": 1.0,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1032,7 +1396,7 @@
                                         {
                                             "ClassName": "Mag_STANAG_60Rnd",
                                             "Include": "",
-                                            "Chance": 0.10000000149011612,
+                                            "Chance": 1.0,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1046,7 +1410,7 @@
                                         {
                                             "ClassName": "Mag_CMAG_10Rnd",
                                             "Include": "",
-                                            "Chance": 0.05000000074505806,
+                                            "Chance": 1.0,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1060,7 +1424,7 @@
                                         {
                                             "ClassName": "Mag_CMAG_20Rnd",
                                             "Include": "",
-                                            "Chance": 0.05000000074505806,
+                                            "Chance": 1.0,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1074,7 +1438,7 @@
                                         {
                                             "ClassName": "Mag_CMAG_30Rnd",
                                             "Include": "",
-                                            "Chance": 0.05000000074505806,
+                                            "Chance": 1.0,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1088,7 +1452,7 @@
                                         {
                                             "ClassName": "Mag_CMAG_40Rnd",
                                             "Include": "",
-                                            "Chance": 0.05000000074505806,
+                                            "Chance": 1.0,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1102,7 +1466,7 @@
                                         {
                                             "ClassName": "M4_CQBBttstck",
                                             "Include": "",
-                                            "Chance": 0.33000001311302187,
+                                            "Chance": 0.33000001311302185,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1116,7 +1480,7 @@
                                         {
                                             "ClassName": "M4_MPBttstck",
                                             "Include": "",
-                                            "Chance": 0.33000001311302187,
+                                            "Chance": 0.33000001311302185,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1144,7 +1508,7 @@
                                         {
                                             "ClassName": "M4_MPHndgrd",
                                             "Include": "",
-                                            "Chance": 0.33000001311302187,
+                                            "Chance": 0.33000001311302185,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1172,7 +1536,7 @@
                                         {
                                             "ClassName": "M4_RISHndgrd",
                                             "Include": "",
-                                            "Chance": 0.33000001311302187,
+                                            "Chance": 0.33000001311302185,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1186,7 +1550,7 @@
                                         {
                                             "ClassName": "ACOGOptic",
                                             "Include": "",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1389,7 +1753,35 @@
                 {
                     "ClassName": "Mag_STANAG_30Rnd",
                     "Include": "",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 1.0,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
+                    "ClassName": "Mag_STANAG_30Rnd",
+                    "Include": "",
+                    "Chance": 1.0,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
+                    "ClassName": "Mag_STANAG_30Rnd",
+                    "Include": "",
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -1407,7 +1799,7 @@
         {
             "ClassName": "WEAPON",
             "Include": "",
-            "Chance": 1.0,
+            "Chance": 0.0,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -1478,7 +1870,35 @@
                 {
                     "ClassName": "Mag_Aug_30Rnd",
                     "Include": "",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 1.0,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
+                    "ClassName": "Mag_Aug_30Rnd",
+                    "Include": "",
+                    "Chance": 1.0,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
+                    "ClassName": "Mag_Aug_30Rnd",
+                    "Include": "",
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -1496,7 +1916,7 @@
         {
             "ClassName": "WEAPON",
             "Include": "",
-            "Chance": 1.0,
+            "Chance": 0.0,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -1542,7 +1962,7 @@
                                         {
                                             "ClassName": "ACOGOptic",
                                             "Include": "",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1731,7 +2151,35 @@
                 {
                     "ClassName": "Mag_Aug_30Rnd",
                     "Include": "",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 1.0,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
+                    "ClassName": "Mag_Aug_30Rnd",
+                    "Include": "",
+                    "Chance": 1.0,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
+                    "ClassName": "Mag_Aug_30Rnd",
+                    "Include": "",
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -1749,7 +2197,7 @@
         {
             "ClassName": "WEAPON",
             "Include": "",
-            "Chance": 1.0,
+            "Chance": 0.0,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -1781,7 +2229,7 @@
                                         {
                                             "ClassName": "Mag_STANAG_60Rnd",
                                             "Include": "",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 1.0,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1834,7 +2282,35 @@
                 {
                     "ClassName": "Mag_STANAG_30Rnd",
                     "Include": "",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 1.0,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
+                    "ClassName": "Mag_STANAG_30Rnd",
+                    "Include": "",
+                    "Chance": 1.0,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
+                    "ClassName": "Mag_STANAG_30Rnd",
+                    "Include": "",
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
