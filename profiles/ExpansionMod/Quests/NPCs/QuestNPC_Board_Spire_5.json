@@ -1,14 +1,14 @@
 {
     "ConfigVersion": 6,
-    "ID": 3,
+    "ID": 5,
     "ClassName": "ExpansionQuestBoardLarge",
     "Position": [
-        0.0,
-        0.0,
-        0.0
+        5118.4599609375,
+        60.5,
+        7977.06005859375
     ],
     "Orientation": [
-        0.0,
+        18.299999237060548,
         0.0,
         0.0
     ],

@@ -2,16 +2,16 @@
     "ConfigVersion": 28,
     "ID": 5,
     "ObjectiveType": 3,
-    "ObjectiveText": "Reach destination A.",
+    "ObjectiveText": "Find the cops",
     "TimeLimit": -1,
     "Active": 1,
     "Position": [
-        0.0,
-        0.0,
-        0.0
+        6266.06982421875,
+        22.265399932861329,
+        6840.759765625
     ],
     "MaxDistance": 20.0,
-    "MarkerName": "Location A",
+    "MarkerName": "Find the cops",
     "ShowDistance": 1,
     "TriggerOnEnter": 1,
     "TriggerOnExit": 0

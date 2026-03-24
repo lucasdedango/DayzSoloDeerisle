@@ -2,16 +2,16 @@
     "ConfigVersion": 28,
     "ID": 7,
     "ObjectiveType": 3,
-    "ObjectiveText": "Reach destination C.",
+    "ObjectiveText": "Scout around and find the bandit camp location nearby",
     "TimeLimit": -1,
     "Active": 1,
     "Position": [
-        0.0,
-        0.0,
-        0.0
+        7158.0,
+        7.0,
+        8667.0
     ],
     "MaxDistance": 20.0,
-    "MarkerName": "Location C",
+    "MarkerName": "Enter the general area",
     "ShowDistance": 1,
     "TriggerOnEnter": 1,
     "TriggerOnExit": 0

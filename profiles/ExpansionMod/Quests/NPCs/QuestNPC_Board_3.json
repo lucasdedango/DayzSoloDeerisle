@@ -1,28 +1,28 @@
 {
     "ConfigVersion": 6,
-    "ID": 1,
-    "ClassName": "ExpansionQuestNPCDenis",
+    "ID": 3,
+    "ClassName": "ExpansionQuestBoardLarge",
     "Position": [
-        0.0,
-        0.0,
-        0.0
+        7519.64013671875,
+        88.68250274658203,
+        4631.27001953125
     ],
     "Orientation": [
-        0.0,
+        120.0,
         0.0,
         0.0
     ],
-    "NPCName": "Peter",
-    "DefaultNPCText": "Hmm?",
+    "NPCName": "Quest Board",
+    "DefaultNPCText": "There is nothing to do here for you...",
     "Waypoints": [],
     "NPCEmoteID": 46,
     "NPCEmoteIsStatic": 0,
-    "NPCLoadoutFile": "NBCLoadout",
+    "NPCLoadoutFile": "",
     "NPCInteractionEmoteID": 1,
     "NPCQuestCancelEmoteID": 60,
     "NPCQuestStartEmoteID": 58,
     "NPCQuestCompleteEmoteID": 39,
     "NPCFaction": "InvincibleObservers",
-    "NPCType": 0,
+    "NPCType": 1,
     "Active": 1
 }

@@ -10,11 +10,11 @@
             "Amount": 1,
             "ClassName": "ExpansionQuestItemPaper",
             "QuantityPercent": -1,
-            "MinQuantityPercent": -1
+            "MinQuantityPercent": 0
         }
     ],
     "ShowDistance": 1,
     "AddItemsToNearbyMarketZone": 0,
-    "MaxDistance": 20.0,
-    "MarkerName": "Talk to Steve"
+    "MaxDistance": 10.0,
+    "MarkerName": "Deliver Items"
 }
