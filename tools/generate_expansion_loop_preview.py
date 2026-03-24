@@ -5,7 +5,6 @@ Outputs:
 - AIPatrolSettings.preview.generated.json (multiple LOOP patrol entries)
 - loop_preview_report.json (metrics for each generated loop)
 - loop_preview_map.svg (visual map preview)
-- loop_preview_ascii.txt (fallback text preview)
 """
 
 from __future__ import annotations
@@ -23,7 +22,6 @@ ROUTES_FILE = Path("routes_expansion.json")
 OUTPUT_SETTINGS = Path("mpmissions/dayzOffline.deerisle/expansion/settings/AIPatrolSettings.preview.generated.json")
 OUTPUT_REPORT = Path("profiles/ExpansionMod/AI/Generated/loop_preview_report.json")
 OUTPUT_SVG = Path("profiles/ExpansionMod/AI/Generated/loop_preview_map.svg")
-OUTPUT_ASCII = Path("profiles/ExpansionMod/AI/Generated/loop_preview_ascii.txt")
 
 
 @dataclass
@@ -47,6 +45,22 @@ def dist(a: Point, b: Point) -> float:
 
 def polyline_length(points: Sequence[Point]) -> float:
     return sum(dist(a, b) for a, b in zip(points, points[1:]))
+
+
+def polygon_area_2d(points: Sequence[Point]) -> float:
+    if len(points) < 4:
+        return 0.0
+
+    ring = points[:-1] if points[0] == points[-1] else points
+    if len(ring) < 3:
+        return 0.0
+
+    acc = 0.0
+    for i in range(len(ring)):
+        x1, z1 = ring[i][0], ring[i][2]
+        x2, z2 = ring[(i + 1) % len(ring)][0], ring[(i + 1) % len(ring)][2]
+        acc += (x1 * z2) - (x2 * z1)
+    return abs(acc) * 0.5
 
 
 def dedupe(points: Sequence[Point], min_dist: float = 1.0) -> List[Point]:
@@ -154,6 +168,8 @@ def detect_candidates(
     min_perimeter: float,
     max_perimeter: float,
     max_segment_limit: float,
+    max_compactness: float,
+    min_area: float,
 ) -> List[Candidate]:
     all_candidates: List[Candidate] = []
 
@@ -183,11 +199,20 @@ def detect_candidates(
         if perimeter < min_perimeter or perimeter > max_perimeter:
             continue
 
+        area = polygon_area_2d(sampled)
+        if area < min_area:
+            continue
+        compactness = (perimeter * perimeter) / (4.0 * math.pi * area)
+        if compactness > max_compactness:
+            continue
+
         segments = [dist(a, b) for a, b in zip(sampled, sampled[1:])]
         if not segments:
             continue
         max_seg = max(segments)
         if max_seg > max_segment_limit:
+            continue
+        if dist(sampled[0], sampled[-1]) > 5.0:
             continue
 
         cx = sum(p[0] for p in sampled) / len(sampled)
@@ -334,39 +359,6 @@ def write_svg(candidates: Sequence[Candidate], output: Path) -> None:
     output.write_text("\n".join(lines), encoding="utf-8")
 
 
-def write_ascii(candidates: Sequence[Candidate], output: Path) -> None:
-    width = 120
-    height = 40
-    canvas = [[" " for _ in range(width)] for _ in range(height)]
-
-    xs = [p[0] for c in candidates for p in c.sampled_points]
-    zs = [p[2] for c in candidates for p in c.sampled_points]
-    min_x, max_x = min(xs), max(xs)
-    min_z, max_z = min(zs), max(zs)
-
-    span_x = max(1.0, max_x - min_x)
-    span_z = max(1.0, max_z - min_z)
-
-    chars = "123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-
-    for i, cand in enumerate(candidates):
-        mark = chars[i % len(chars)]
-        for p in cand.sampled_points:
-            x = int((p[0] - min_x) / span_x * (width - 1))
-            y = int((p[2] - min_z) / span_z * (height - 1))
-            y = (height - 1) - y
-            canvas[y][x] = mark
-
-    lines = ["Expansion loop preview (ASCII, top-down X/Z)"]
-    lines.extend("".join(row) for row in canvas)
-    lines.append("")
-    for i, cand in enumerate(candidates):
-        mark = chars[i % len(chars)]
-        lines.append(f"{mark}: route={cand.route_index}, wp={len(cand.sampled_points)}, perimeter={cand.perimeter:.1f}m")
-
-    output.write_text("\n".join(lines), encoding="utf-8")
-
-
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--loops", type=int, default=6, help="Number of loops to generate")
@@ -376,6 +368,8 @@ def main() -> None:
     parser.add_argument("--max-perimeter", type=float, default=2200.0, help="Avoid loops that are too large")
     parser.add_argument("--max-segment", type=float, default=58.0, help="Reject candidates with segment gaps above this")
     parser.add_argument("--min-center-gap", type=float, default=850.0, help="Distance between loop centers to diversify map coverage")
+    parser.add_argument("--max-compactness", type=float, default=5.5, help="Lower is more circular/compact (1.0 is perfect circle)")
+    parser.add_argument("--min-area", type=float, default=12000.0, help="Reject tiny loops with very small enclosed area")
     args = parser.parse_args()
 
     routes = json.loads(ROUTES_FILE.read_text(encoding="utf-8"))
@@ -387,6 +381,8 @@ def main() -> None:
         min_perimeter=args.min_perimeter,
         max_perimeter=args.max_perimeter,
         max_segment_limit=args.max_segment,
+        max_compactness=args.max_compactness,
+        min_area=args.min_area,
     )
 
     if not candidates:
@@ -434,6 +430,8 @@ def main() -> None:
             "max_perimeter": args.max_perimeter,
             "max_segment": args.max_segment,
             "min_center_gap": args.min_center_gap,
+            "max_compactness": args.max_compactness,
+            "min_area": args.min_area,
         },
         "detected_candidates": len(candidates),
         "selected_loops": len(selected),
@@ -442,24 +440,20 @@ def main() -> None:
             "settings": str(OUTPUT_SETTINGS),
             "report": str(OUTPUT_REPORT),
             "svg": str(OUTPUT_SVG),
-            "ascii": str(OUTPUT_ASCII),
         },
     }
 
     OUTPUT_SETTINGS.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_REPORT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_SVG.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_ASCII.parent.mkdir(parents=True, exist_ok=True)
 
     OUTPUT_SETTINGS.write_text(json.dumps(settings_preview, indent=4), encoding="utf-8")
     OUTPUT_REPORT.write_text(json.dumps(report, indent=4), encoding="utf-8")
     write_svg(selected, OUTPUT_SVG)
-    write_ascii(selected, OUTPUT_ASCII)
 
     print(f"Generated settings: {OUTPUT_SETTINGS}")
     print(f"Generated report:   {OUTPUT_REPORT}")
     print(f"Generated SVG:      {OUTPUT_SVG}")
-    print(f"Generated ASCII:    {OUTPUT_ASCII}")
     print(f"Selected {len(selected)} loop(s) out of {len(candidates)} candidate(s).")
 
 
