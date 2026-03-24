@@ -182,15 +182,15 @@ def detect_candidates(
             continue
 
         closed_d = dist(raw[0], raw[-1])
-        if closed_d > 70.0:
+        if closed_d > 220.0:
             continue
 
         simplified = rdp(raw, epsilon=8.0)
         simplified = dedupe(simplified, min_dist=4.0)
-        simplified = close_loop(simplified, close_threshold=70.0)
+        simplified = close_loop(simplified, close_threshold=220.0)
 
         sampled = resample_with_bounds(simplified, min_spacing=min_spacing, max_spacing=max_spacing)
-        sampled = close_loop(sampled, close_threshold=80.0)
+        sampled = close_loop(sampled, close_threshold=220.0)
 
         if len(sampled) < 16 or len(sampled) > 110:
             continue
@@ -212,7 +212,7 @@ def detect_candidates(
         max_seg = max(segments)
         if max_seg > max_segment_limit:
             continue
-        if dist(sampled[0], sampled[-1]) > 5.0:
+        if dist(sampled[0], sampled[-1]) > 20.0:
             continue
 
         cx = sum(p[0] for p in sampled) / len(sampled)
@@ -363,13 +363,13 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--loops", type=int, default=6, help="Number of loops to generate")
     parser.add_argument("--min-spacing", type=float, default=22.0)
-    parser.add_argument("--max-spacing", type=float, default=46.0)
+    parser.add_argument("--max-spacing", type=float, default=90.0)
     parser.add_argument("--min-perimeter", type=float, default=450.0)
-    parser.add_argument("--max-perimeter", type=float, default=2200.0, help="Avoid loops that are too large")
-    parser.add_argument("--max-segment", type=float, default=58.0, help="Reject candidates with segment gaps above this")
+    parser.add_argument("--max-perimeter", type=float, default=8000.0, help="Maximum loop perimeter allowed")
+    parser.add_argument("--max-segment", type=float, default=120.0, help="Reject candidates with segment gaps above this")
     parser.add_argument("--min-center-gap", type=float, default=850.0, help="Distance between loop centers to diversify map coverage")
-    parser.add_argument("--max-compactness", type=float, default=5.5, help="Lower is more circular/compact (1.0 is perfect circle)")
-    parser.add_argument("--min-area", type=float, default=12000.0, help="Reject tiny loops with very small enclosed area")
+    parser.add_argument("--max-compactness", type=float, default=20.0, help="Lower is more circular/compact (1.0 is perfect circle)")
+    parser.add_argument("--min-area", type=float, default=4000.0, help="Reject only very tiny loops with small enclosed area")
     args = parser.parse_args()
 
     routes = json.loads(ROUTES_FILE.read_text(encoding="utf-8"))
