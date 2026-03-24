@@ -1,0 +1,112 @@
+{
+    "source": "routes_expansion.json",
+    "constraints": {
+        "loops_requested": 6,
+        "min_spacing": 22.0,
+        "max_spacing": 46.0,
+        "min_perimeter": 450.0,
+        "max_perimeter": 2200.0,
+        "max_segment": 58.0,
+        "min_center_gap": 850.0
+    },
+    "detected_candidates": 38,
+    "selected_loops": 6,
+    "loops": [
+        {
+            "loop_name": "RoadLoop_Preview_Generated_01",
+            "source_route_index": 85,
+            "raw_point_count": 320,
+            "simplified_point_count": 13,
+            "sampled_point_count": 31,
+            "start_end_distance_raw": 2.0,
+            "loop_perimeter_m": 1200.62,
+            "max_segment_m": 44.75,
+            "center": [
+                8860.4,
+                0.0,
+                13343.9
+            ]
+        },
+        {
+            "loop_name": "RoadLoop_Preview_Generated_02",
+            "source_route_index": 86,
+            "raw_point_count": 167,
+            "simplified_point_count": 13,
+            "sampled_point_count": 32,
+            "start_end_distance_raw": 2.0,
+            "loop_perimeter_m": 1256.32,
+            "max_segment_m": 44.79,
+            "center": [
+                5910.1,
+                0.0,
+                13378.6
+            ]
+        },
+        {
+            "loop_name": "RoadLoop_Preview_Generated_03",
+            "source_route_index": 22,
+            "raw_point_count": 248,
+            "simplified_point_count": 19,
+            "sampled_point_count": 35,
+            "start_end_distance_raw": 2.0,
+            "loop_perimeter_m": 1091.4,
+            "max_segment_m": 42.43,
+            "center": [
+                5541.4,
+                0.0,
+                4823.9
+            ]
+        },
+        {
+            "loop_name": "RoadLoop_Preview_Generated_04",
+            "source_route_index": 13,
+            "raw_point_count": 214,
+            "simplified_point_count": 17,
+            "sampled_point_count": 29,
+            "start_end_distance_raw": 2.83,
+            "loop_perimeter_m": 1128.5,
+            "max_segment_m": 44.41,
+            "center": [
+                8794.6,
+                0.0,
+                3628.0
+            ]
+        },
+        {
+            "loop_name": "RoadLoop_Preview_Generated_05",
+            "source_route_index": 7,
+            "raw_point_count": 330,
+            "simplified_point_count": 16,
+            "sampled_point_count": 36,
+            "start_end_distance_raw": 2.0,
+            "loop_perimeter_m": 1374.4,
+            "max_segment_m": 43.84,
+            "center": [
+                6948.5,
+                0.0,
+                2606.7
+            ]
+        },
+        {
+            "loop_name": "RoadLoop_Preview_Generated_06",
+            "source_route_index": 28,
+            "raw_point_count": 369,
+            "simplified_point_count": 21,
+            "sampled_point_count": 43,
+            "start_end_distance_raw": 2.83,
+            "loop_perimeter_m": 1451.17,
+            "max_segment_m": 43.33,
+            "center": [
+                10004.8,
+                0.0,
+                6759.9
+            ]
+        }
+    ],
+    "outputs": {
+        "settings": "mpmissions/dayzOffline.deerisle/expansion/settings/AIPatrolSettings.preview.generated.json",
+        "report": "profiles/ExpansionMod/AI/Generated/loop_preview_report.json",
+        "svg": "profiles/ExpansionMod/AI/Generated/loop_preview_map.svg",
+        "ascii": "profiles/ExpansionMod/AI/Generated/loop_preview_ascii.txt"
+    }
+}
