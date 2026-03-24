@@ -222,7 +222,7 @@
         {
             "ClassName": "BandageDressing",
             "Include": "",
-            "Chance": 0.45,
+            "Chance": 0.95,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -236,7 +236,7 @@
         {
             "ClassName": "BandageDressing",
             "Include": "",
-            "Chance": 0.45,
+            "Chance": 0.95,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -264,7 +264,7 @@
         {
             "ClassName": "WaterBottle",
             "Include": "",
-            "Chance": 0.45,
+            "Chance": 0.75,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -278,7 +278,7 @@
         {
             "ClassName": "Canteen",
             "Include": "",
-            "Chance": 0.25,
+            "Chance": 0.75,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -292,7 +292,7 @@
         {
             "ClassName": "PeachesCan",
             "Include": "",
-            "Chance": 0.45,
+            "Chance": 0.65,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -306,7 +306,7 @@
         {
             "ClassName": "SardinesCan",
             "Include": "",
-            "Chance": 0.45,
+            "Chance": 0.65,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -320,7 +320,7 @@
         {
             "ClassName": "TacticalBaconCan",
             "Include": "",
-            "Chance": 0.25,
+            "Chance": 0.65,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -334,7 +334,7 @@
         {
             "ClassName": "Ammo_556x45",
             "Include": "",
-            "Chance": 0.45,
+            "Chance": 0.7,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -348,7 +348,7 @@
         {
             "ClassName": "Ammo_762x39",
             "Include": "",
-            "Chance": 0.45,
+            "Chance": 0.7,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -362,7 +362,7 @@
         {
             "ClassName": "Ammo_9x19",
             "Include": "",
-            "Chance": 0.25,
+            "Chance": 0.7,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -376,119 +376,7 @@
         {
             "ClassName": "Ammo_12gaPellets",
             "Include": "",
-            "Chance": 0.25,
-            "Quantity": {
-                "Min": 0.0,
-                "Max": 0.0
-            },
-            "Health": [],
-            "InventoryAttachments": [],
-            "InventoryCargo": [],
-            "ConstructionPartsBuilt": [],
-            "Sets": []
-        },
-        {
-            "ClassName": "NailBox",
-            "Include": "",
-            "Chance": 0.25,
-            "Quantity": {
-                "Min": 0.0,
-                "Max": 0.0
-            },
-            "Health": [],
-            "InventoryAttachments": [],
-            "InventoryCargo": [],
-            "ConstructionPartsBuilt": [],
-            "Sets": []
-        },
-        {
-            "ClassName": "DuctTape",
-            "Include": "",
-            "Chance": 0.25,
-            "Quantity": {
-                "Min": 0.0,
-                "Max": 0.0
-            },
-            "Health": [],
-            "InventoryAttachments": [],
-            "InventoryCargo": [],
-            "ConstructionPartsBuilt": [],
-            "Sets": []
-        },
-        {
-            "ClassName": "MetalWire",
-            "Include": "",
-            "Chance": 0.25,
-            "Quantity": {
-                "Min": 0.0,
-                "Max": 0.0
-            },
-            "Health": [],
-            "InventoryAttachments": [],
-            "InventoryCargo": [],
-            "ConstructionPartsBuilt": [],
-            "Sets": []
-        },
-        {
-            "ClassName": "Rope",
-            "Include": "",
-            "Chance": 0.25,
-            "Quantity": {
-                "Min": 0.0,
-                "Max": 0.0
-            },
-            "Health": [],
-            "InventoryAttachments": [],
-            "InventoryCargo": [],
-            "ConstructionPartsBuilt": [],
-            "Sets": []
-        },
-        {
-            "ClassName": "Pliers",
-            "Include": "",
-            "Chance": 0.25,
-            "Quantity": {
-                "Min": 0.0,
-                "Max": 0.0
-            },
-            "Health": [],
-            "InventoryAttachments": [],
-            "InventoryCargo": [],
-            "ConstructionPartsBuilt": [],
-            "Sets": []
-        },
-        {
-            "ClassName": "Hammer",
-            "Include": "",
-            "Chance": 0.25,
-            "Quantity": {
-                "Min": 0.0,
-                "Max": 0.0
-            },
-            "Health": [],
-            "InventoryAttachments": [],
-            "InventoryCargo": [],
-            "ConstructionPartsBuilt": [],
-            "Sets": []
-        },
-        {
-            "ClassName": "Screwdriver",
-            "Include": "",
-            "Chance": 0.25,
-            "Quantity": {
-                "Min": 0.0,
-                "Max": 0.0
-            },
-            "Health": [],
-            "InventoryAttachments": [],
-            "InventoryCargo": [],
-            "ConstructionPartsBuilt": [],
-            "Sets": []
-        },
-        {
-            "ClassName": "Whetstone",
-            "Include": "",
-            "Chance": 0.25,
+            "Chance": 0.7,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -545,6 +433,118 @@
             "ClassName": "Morphine",
             "Include": "",
             "Chance": 0.25,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "NailBox",
+            "Include": "",
+            "Chance": 0.15,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "DuctTape",
+            "Include": "",
+            "Chance": 0.15,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "MetalWire",
+            "Include": "",
+            "Chance": 0.15,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "Rope",
+            "Include": "",
+            "Chance": 0.15,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "Pliers",
+            "Include": "",
+            "Chance": 0.15,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "Hammer",
+            "Include": "",
+            "Chance": 0.15,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "Screwdriver",
+            "Include": "",
+            "Chance": 0.15,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "Whetstone",
+            "Include": "",
+            "Chance": 0.15,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
