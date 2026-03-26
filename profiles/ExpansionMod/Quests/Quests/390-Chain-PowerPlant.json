@@ -8,7 +8,7 @@
         "Eliminate all of the mercenaries & infected.",
         "Nice work! Hopefully thats the last of those fuckers, here is your payment."
     ],
-    "ObjectiveText": "Kill all mercenaries at the marked locations.",
+    "ObjectiveText": "Eliminate all mercenaries at the marked locations.",
     "FollowUpQuest": -1,
     "Repeatable": 1,
     "IsDailyQuest": 1,
@@ -59,11 +59,6 @@
             "ConfigVersion": 28,
             "ID": 9,
             "ObjectiveType": 3
-        },
-        {
-            "ConfigVersion": 28,
-            "ID": 3,
-            "ObjectiveType": 7
         },
         {
             "ConfigVersion": 28,

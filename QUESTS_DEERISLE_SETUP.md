@@ -58,16 +58,6 @@ Use these world coordinates for quick in-game testing of quest NPC/board interac
 3. Move to ID `5` and ID `4` (Spire area) to validate second quest hub.
 
 > Tip: If a quest is not visible, check `QuestSettings.json` (`EnableQuests = 1`) and restart the server after edits.
-
-
-## AIPatrol customization (Faction/Loadout)
-AIPatrol objectives are imported and enabled with the following defaults:
-- `Objective_AIP_1.json`: `Faction = Raiders`, `Loadout = DeerIsleRaiderLoadout`
-- `Objective_AIP_2.json`: `Faction = Mercenaries`, `Loadout = DeerIsleStalkerLoadout`
-- `Objective_AIP_3.json`: `Faction = Mercenaries`, `Loadout = DeerIsleSmugglerLoadout`
-
-To use your own custom setup, edit these fields in each file:
-- `AISpawn.Faction`
-- `AISpawn.Loadout`
-- optional: `AISpawn.NumberOfAI`, `AccuracyMin`, `AccuracyMax`, `Waypoints`
+## Patrol content rollback
+Imported patrol additions were rolled back for this server profile (removed `Objective_AIP_2`, `Objective_AIP_3`, and disabled imported patrol quests) because they were not needed for current gameplay tests.
 
