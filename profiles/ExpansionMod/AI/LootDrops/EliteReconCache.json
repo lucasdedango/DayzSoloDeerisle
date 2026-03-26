@@ -1,10 +1,10 @@
 [
     {
-        "ClassName": "Ammo_762x39",
+        "ClassName": "Ammo_308Win",
         "Include": "",
-        "Chance": 0.55,
+        "Chance": 0.45,
         "Quantity": {
-            "Min": 0.4,
+            "Min": 0.35,
             "Max": 0.9
         },
         "Health": [
@@ -22,28 +22,108 @@
     {
         "ClassName": "Ammo_556x45",
         "Include": "",
+        "Chance": 0.35,
+        "Quantity": {
+            "Min": 0.3,
+            "Max": 0.8
+        },
+        "Health": [
+            {
+                "Min": 0.7,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "Rangefinder",
+        "Include": "",
+        "Chance": 0.14,
+        "Quantity": {
+            "Min": 0.0,
+            "Max": 0.0
+        },
+        "Health": [
+            {
+                "Min": 0.7,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "GPSReceiver",
+        "Include": "",
+        "Chance": 0.2,
+        "Quantity": {
+            "Min": 0.0,
+            "Max": 0.0
+        },
+        "Health": [
+            {
+                "Min": 0.7,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "NVGoggles",
+        "Include": "",
+        "Chance": 0.06,
+        "Quantity": {
+            "Min": 0.0,
+            "Max": 0.0
+        },
+        "Health": [
+            {
+                "Min": 0.7,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "PistolSuppressor",
+        "Include": "",
+        "Chance": 0.1,
+        "Quantity": {
+            "Min": 0.0,
+            "Max": 0.0
+        },
+        "Health": [
+            {
+                "Min": 0.7,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "Battery9V",
+        "Include": "",
         "Chance": 0.45,
         "Quantity": {
-            "Min": 0.4,
-            "Max": 0.9
-        },
-        "Health": [
-            {
-                "Min": 0.7,
-                "Max": 1.0,
-                "Zone": ""
-            }
-        ],
-        "InventoryAttachments": [],
-        "InventoryCargo": [],
-        "ConstructionPartsBuilt": [],
-        "Sets": []
-    },
-    {
-        "ClassName": "BandageDressing",
-        "Include": "",
-        "Chance": 0.7,
-        "Quantity": {
             "Min": 0.0,
             "Max": 0.0
         },
@@ -60,29 +140,9 @@
         "Sets": []
     },
     {
-        "ClassName": "Lockpick",
+        "ClassName": "Epinephrine",
         "Include": "",
-        "Chance": 0.22,
-        "Quantity": {
-            "Min": 0.0,
-            "Max": 0.0
-        },
-        "Health": [
-            {
-                "Min": 0.7,
-                "Max": 1.0,
-                "Zone": ""
-            }
-        ],
-        "InventoryAttachments": [],
-        "InventoryCargo": [],
-        "ConstructionPartsBuilt": [],
-        "Sets": []
-    },
-    {
-        "ClassName": "PlateCarrierPouches_Green",
-        "Include": "",
-        "Chance": 0.08,
+        "Chance": 0.18,
         "Quantity": {
             "Min": 0.0,
             "Max": 0.0
@@ -183,6 +243,26 @@
         "ClassName": "Canteen",
         "Include": "",
         "Chance": 0.14,
+        "Quantity": {
+            "Min": 0.0,
+            "Max": 0.0
+        },
+        "Health": [
+            {
+                "Min": 0.7,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "BandageDressing",
+        "Include": "",
+        "Chance": 0.35,
         "Quantity": {
             "Min": 0.0,
             "Max": 0.0

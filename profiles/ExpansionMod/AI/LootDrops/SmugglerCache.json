@@ -40,46 +40,6 @@
         "Sets": []
     },
     {
-        "ClassName": "SardinesCan",
-        "Include": "",
-        "Chance": 0.35,
-        "Quantity": {
-            "Min": 0.0,
-            "Max": 0.0
-        },
-        "Health": [
-            {
-                "Min": 0.7,
-                "Max": 1.0,
-                "Zone": ""
-            }
-        ],
-        "InventoryAttachments": [],
-        "InventoryCargo": [],
-        "ConstructionPartsBuilt": [],
-        "Sets": []
-    },
-    {
-        "ClassName": "WaterBottle",
-        "Include": "",
-        "Chance": 0.35,
-        "Quantity": {
-            "Min": 0.0,
-            "Max": 0.0
-        },
-        "Health": [
-            {
-                "Min": 0.7,
-                "Max": 1.0,
-                "Zone": ""
-            }
-        ],
-        "InventoryAttachments": [],
-        "InventoryCargo": [],
-        "ConstructionPartsBuilt": [],
-        "Sets": []
-    },
-    {
         "ClassName": "Compass",
         "Include": "",
         "Chance": 0.15,
@@ -103,6 +63,126 @@
         "ClassName": "PortableGasStove",
         "Include": "",
         "Chance": 0.06,
+        "Quantity": {
+            "Min": 0.0,
+            "Max": 0.0
+        },
+        "Health": [
+            {
+                "Min": 0.7,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "SardinesCan",
+        "Include": "",
+        "Chance": 0.22,
+        "Quantity": {
+            "Min": 0.0,
+            "Max": 0.0
+        },
+        "Health": [
+            {
+                "Min": 0.7,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "TacticalBaconCan",
+        "Include": "",
+        "Chance": 0.18,
+        "Quantity": {
+            "Min": 0.0,
+            "Max": 0.0
+        },
+        "Health": [
+            {
+                "Min": 0.7,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "PeachesCan",
+        "Include": "",
+        "Chance": 0.2,
+        "Quantity": {
+            "Min": 0.0,
+            "Max": 0.0
+        },
+        "Health": [
+            {
+                "Min": 0.7,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "WaterBottle",
+        "Include": "",
+        "Chance": 0.22,
+        "Quantity": {
+            "Min": 0.0,
+            "Max": 0.0
+        },
+        "Health": [
+            {
+                "Min": 0.7,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "Canteen",
+        "Include": "",
+        "Chance": 0.14,
+        "Quantity": {
+            "Min": 0.0,
+            "Max": 0.0
+        },
+        "Health": [
+            {
+                "Min": 0.7,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "BandageDressing",
+        "Include": "",
+        "Chance": 0.35,
         "Quantity": {
             "Min": 0.0,
             "Max": 0.0
