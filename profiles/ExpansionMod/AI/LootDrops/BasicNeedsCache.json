@@ -1,108 +1,8 @@
 [
     {
-        "ClassName": "Ammo_762x39",
-        "Include": "",
-        "Chance": 0.55,
-        "Quantity": {
-            "Min": 0.4,
-            "Max": 0.9
-        },
-        "Health": [
-            {
-                "Min": 0.7,
-                "Max": 1.0,
-                "Zone": ""
-            }
-        ],
-        "InventoryAttachments": [],
-        "InventoryCargo": [],
-        "ConstructionPartsBuilt": [],
-        "Sets": []
-    },
-    {
-        "ClassName": "Ammo_556x45",
-        "Include": "",
-        "Chance": 0.45,
-        "Quantity": {
-            "Min": 0.4,
-            "Max": 0.9
-        },
-        "Health": [
-            {
-                "Min": 0.7,
-                "Max": 1.0,
-                "Zone": ""
-            }
-        ],
-        "InventoryAttachments": [],
-        "InventoryCargo": [],
-        "ConstructionPartsBuilt": [],
-        "Sets": []
-    },
-    {
-        "ClassName": "BandageDressing",
-        "Include": "",
-        "Chance": 0.7,
-        "Quantity": {
-            "Min": 0.0,
-            "Max": 0.0
-        },
-        "Health": [
-            {
-                "Min": 0.7,
-                "Max": 1.0,
-                "Zone": ""
-            }
-        ],
-        "InventoryAttachments": [],
-        "InventoryCargo": [],
-        "ConstructionPartsBuilt": [],
-        "Sets": []
-    },
-    {
-        "ClassName": "Lockpick",
-        "Include": "",
-        "Chance": 0.22,
-        "Quantity": {
-            "Min": 0.0,
-            "Max": 0.0
-        },
-        "Health": [
-            {
-                "Min": 0.7,
-                "Max": 1.0,
-                "Zone": ""
-            }
-        ],
-        "InventoryAttachments": [],
-        "InventoryCargo": [],
-        "ConstructionPartsBuilt": [],
-        "Sets": []
-    },
-    {
-        "ClassName": "PlateCarrierPouches_Green",
-        "Include": "",
-        "Chance": 0.08,
-        "Quantity": {
-            "Min": 0.0,
-            "Max": 0.0
-        },
-        "Health": [
-            {
-                "Min": 0.7,
-                "Max": 1.0,
-                "Zone": ""
-            }
-        ],
-        "InventoryAttachments": [],
-        "InventoryCargo": [],
-        "ConstructionPartsBuilt": [],
-        "Sets": []
-    },
-    {
         "ClassName": "SardinesCan",
         "Include": "",
-        "Chance": 0.22,
+        "Chance": 0.4,
         "Quantity": {
             "Min": 0.0,
             "Max": 0.0
@@ -122,7 +22,7 @@
     {
         "ClassName": "TacticalBaconCan",
         "Include": "",
-        "Chance": 0.18,
+        "Chance": 0.35,
         "Quantity": {
             "Min": 0.0,
             "Max": 0.0
@@ -142,7 +42,7 @@
     {
         "ClassName": "PeachesCan",
         "Include": "",
-        "Chance": 0.2,
+        "Chance": 0.35,
         "Quantity": {
             "Min": 0.0,
             "Max": 0.0
@@ -162,7 +62,7 @@
     {
         "ClassName": "WaterBottle",
         "Include": "",
-        "Chance": 0.22,
+        "Chance": 0.4,
         "Quantity": {
             "Min": 0.0,
             "Max": 0.0
@@ -182,7 +82,27 @@
     {
         "ClassName": "Canteen",
         "Include": "",
-        "Chance": 0.14,
+        "Chance": 0.25,
+        "Quantity": {
+            "Min": 0.0,
+            "Max": 0.0
+        },
+        "Health": [
+            {
+                "Min": 0.7,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "BandageDressing",
+        "Include": "",
+        "Chance": 0.6,
         "Quantity": {
             "Min": 0.0,
             "Max": 0.0

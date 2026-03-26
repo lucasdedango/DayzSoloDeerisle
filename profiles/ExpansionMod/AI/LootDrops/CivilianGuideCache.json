@@ -1,48 +1,7 @@
 [
     {
-        "ClassName": "Ammo_762x39",
         "Include": "",
-        "Chance": 0.55,
-        "Quantity": {
-            "Min": 0.4,
-            "Max": 0.9
-        },
-        "Health": [
-            {
-                "Min": 0.7,
-                "Max": 1.0,
-                "Zone": ""
-            }
-        ],
-        "InventoryAttachments": [],
-        "InventoryCargo": [],
-        "ConstructionPartsBuilt": [],
-        "Sets": []
-    },
-    {
-        "ClassName": "Ammo_556x45",
-        "Include": "",
-        "Chance": 0.45,
-        "Quantity": {
-            "Min": 0.4,
-            "Max": 0.9
-        },
-        "Health": [
-            {
-                "Min": 0.7,
-                "Max": 1.0,
-                "Zone": ""
-            }
-        ],
-        "InventoryAttachments": [],
-        "InventoryCargo": [],
-        "ConstructionPartsBuilt": [],
-        "Sets": []
-    },
-    {
-        "ClassName": "BandageDressing",
-        "Include": "",
-        "Chance": 0.7,
+        "Chance": 0.35,
         "Quantity": {
             "Min": 0.0,
             "Max": 0.0
@@ -57,10 +16,10 @@
         "InventoryAttachments": [],
         "InventoryCargo": [],
         "ConstructionPartsBuilt": [],
-        "Sets": []
+        "Sets": [],
+        "ClassName": "Compass"
     },
     {
-        "ClassName": "Lockpick",
         "Include": "",
         "Chance": 0.22,
         "Quantity": {
@@ -77,12 +36,12 @@
         "InventoryAttachments": [],
         "InventoryCargo": [],
         "ConstructionPartsBuilt": [],
-        "Sets": []
+        "Sets": [],
+        "ClassName": "Map"
     },
     {
-        "ClassName": "PlateCarrierPouches_Green",
         "Include": "",
-        "Chance": 0.08,
+        "Chance": 0.55,
         "Quantity": {
             "Min": 0.0,
             "Max": 0.0
@@ -97,7 +56,48 @@
         "InventoryAttachments": [],
         "InventoryCargo": [],
         "ConstructionPartsBuilt": [],
-        "Sets": []
+        "Sets": [],
+        "ClassName": "BandageDressing"
+    },
+    {
+        "Include": "",
+        "Chance": 0.14,
+        "Quantity": {
+            "Min": 0.0,
+            "Max": 0.0
+        },
+        "Health": [
+            {
+                "Min": 0.7,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": [],
+        "ClassName": "HuntingKnife"
+    },
+    {
+        "Include": "",
+        "Chance": 0.2,
+        "Quantity": {
+            "Min": 0.0,
+            "Max": 0.0
+        },
+        "Health": [
+            {
+                "Min": 0.7,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": [],
+        "ClassName": "Battery9V"
     },
     {
         "ClassName": "SardinesCan",
