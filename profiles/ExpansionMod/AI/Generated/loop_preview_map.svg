@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect width="100%" height="100%" fill="#111827"/>
+<text x="20" y="30" fill="#e5e7eb" font-size="18" font-family="monospace">Expansion Loop Preview (generated)</text>
+<polyline points="44.2,609.5 40.0,610.7 44.6,611.2 44.9,614.4 41.2,612.4 45.1,614.6 45.9,618.5 41.2,616.1 46.1,619.3 46.6,622.9 42.2,620.5 46.8,623.2 47.3,626.6 42.7,624.1 47.8,628.5 43.7,629.3 50.3,628.0 53.1,619.0 55.9,610.0 50.0,609.7 44.2,609.5" fill="none" stroke="#ff595e" stroke-width="2.5"/>
+<circle cx="45.9" cy="618.0" r="4" fill="#ff595e"/>
+<text x="53.9" y="610.0" fill="#ff595e" font-size="12" font-family="monospace">L1 (r82)</text>
+<polyline points="1136.8,804.1 1131.9,806.0 1128.5,810.2 1128.7,815.7 1129.0,821.2 1127.8,824.6 1118.7,829.2 1114.3,834.1 1111.7,843.4 1109.0,852.7 1109.7,858.0 1113.1,860.0 1122.9,856.8 1132.7,853.7 1136.6,848.5 1138.3,840.0 1142.7,836.3 1145.6,836.3 1148.0,838.5 1153.4,845.1 1153.7,848.5 1148.8,852.7 1152.9,849.5 1153.9,846.6 1149.9,841.3 1145.8,836.1 1151.9,834.1 1158.0,832.2 1160.0,830.2 1159.8,826.8 1152.2,820.7 1148.6,814.5 1145.1,808.2 1141.7,805.3 1136.8,804.1" fill="none" stroke="#1982c4" stroke-width="2.5"/>
+<circle cx="1138.2" cy="833.3" r="4" fill="#1982c4"/>
+<text x="1146.2" y="825.3" fill="#1982c4" font-size="12" font-family="monospace">L2 (r66)</text>
+<rect x="840" y="827" width="340" height="60" fill="#1f2937" rx="8"/>
+<text x="860" y="845" fill="#ff595e" font-size="12" font-family="monospace">L1: route=82, wp=21, perim=876m, maxSeg=77.5m</text>
+<text x="860" y="865" fill="#1982c4" font-size="12" font-family="monospace">L2: route=66, wp=35, perim=1727m, maxSeg=84.1m</text>
+</svg>

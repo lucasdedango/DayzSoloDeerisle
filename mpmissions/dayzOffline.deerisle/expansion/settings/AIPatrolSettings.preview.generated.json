@@ -1,0 +1,392 @@
+{
+    "m_Version": 7,
+    "Comment": "Generated preview file with multiple LOOP patrols. Copy Patrols entries into active AIPatrolSettings.json after validation.",
+    "Patrols": [
+        {
+            "Name": "RoadLoop_Preview_Generated_01",
+            "Persist": 0,
+            "Faction": "Raiders",
+            "Formation": "Column",
+            "FormationScale": 1.0,
+            "FormationLooseness": 0.2,
+            "Units": [
+                "eAI_SurvivorM_Rolf",
+                "eAI_SurvivorM_Seth",
+                "eAI_SurvivorF_Irena"
+            ],
+            "NumberOfAI": 4,
+            "NumberOfAIMax": 0,
+            "Behaviour": "LOOP",
+            "LootingBehaviour": "",
+            "Speed": "JOG",
+            "UnderThreatSpeed": "SPRINT",
+            "DefaultStance": "STANDING",
+            "DefaultLookAngle": 0.0,
+            "CanBeLooted": 1,
+            "LootDropOnDeath": "RaidersCache.json",
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 250.0,
+            "AccuracyMin": 0.32,
+            "AccuracyMax": 0.58,
+            "ThreatDistanceLimit": 650.0,
+            "NoiseInvestigationDistanceLimit": 400.0,
+            "MaxFlankingDistance": 180.0,
+            "EnableFlankingOutsideCombat": 0,
+            "DamageMultiplier": 1.1,
+            "DamageReceivedMultiplier": 0.9,
+            "HeadshotResistance": 0.0,
+            "ShoryukenChance": 0.0,
+            "ShoryukenDamageMultiplier": 0.0,
+            "CanSpawnInContaminatedArea": 0,
+            "CanBeTriggeredByAI": 1,
+            "MinDistRadius": 130.0,
+            "MaxDistRadius": 500.0,
+            "DespawnRadius": 700.0,
+            "MinSpreadRadius": 9.0,
+            "MaxSpreadRadius": 32.0,
+            "Chance": 1.0,
+            "DespawnTime": 60.0,
+            "RespawnTime": 900.0,
+            "LoadBalancingCategory": "Patrol",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "UniformCubic",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    958.0,
+                    0.0,
+                    13236.0
+                ],
+                [
+                    924.0,
+                    0.0,
+                    13226.0
+                ],
+                [
+                    962.0,
+                    0.0,
+                    13222.0
+                ],
+                [
+                    964.0,
+                    0.0,
+                    13196.0
+                ],
+                [
+                    934.0,
+                    0.0,
+                    13212.0
+                ],
+                [
+                    966.0,
+                    0.0,
+                    13194.0
+                ],
+                [
+                    972.0,
+                    0.0,
+                    13162.0
+                ],
+                [
+                    934.0,
+                    0.0,
+                    13182.0
+                ],
+                [
+                    974.0,
+                    0.0,
+                    13156.0
+                ],
+                [
+                    978.0,
+                    0.0,
+                    13126.0
+                ],
+                [
+                    942.0,
+                    0.0,
+                    13146.0
+                ],
+                [
+                    980.0,
+                    0.0,
+                    13124.0
+                ],
+                [
+                    984.0,
+                    0.0,
+                    13096.0
+                ],
+                [
+                    946.0,
+                    0.0,
+                    13116.0
+                ],
+                [
+                    988.0,
+                    0.0,
+                    13080.0
+                ],
+                [
+                    954.0,
+                    0.0,
+                    13074.0
+                ],
+                [
+                    1008.0,
+                    0.0,
+                    13084.0
+                ],
+                [
+                    1031.0,
+                    0.0,
+                    13158.0
+                ],
+                [
+                    1054.0,
+                    0.0,
+                    13232.0
+                ],
+                [
+                    1006.0,
+                    0.0,
+                    13234.0
+                ],
+                [
+                    958.0,
+                    0.0,
+                    13236.0
+                ]
+            ],
+            "LoadoutFile": "DeerIsleRaiderLoadout"
+        },
+        {
+            "Name": "RoadLoop_Preview_Generated_02",
+            "Persist": 0,
+            "Faction": "Raiders",
+            "Formation": "Column",
+            "FormationScale": 1.0,
+            "FormationLooseness": 0.2,
+            "Units": [
+                "eAI_SurvivorM_Rolf",
+                "eAI_SurvivorM_Seth",
+                "eAI_SurvivorF_Irena"
+            ],
+            "NumberOfAI": 4,
+            "NumberOfAIMax": 0,
+            "Behaviour": "LOOP",
+            "LootingBehaviour": "",
+            "Speed": "JOG",
+            "UnderThreatSpeed": "SPRINT",
+            "DefaultStance": "STANDING",
+            "DefaultLookAngle": 0.0,
+            "CanBeLooted": 1,
+            "LootDropOnDeath": "RaidersCache.json",
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 250.0,
+            "AccuracyMin": 0.32,
+            "AccuracyMax": 0.58,
+            "ThreatDistanceLimit": 650.0,
+            "NoiseInvestigationDistanceLimit": 400.0,
+            "MaxFlankingDistance": 180.0,
+            "EnableFlankingOutsideCombat": 0,
+            "DamageMultiplier": 1.1,
+            "DamageReceivedMultiplier": 0.9,
+            "HeadshotResistance": 0.0,
+            "ShoryukenChance": 0.0,
+            "ShoryukenDamageMultiplier": 0.0,
+            "CanSpawnInContaminatedArea": 0,
+            "CanBeTriggeredByAI": 1,
+            "MinDistRadius": 130.0,
+            "MaxDistRadius": 500.0,
+            "DespawnRadius": 700.0,
+            "MinSpreadRadius": 9.0,
+            "MaxSpreadRadius": 32.0,
+            "Chance": 1.0,
+            "DespawnTime": 60.0,
+            "RespawnTime": 900.0,
+            "LoadBalancingCategory": "Patrol",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "UniformCubic",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    9908.0,
+                    0.0,
+                    11642.0
+                ],
+                [
+                    9868.0,
+                    0.0,
+                    11626.0
+                ],
+                [
+                    9840.0,
+                    0.0,
+                    11592.0
+                ],
+                [
+                    9842.0,
+                    0.0,
+                    11547.0
+                ],
+                [
+                    9844.0,
+                    0.0,
+                    11502.0
+                ],
+                [
+                    9834.0,
+                    0.0,
+                    11474.0
+                ],
+                [
+                    9760.0,
+                    0.0,
+                    11436.0
+                ],
+                [
+                    9724.0,
+                    0.0,
+                    11396.0
+                ],
+                [
+                    9702.0,
+                    0.0,
+                    11320.0
+                ],
+                [
+                    9680.0,
+                    0.0,
+                    11244.0
+                ],
+                [
+                    9686.0,
+                    0.0,
+                    11200.0
+                ],
+                [
+                    9714.0,
+                    0.0,
+                    11184.0
+                ],
+                [
+                    9794.0,
+                    0.0,
+                    11210.0
+                ],
+                [
+                    9874.0,
+                    0.0,
+                    11236.0
+                ],
+                [
+                    9906.0,
+                    0.0,
+                    11278.0
+                ],
+                [
+                    9920.0,
+                    0.0,
+                    11348.0
+                ],
+                [
+                    9956.0,
+                    0.0,
+                    11378.0
+                ],
+                [
+                    9980.0,
+                    0.0,
+                    11378.0
+                ],
+                [
+                    10000.0,
+                    0.0,
+                    11360.0
+                ],
+                [
+                    10044.0,
+                    0.0,
+                    11306.0
+                ],
+                [
+                    10046.0,
+                    0.0,
+                    11278.0
+                ],
+                [
+                    10006.0,
+                    0.0,
+                    11244.0
+                ],
+                [
+                    10040.0,
+                    0.0,
+                    11270.0
+                ],
+                [
+                    10048.0,
+                    0.0,
+                    11294.0
+                ],
+                [
+                    10015.0,
+                    0.0,
+                    11337.0
+                ],
+                [
+                    9982.0,
+                    0.0,
+                    11380.0
+                ],
+                [
+                    10032.0,
+                    0.0,
+                    11396.0
+                ],
+                [
+                    10082.0,
+                    0.0,
+                    11412.0
+                ],
+                [
+                    10098.0,
+                    0.0,
+                    11428.0
+                ],
+                [
+                    10096.0,
+                    0.0,
+                    11456.0
+                ],
+                [
+                    10034.0,
+                    0.0,
+                    11506.0
+                ],
+                [
+                    10005.0,
+                    0.0,
+                    11557.0
+                ],
+                [
+                    9976.0,
+                    0.0,
+                    11608.0
+                ],
+                [
+                    9948.0,
+                    0.0,
+                    11632.0
+                ],
+                [
+                    9908.0,
+                    0.0,
+                    11642.0
+                ]
+            ],
+            "LoadoutFile": "DeerIsleRaiderLoadout"
+        }
+    ]
+}

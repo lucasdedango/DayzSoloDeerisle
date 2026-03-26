@@ -1,0 +1,53 @@
+{
+    "source": "routes_expansion.json",
+    "constraints": {
+        "loops_requested": 6,
+        "min_spacing": 22.0,
+        "max_spacing": 90.0,
+        "min_perimeter": 450.0,
+        "max_perimeter": 8000.0,
+        "max_segment": 120.0,
+        "min_center_gap": 850.0,
+        "max_compactness": 20.0,
+        "min_area": 4000.0
+    },
+    "detected_candidates": 2,
+    "selected_loops": 2,
+    "loops": [
+        {
+            "loop_name": "RoadLoop_Preview_Generated_01",
+            "source_route_index": 82,
+            "raw_point_count": 227,
+            "simplified_point_count": 19,
+            "sampled_point_count": 21,
+            "start_end_distance_raw": 2.0,
+            "loop_perimeter_m": 876.06,
+            "max_segment_m": 77.49,
+            "center": [
+                972.2,
+                0.0,
+                13166.3
+            ]
+        },
+        {
+            "loop_name": "RoadLoop_Preview_Generated_02",
+            "source_route_index": 66,
+            "raw_point_count": 400,
+            "simplified_point_count": 29,
+            "sampled_point_count": 35,
+            "start_end_distance_raw": 2.0,
+            "loop_perimeter_m": 1726.56,
+            "max_segment_m": 84.12,
+            "center": [
+                9919.8,
+                0.0,
+                11402.8
+            ]
+        }
+    ],
+    "outputs": {
+        "settings": "mpmissions/dayzOffline.deerisle/expansion/settings/AIPatrolSettings.preview.generated.json",
+        "report": "profiles/ExpansionMod/AI/Generated/loop_preview_report.json",
+        "svg": "profiles/ExpansionMod/AI/Generated/loop_preview_map.svg"
+    }
+}
