@@ -59,7 +59,7 @@
         "DefaultStance": "STANDING",
         "DefaultLookAngle": 0.0,
         "CanBeLooted": 1,
-        "LootDropOnDeath": "RaidersCache.json",
+        "LootDropOnDeath": "",
         "UnlimitedReload": 1,
         "SniperProneDistanceThreshold": 300.0,
         "AccuracyMin": 0.34,
